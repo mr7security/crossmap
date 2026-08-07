@@ -177,7 +177,7 @@ def render(dataset: Dataset) -> str:
         fid = framework["id"]
         if fid == "ISO":
             extra = f"{stats['iso_controls']} " + '<span class="en">controls</span><span class="es">controles</span>'
-            bar = f'<i style="width:100%;background:var(--iso)"></i>'
+            bar = '<i style="width:100%;background:var(--iso)"></i>'
         else:
             counts = stats[fid]
             total = sum(counts.values()) or 1
