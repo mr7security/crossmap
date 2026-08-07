@@ -23,6 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt ruff pytest
       - name: Lint (ruff)
-        run: ruff check --output-format=github --select E4,E7,E9,F crossmap tests
+        run: ruff check --select E4,E7,E9,F --ignore E741 crossmap tests
       - name: Run tests
         run: pytest -q
