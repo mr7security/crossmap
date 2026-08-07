@@ -143,7 +143,7 @@ def cmd_check(dataset, args, data_dir: pathlib.Path, lang: str) -> int:
         print(f"[{mark}] {result['id']:<22} {result['title'].get(lang, '')[:60]}")
         if result["change"]:
             print(f"      {result['change']}")
-            print(f"      " + ("affects" if lang == "en" else "afecta a") +
+            print("      " + ("affects" if lang == "en" else "afecta a") +
                   f" {result['affected_rows']} " +
                   ("ISO controls: " if lang == "en" else "controles ISO: ") +
                   ", ".join(result["affected_iso"][:12]))
