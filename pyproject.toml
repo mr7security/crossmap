@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crossmap"
+version = "0.1.0"
+description = "Cross-reference between ISO/IEC 27001:2022, the Spanish ENS, NIS2 and DORA"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Miguel David Rebolledo Romero (mr7security)" }]
+keywords = ["iso27001", "ens", "nis2", "dora", "compliance", "mapping", "cybersecurity"]
+dependencies = []
+
+[project.optional-dependencies]
+xlsx = ["openpyxl>=3.1"]
+
+[project.scripts]
+crossmap = "crossmap.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/mr7security/crossmap"
+Author = "https://github.com/mr7security"
+
+[tool.setuptools.packages.find]
+include = ["crossmap*"]
+
+[tool.setuptools.package-data]
+crossmap = ["data/*.json"]

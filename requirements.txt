@@ -1,0 +1,3 @@
+# crossmap runs on the Python standard library alone.
+# openpyxl is only needed for the `xlsx` command.
+openpyxl>=3.1
