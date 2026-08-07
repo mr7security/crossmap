@@ -5,7 +5,7 @@ import re
 import unicodedata
 from typing import Any, Dict, List, Optional
 
-from .model import Control, Dataset, Link
+from .model import Control, Dataset
 
 
 def normalise(text: str) -> str:
