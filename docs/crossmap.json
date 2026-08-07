@@ -1,0 +1,6973 @@
+{
+  "version": "0.1.0",
+  "frameworks": [
+    {
+      "id": "ISO",
+      "name": {
+        "en": "ISO/IEC 27001:2022 / 27002:2022",
+        "es": "ISO/IEC 27001:2022 / 27002:2022"
+      },
+      "kind": {
+        "en": "Voluntary standard, certifiable",
+        "es": "Norma voluntaria, certificable"
+      },
+      "scope": {
+        "en": "Any organisation",
+        "es": "Cualquier organizacion"
+      },
+      "source": "ISO-27002-2022"
+    },
+    {
+      "id": "ENS",
+      "name": {
+        "en": "National Security Framework (RD 311/2022)",
+        "es": "Esquema Nacional de Seguridad (RD 311/2022)"
+      },
+      "kind": {
+        "en": "Spanish law, certifiable",
+        "es": "Norma espanola, certificable"
+      },
+      "scope": {
+        "en": "Spanish public sector and its suppliers",
+        "es": "Sector publico espanol y sus proveedores"
+      },
+      "source": "RD-311-2022"
+    },
+    {
+      "id": "NIS2",
+      "name": {
+        "en": "Directive (EU) 2022/2555 (NIS2)",
+        "es": "Directiva (UE) 2022/2555 (NIS2)"
+      },
+      "kind": {
+        "en": "EU directive, transposed nationally",
+        "es": "Directiva europea, de transposicion nacional"
+      },
+      "scope": {
+        "en": "Essential and important entities in the listed sectors",
+        "es": "Entidades esenciales e importantes de los sectores listados"
+      },
+      "source": "DIR-2022-2555"
+    },
+    {
+      "id": "DORA",
+      "name": {
+        "en": "Regulation (EU) 2022/2554 (DORA)",
+        "es": "Reglamento (UE) 2022/2554 (DORA)"
+      },
+      "kind": {
+        "en": "EU regulation, directly applicable",
+        "es": "Reglamento europeo, de aplicacion directa"
+      },
+      "scope": {
+        "en": "Financial entities and their critical ICT providers",
+        "es": "Entidades financieras y sus proveedores TIC esenciales"
+      },
+      "source": "DORA-2022-2554"
+    }
+  ],
+  "controls": {
+    "ISO": [
+      {
+        "framework": "ISO",
+        "id": "5.1",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Policies for information security",
+          "es": "Politicas de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.2",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security roles and responsibilities",
+          "es": "Funciones y responsabilidades en seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.3",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Segregation of duties",
+          "es": "Segregacion de tareas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.4",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Management responsibilities",
+          "es": "Responsabilidades de la direccion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.5",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Contact with authorities",
+          "es": "Contacto con las autoridades"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.6",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Contact with special interest groups",
+          "es": "Contacto con grupos de interes especial"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.7",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Threat intelligence",
+          "es": "Inteligencia de amenazas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.8",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security in project management",
+          "es": "Seguridad de la informacion en la gestion de proyectos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.9",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Inventory of information and other associated assets",
+          "es": "Inventario de informacion y otros activos asociados"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.10",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Acceptable use of information and other associated assets",
+          "es": "Uso aceptable de la informacion y otros activos asociados"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.11",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Return of assets",
+          "es": "Devolucion de activos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.12",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Classification of information",
+          "es": "Clasificacion de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.13",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Labelling of information",
+          "es": "Etiquetado de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.14",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information transfer",
+          "es": "Transferencia de informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.15",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.16",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Identity management",
+          "es": "Gestion de identidades"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.17",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Authentication information",
+          "es": "Informacion de autenticacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.18",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Access rights",
+          "es": "Derechos de acceso"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.19",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security in supplier relationships",
+          "es": "Seguridad de la informacion en las relaciones con proveedores"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.20",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Addressing information security within supplier agreements",
+          "es": "Tratamiento de la seguridad de la informacion en los acuerdos con proveedores"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.21",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Managing information security in the ICT supply chain",
+          "es": "Gestion de la seguridad de la informacion en la cadena de suministro de TIC"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.22",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Monitoring, review and change management of supplier services",
+          "es": "Seguimiento, revision y gestion de cambios de los servicios de proveedores"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.23",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security for use of cloud services",
+          "es": "Seguridad de la informacion para el uso de servicios en la nube"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.24",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security incident management planning and preparation",
+          "es": "Planificacion y preparacion de la gestion de incidentes de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.25",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Assessment and decision on information security events",
+          "es": "Evaluacion y decision sobre los eventos de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.26",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Response to information security incidents",
+          "es": "Respuesta a incidentes de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.27",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Learning from information security incidents",
+          "es": "Aprendizaje de los incidentes de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.28",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Collection of evidence",
+          "es": "Recopilacion de evidencias"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.29",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Information security during disruption",
+          "es": "Seguridad de la informacion durante la interrupcion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.30",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "ICT readiness for business continuity",
+          "es": "Preparacion de las TIC para la continuidad de negocio"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.31",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Legal, statutory, regulatory and contractual requirements",
+          "es": "Requisitos legales, estatutarios, reglamentarios y contractuales"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.32",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Intellectual property rights",
+          "es": "Derechos de propiedad intelectual"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.33",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Protection of records",
+          "es": "Proteccion de registros"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.34",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Privacy and protection of PII",
+          "es": "Privacidad y proteccion de la informacion de identificacion personal"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.35",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Independent review of information security",
+          "es": "Revision independiente de la seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.36",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Compliance with policies, rules and standards for information security",
+          "es": "Cumplimiento de las politicas, reglas y normas de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "5.37",
+        "family": "5",
+        "family_title": {
+          "en": "Organizational controls",
+          "es": "Controles organizativos"
+        },
+        "title": {
+          "en": "Documented operating procedures",
+          "es": "Procedimientos operativos documentados"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.1",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Screening",
+          "es": "Investigacion de antecedentes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.2",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Terms and conditions of employment",
+          "es": "Terminos y condiciones del empleo"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.3",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Information security awareness, education and training",
+          "es": "Concienciacion, educacion y capacitacion en seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.4",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Disciplinary process",
+          "es": "Proceso disciplinario"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.5",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Responsibilities after termination or change of employment",
+          "es": "Responsabilidades ante la finalizacion o el cambio de empleo"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.6",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Confidentiality or non-disclosure agreements",
+          "es": "Acuerdos de confidencialidad o no divulgacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.7",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Remote working",
+          "es": "Trabajo a distancia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "6.8",
+        "family": "6",
+        "family_title": {
+          "en": "People controls",
+          "es": "Controles de personas"
+        },
+        "title": {
+          "en": "Information security event reporting",
+          "es": "Notificacion de eventos de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.1",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Physical security perimeters",
+          "es": "Perimetros de seguridad fisica"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.2",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Physical entry",
+          "es": "Entrada fisica"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.3",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Securing offices, rooms and facilities",
+          "es": "Seguridad de oficinas, despachos e instalaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.4",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Physical security monitoring",
+          "es": "Supervision de la seguridad fisica"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.5",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Protecting against physical and environmental threats",
+          "es": "Proteccion contra amenazas fisicas y ambientales"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.6",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Working in secure areas",
+          "es": "Trabajo en areas seguras"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.7",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Clear desk and clear screen",
+          "es": "Puesto de trabajo despejado y pantalla limpia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.8",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Equipment siting and protection",
+          "es": "Emplazamiento y proteccion de equipos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.9",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Security of assets off-premises",
+          "es": "Seguridad de los activos fuera de las instalaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.10",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Storage media",
+          "es": "Soportes de almacenamiento"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.11",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Supporting utilities",
+          "es": "Instalaciones de suministro"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.12",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Cabling security",
+          "es": "Seguridad del cableado"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.13",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Equipment maintenance",
+          "es": "Mantenimiento de equipos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "7.14",
+        "family": "7",
+        "family_title": {
+          "en": "Physical controls",
+          "es": "Controles fisicos"
+        },
+        "title": {
+          "en": "Secure disposal or re-use of equipment",
+          "es": "Eliminacion o reutilizacion segura de equipos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.1",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "User endpoint devices",
+          "es": "Dispositivos de usuario final"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.2",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Privileged access rights",
+          "es": "Derechos de acceso privilegiado"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.3",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Information access restriction",
+          "es": "Restriccion del acceso a la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.4",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Access to source code",
+          "es": "Acceso al codigo fuente"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.5",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Secure authentication",
+          "es": "Autenticacion segura"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.6",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Capacity management",
+          "es": "Gestion de capacidades"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.7",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Protection against malware",
+          "es": "Proteccion contra el malware"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.8",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Management of technical vulnerabilities",
+          "es": "Gestion de las vulnerabilidades tecnicas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.9",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Configuration management",
+          "es": "Gestion de la configuracion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.10",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Information deletion",
+          "es": "Borrado de informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.11",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Data masking",
+          "es": "Enmascaramiento de datos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.12",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Data leakage prevention",
+          "es": "Prevencion de la fuga de datos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.13",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Information backup",
+          "es": "Copias de seguridad de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.14",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Redundancy of information processing facilities",
+          "es": "Redundancia de las instalaciones de tratamiento de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.15",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Logging",
+          "es": "Registro de eventos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.16",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Monitoring activities",
+          "es": "Actividades de seguimiento"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.17",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Clock synchronization",
+          "es": "Sincronizacion de relojes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.18",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Use of privileged utility programs",
+          "es": "Uso de programas de utilidad privilegiados"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.19",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Installation of software on operational systems",
+          "es": "Instalacion de software en sistemas operativos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.20",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Networks security",
+          "es": "Seguridad de redes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.21",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Security of network services",
+          "es": "Seguridad de los servicios de red"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.22",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Segregation of networks",
+          "es": "Segregacion de redes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.23",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Web filtering",
+          "es": "Filtrado web"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.24",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Use of cryptography",
+          "es": "Uso de criptografia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.25",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Secure development life cycle",
+          "es": "Ciclo de vida de desarrollo seguro"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.26",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Application security requirements",
+          "es": "Requisitos de seguridad de las aplicaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.27",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Secure system architecture and engineering principles",
+          "es": "Principios de ingenieria y arquitectura de sistemas seguros"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.28",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Secure coding",
+          "es": "Codificacion segura"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.29",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Security testing in development and acceptance",
+          "es": "Pruebas de seguridad en desarrollo y aceptacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.30",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Outsourced development",
+          "es": "Desarrollo externalizado"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.31",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Separation of development, test and production environments",
+          "es": "Separacion de los entornos de desarrollo, prueba y produccion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.32",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Change management",
+          "es": "Gestion de cambios"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.33",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Test information",
+          "es": "Informacion de prueba"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ISO",
+        "id": "8.34",
+        "family": "8",
+        "family_title": {
+          "en": "Technological controls",
+          "es": "Controles tecnologicos"
+        },
+        "title": {
+          "en": "Protection of information systems during audit testing",
+          "es": "Proteccion de los sistemas de informacion durante las pruebas de auditoria"
+        },
+        "layer": null
+      }
+    ],
+    "ENS": [
+      {
+        "framework": "ENS",
+        "id": "org.1",
+        "family": "org",
+        "family_title": {
+          "en": "Organisational framework",
+          "es": "Marco organizativo"
+        },
+        "title": {
+          "en": "Security policy",
+          "es": "Politica de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "org.2",
+        "family": "org",
+        "family_title": {
+          "en": "Organisational framework",
+          "es": "Marco organizativo"
+        },
+        "title": {
+          "en": "Security regulations",
+          "es": "Normativa de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "org.3",
+        "family": "org",
+        "family_title": {
+          "en": "Organisational framework",
+          "es": "Marco organizativo"
+        },
+        "title": {
+          "en": "Security procedures",
+          "es": "Procedimientos de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "org.4",
+        "family": "org",
+        "family_title": {
+          "en": "Organisational framework",
+          "es": "Marco organizativo"
+        },
+        "title": {
+          "en": "Authorisation process",
+          "es": "Proceso de autorizacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.pl.1",
+        "family": "op.pl",
+        "family_title": {
+          "en": "Operational / Planning",
+          "es": "Operacional / Planificacion"
+        },
+        "title": {
+          "en": "Risk analysis",
+          "es": "Analisis de riesgos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.pl.2",
+        "family": "op.pl",
+        "family_title": {
+          "en": "Operational / Planning",
+          "es": "Operacional / Planificacion"
+        },
+        "title": {
+          "en": "Security architecture",
+          "es": "Arquitectura de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.pl.3",
+        "family": "op.pl",
+        "family_title": {
+          "en": "Operational / Planning",
+          "es": "Operacional / Planificacion"
+        },
+        "title": {
+          "en": "Acquisition of new components",
+          "es": "Adquisicion de nuevos componentes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.pl.4",
+        "family": "op.pl",
+        "family_title": {
+          "en": "Operational / Planning",
+          "es": "Operacional / Planificacion"
+        },
+        "title": {
+          "en": "Capacity sizing and management",
+          "es": "Dimensionamiento/gestion de la capacidad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.pl.5",
+        "family": "op.pl",
+        "family_title": {
+          "en": "Operational / Planning",
+          "es": "Operacional / Planificacion"
+        },
+        "title": {
+          "en": "Certified components",
+          "es": "Componentes certificados"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.1",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Identification",
+          "es": "Identificacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.2",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Access requirements",
+          "es": "Requisitos de acceso"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.3",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Segregation of duties and tasks",
+          "es": "Segregacion de funciones y tareas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.4",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Access rights management process",
+          "es": "Proceso de gestion de derechos de acceso"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.5",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Authentication mechanism (external users)",
+          "es": "Mecanismo de autenticacion (usuarios externos)"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.acc.6",
+        "family": "op.acc",
+        "family_title": {
+          "en": "Operational / Access control",
+          "es": "Operacional / Control de acceso"
+        },
+        "title": {
+          "en": "Authentication mechanism (organisation users)",
+          "es": "Mecanismo de autenticacion (usuarios de la organizacion)"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.1",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Asset inventory",
+          "es": "Inventario de activos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.2",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Security configuration",
+          "es": "Configuracion de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.3",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Security configuration management",
+          "es": "Gestion de la configuracion de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.4",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Maintenance and security updates",
+          "es": "Mantenimiento y actualizaciones de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.5",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Change management",
+          "es": "Gestion de cambios"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.6",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Protection against malicious code",
+          "es": "Proteccion frente a codigo danino"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.7",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Incident management",
+          "es": "Gestion de incidentes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.8",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Activity logging",
+          "es": "Registro de la actividad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.9",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Incident management logging",
+          "es": "Registro de la gestion de incidentes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.exp.10",
+        "family": "op.exp",
+        "family_title": {
+          "en": "Operational / Exploitation",
+          "es": "Operacional / Explotacion"
+        },
+        "title": {
+          "en": "Protection of cryptographic keys",
+          "es": "Proteccion de claves criptograficas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.ext.1",
+        "family": "op.ext",
+        "family_title": {
+          "en": "Operational / External services",
+          "es": "Operacional / Servicios externos"
+        },
+        "title": {
+          "en": "Contracting and service level agreements",
+          "es": "Contratacion y acuerdos de nivel de servicio"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.ext.2",
+        "family": "op.ext",
+        "family_title": {
+          "en": "Operational / External services",
+          "es": "Operacional / Servicios externos"
+        },
+        "title": {
+          "en": "Day-to-day management",
+          "es": "Gestion diaria"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.ext.3",
+        "family": "op.ext",
+        "family_title": {
+          "en": "Operational / External services",
+          "es": "Operacional / Servicios externos"
+        },
+        "title": {
+          "en": "Supply chain protection",
+          "es": "Proteccion de la cadena de suministro"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.ext.4",
+        "family": "op.ext",
+        "family_title": {
+          "en": "Operational / External services",
+          "es": "Operacional / Servicios externos"
+        },
+        "title": {
+          "en": "System interconnection",
+          "es": "Interconexion de sistemas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.nub.1",
+        "family": "op.nub",
+        "family_title": {
+          "en": "Operational / Cloud services",
+          "es": "Operacional / Servicios en la nube"
+        },
+        "title": {
+          "en": "Protection of cloud services",
+          "es": "Proteccion de servicios en la nube"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.cont.1",
+        "family": "op.cont",
+        "family_title": {
+          "en": "Operational / Continuity",
+          "es": "Operacional / Continuidad del servicio"
+        },
+        "title": {
+          "en": "Impact analysis",
+          "es": "Analisis de impacto"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.cont.2",
+        "family": "op.cont",
+        "family_title": {
+          "en": "Operational / Continuity",
+          "es": "Operacional / Continuidad del servicio"
+        },
+        "title": {
+          "en": "Continuity plan",
+          "es": "Plan de continuidad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.cont.3",
+        "family": "op.cont",
+        "family_title": {
+          "en": "Operational / Continuity",
+          "es": "Operacional / Continuidad del servicio"
+        },
+        "title": {
+          "en": "Periodic testing",
+          "es": "Pruebas periodicas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.cont.4",
+        "family": "op.cont",
+        "family_title": {
+          "en": "Operational / Continuity",
+          "es": "Operacional / Continuidad del servicio"
+        },
+        "title": {
+          "en": "Alternative means",
+          "es": "Medios alternativos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.mon.1",
+        "family": "op.mon",
+        "family_title": {
+          "en": "Operational / Monitoring",
+          "es": "Operacional / Monitorizacion del sistema"
+        },
+        "title": {
+          "en": "Intrusion detection",
+          "es": "Deteccion de intrusion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.mon.2",
+        "family": "op.mon",
+        "family_title": {
+          "en": "Operational / Monitoring",
+          "es": "Operacional / Monitorizacion del sistema"
+        },
+        "title": {
+          "en": "Metrics system",
+          "es": "Sistema de metricas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "op.mon.3",
+        "family": "op.mon",
+        "family_title": {
+          "en": "Operational / Monitoring",
+          "es": "Operacional / Monitorizacion del sistema"
+        },
+        "title": {
+          "en": "Surveillance",
+          "es": "Vigilancia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.1",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Separate areas with access control",
+          "es": "Areas separadas y con control de acceso"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.2",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Identification of persons",
+          "es": "Identificacion de las personas"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.3",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Fitting out of premises",
+          "es": "Acondicionamiento de los locales"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.4",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Electrical power",
+          "es": "Energia electrica"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.5",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Fire protection",
+          "es": "Proteccion frente a incendios"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.6",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Flood protection",
+          "es": "Proteccion frente a inundaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.if.7",
+        "family": "mp.if",
+        "family_title": {
+          "en": "Protection / Facilities",
+          "es": "Proteccion / Instalaciones e infraestructuras"
+        },
+        "title": {
+          "en": "Equipment entry and exit register",
+          "es": "Registro de entrada y salida de equipamiento"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.per.1",
+        "family": "mp.per",
+        "family_title": {
+          "en": "Protection / Personnel",
+          "es": "Proteccion / Gestion del personal"
+        },
+        "title": {
+          "en": "Job characterisation",
+          "es": "Caracterizacion del puesto de trabajo"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.per.2",
+        "family": "mp.per",
+        "family_title": {
+          "en": "Protection / Personnel",
+          "es": "Proteccion / Gestion del personal"
+        },
+        "title": {
+          "en": "Duties and obligations",
+          "es": "Deberes y obligaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.per.3",
+        "family": "mp.per",
+        "family_title": {
+          "en": "Protection / Personnel",
+          "es": "Proteccion / Gestion del personal"
+        },
+        "title": {
+          "en": "Awareness",
+          "es": "Concienciacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.per.4",
+        "family": "mp.per",
+        "family_title": {
+          "en": "Protection / Personnel",
+          "es": "Proteccion / Gestion del personal"
+        },
+        "title": {
+          "en": "Training",
+          "es": "Formacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.eq.1",
+        "family": "mp.eq",
+        "family_title": {
+          "en": "Protection / Equipment",
+          "es": "Proteccion / Equipos"
+        },
+        "title": {
+          "en": "Clear desk",
+          "es": "Puesto de trabajo despejado"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.eq.2",
+        "family": "mp.eq",
+        "family_title": {
+          "en": "Protection / Equipment",
+          "es": "Proteccion / Equipos"
+        },
+        "title": {
+          "en": "Workstation lock",
+          "es": "Bloqueo de puesto de trabajo"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.eq.3",
+        "family": "mp.eq",
+        "family_title": {
+          "en": "Protection / Equipment",
+          "es": "Proteccion / Equipos"
+        },
+        "title": {
+          "en": "Protection of portable devices",
+          "es": "Proteccion de dispositivos portatiles"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.eq.4",
+        "family": "mp.eq",
+        "family_title": {
+          "en": "Protection / Equipment",
+          "es": "Proteccion / Equipos"
+        },
+        "title": {
+          "en": "Other devices connected to the network",
+          "es": "Otros dispositivos conectados a la red"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.com.1",
+        "family": "mp.com",
+        "family_title": {
+          "en": "Protection / Communications",
+          "es": "Proteccion / Comunicaciones"
+        },
+        "title": {
+          "en": "Secure perimeter",
+          "es": "Perimetro seguro"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.com.2",
+        "family": "mp.com",
+        "family_title": {
+          "en": "Protection / Communications",
+          "es": "Proteccion / Comunicaciones"
+        },
+        "title": {
+          "en": "Protection of confidentiality",
+          "es": "Proteccion de la confidencialidad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.com.3",
+        "family": "mp.com",
+        "family_title": {
+          "en": "Protection / Communications",
+          "es": "Proteccion / Comunicaciones"
+        },
+        "title": {
+          "en": "Protection of integrity and authenticity",
+          "es": "Proteccion de la integridad y de la autenticidad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.com.4",
+        "family": "mp.com",
+        "family_title": {
+          "en": "Protection / Communications",
+          "es": "Proteccion / Comunicaciones"
+        },
+        "title": {
+          "en": "Separation of information flows in the network",
+          "es": "Separacion de flujos de informacion en la red"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.si.1",
+        "family": "mp.si",
+        "family_title": {
+          "en": "Protection / Information media",
+          "es": "Proteccion / Soportes de informacion"
+        },
+        "title": {
+          "en": "Media marking",
+          "es": "Marcado de soportes"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.si.2",
+        "family": "mp.si",
+        "family_title": {
+          "en": "Protection / Information media",
+          "es": "Proteccion / Soportes de informacion"
+        },
+        "title": {
+          "en": "Cryptography",
+          "es": "Criptografia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.si.3",
+        "family": "mp.si",
+        "family_title": {
+          "en": "Protection / Information media",
+          "es": "Proteccion / Soportes de informacion"
+        },
+        "title": {
+          "en": "Custody",
+          "es": "Custodia"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.si.4",
+        "family": "mp.si",
+        "family_title": {
+          "en": "Protection / Information media",
+          "es": "Proteccion / Soportes de informacion"
+        },
+        "title": {
+          "en": "Transport",
+          "es": "Transporte"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.si.5",
+        "family": "mp.si",
+        "family_title": {
+          "en": "Protection / Information media",
+          "es": "Proteccion / Soportes de informacion"
+        },
+        "title": {
+          "en": "Erasure and destruction",
+          "es": "Borrado y destruccion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.sw.1",
+        "family": "mp.sw",
+        "family_title": {
+          "en": "Protection / Applications",
+          "es": "Proteccion / Aplicaciones informaticas"
+        },
+        "title": {
+          "en": "Application development",
+          "es": "Desarrollo de aplicaciones"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.sw.2",
+        "family": "mp.sw",
+        "family_title": {
+          "en": "Protection / Applications",
+          "es": "Proteccion / Aplicaciones informaticas"
+        },
+        "title": {
+          "en": "Acceptance and commissioning",
+          "es": "Aceptacion y puesta en servicio"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.1",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Personal data",
+          "es": "Datos personales"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.2",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Information classification",
+          "es": "Calificacion de la informacion"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.3",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Electronic signature",
+          "es": "Firma electronica"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.4",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Time stamps",
+          "es": "Sellos de tiempo"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.5",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Cleaning of published documents",
+          "es": "Limpieza de documentos"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.info.6",
+        "family": "mp.info",
+        "family_title": {
+          "en": "Protection / Information",
+          "es": "Proteccion / Informacion"
+        },
+        "title": {
+          "en": "Backups",
+          "es": "Copias de seguridad"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.s.1",
+        "family": "mp.s",
+        "family_title": {
+          "en": "Protection / Services",
+          "es": "Proteccion / Servicios"
+        },
+        "title": {
+          "en": "Email protection",
+          "es": "Proteccion del correo electronico"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.s.2",
+        "family": "mp.s",
+        "family_title": {
+          "en": "Protection / Services",
+          "es": "Proteccion / Servicios"
+        },
+        "title": {
+          "en": "Protection of web services and applications",
+          "es": "Proteccion de servicios y aplicaciones web"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.s.3",
+        "family": "mp.s",
+        "family_title": {
+          "en": "Protection / Services",
+          "es": "Proteccion / Servicios"
+        },
+        "title": {
+          "en": "Web browsing protection",
+          "es": "Proteccion de la navegacion web"
+        },
+        "layer": null
+      },
+      {
+        "framework": "ENS",
+        "id": "mp.s.4",
+        "family": "mp.s",
+        "family_title": {
+          "en": "Protection / Services",
+          "es": "Proteccion / Servicios"
+        },
+        "title": {
+          "en": "Denial of service protection",
+          "es": "Proteccion frente a denegacion de servicio"
+        },
+        "layer": null
+      }
+    ],
+    "NIS2": [
+      {
+        "framework": "NIS2",
+        "id": "21.2.a",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Policies on risk analysis and information system security",
+          "es": "Politicas de analisis de riesgos y de seguridad de los sistemas de informacion"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.b",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.c",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Business continuity, such as backup management and disaster recovery, and crisis management",
+          "es": "Continuidad de la actividad, como la gestion de copias de seguridad y la recuperacion en caso de catastrofe, y gestion de crisis"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.d",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Supply chain security, including security-related aspects concerning the relationships between each entity and its direct suppliers or service providers",
+          "es": "Seguridad de la cadena de suministro, incluidos los aspectos de seguridad relativos a las relaciones entre cada entidad y sus proveedores directos o prestadores de servicios"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.e",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure",
+          "es": "Seguridad en la adquisicion, el desarrollo y el mantenimiento de sistemas de redes y de informacion, incluida la gestion y divulgacion de las vulnerabilidades"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.f",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Policies and procedures to assess the effectiveness of cybersecurity risk-management measures",
+          "es": "Politicas y procedimientos para evaluar la eficacia de las medidas para la gestion de riesgos de ciberseguridad"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.g",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Basic cyber hygiene practices and cybersecurity training",
+          "es": "Practicas basicas de ciberhigiene y formacion en ciberseguridad"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.h",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Policies and procedures regarding the use of cryptography and, where appropriate, encryption",
+          "es": "Politicas y procedimientos relativos a la utilizacion de criptografia y, en su caso, de cifrado"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.i",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Human resources security, access control policies and asset management",
+          "es": "Seguridad de los recursos humanos, politicas de control de acceso y gestion de activos"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "21.2.j",
+        "family": "art21",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, Article 21(2)",
+          "es": "Directiva (UE) 2022/2555, articulo 21.2"
+        },
+        "title": {
+          "en": "Use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communication systems",
+          "es": "Utilizacion de soluciones de autenticacion multifactorial o de autenticacion continua, comunicaciones de voz, video y texto protegidas y sistemas de comunicaciones de emergencia protegidos"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "art.20",
+        "family": "articles",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, other obligations",
+          "es": "Directiva (UE) 2022/2555, otras obligaciones"
+        },
+        "title": {
+          "en": "Governance: management bodies approve the risk-management measures, oversee their implementation and follow cybersecurity training",
+          "es": "Gobernanza: los organos de direccion aprueban las medidas de gestion de riesgos, supervisan su aplicacion y siguen formacion en ciberseguridad"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "art.23",
+        "family": "articles",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, other obligations",
+          "es": "Directiva (UE) 2022/2555, otras obligaciones"
+        },
+        "title": {
+          "en": "Reporting obligations: early warning within 24 hours, incident notification within 72 hours and final report within one month",
+          "es": "Obligaciones de notificacion: alerta temprana en 24 horas, notificacion del incidente en 72 horas e informe final en un mes"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "art.29",
+        "family": "articles",
+        "family_title": {
+          "en": "Directive (EU) 2022/2555, other obligations",
+          "es": "Directiva (UE) 2022/2555, otras obligaciones"
+        },
+        "title": {
+          "en": "Cybersecurity information-sharing arrangements between entities",
+          "es": "Acuerdos de intercambio de informacion sobre ciberseguridad entre entidades"
+        },
+        "layer": "directive"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.1.1",
+        "family": "1",
+        "family_title": {
+          "en": "Policy on the security of network and information systems",
+          "es": "Politica de seguridad de las redes y sistemas de informacion"
+        },
+        "title": {
+          "en": "Policy on the security of network and information systems",
+          "es": "Politica de seguridad de las redes y sistemas de informacion"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.1.2",
+        "family": "1",
+        "family_title": {
+          "en": "Policy on the security of network and information systems",
+          "es": "Politica de seguridad de las redes y sistemas de informacion"
+        },
+        "title": {
+          "en": "Roles, responsibilities and authorities",
+          "es": "Funciones, responsabilidades y autoridades"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.2.1",
+        "family": "2",
+        "family_title": {
+          "en": "Risk management policy",
+          "es": "Politica de gestion de riesgos"
+        },
+        "title": {
+          "en": "Risk management framework",
+          "es": "Marco de gestion de riesgos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.2.2",
+        "family": "2",
+        "family_title": {
+          "en": "Risk management policy",
+          "es": "Politica de gestion de riesgos"
+        },
+        "title": {
+          "en": "Compliance monitoring",
+          "es": "Seguimiento del cumplimiento"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.2.3",
+        "family": "2",
+        "family_title": {
+          "en": "Risk management policy",
+          "es": "Politica de gestion de riesgos"
+        },
+        "title": {
+          "en": "Independent review of information and network security",
+          "es": "Revision independiente de la seguridad de la informacion y de las redes"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.1",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Incident handling policy",
+          "es": "Politica de gestion de incidentes"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.2",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Monitoring and logging",
+          "es": "Monitorizacion y registro"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.3",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Event reporting",
+          "es": "Notificacion de eventos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.4",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Event assessment and classification",
+          "es": "Evaluacion y clasificacion de eventos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.5",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Incident response",
+          "es": "Respuesta a incidentes"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.3.6",
+        "family": "3",
+        "family_title": {
+          "en": "Incident handling",
+          "es": "Gestion de incidentes"
+        },
+        "title": {
+          "en": "Post-incident reviews",
+          "es": "Revisiones posteriores a incidentes"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.4.1",
+        "family": "4",
+        "family_title": {
+          "en": "Business continuity and crisis management",
+          "es": "Continuidad de negocio y gestion de crisis"
+        },
+        "title": {
+          "en": "Business continuity and disaster recovery plan",
+          "es": "Plan de continuidad de negocio y de recuperacion ante desastres"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.4.2",
+        "family": "4",
+        "family_title": {
+          "en": "Business continuity and crisis management",
+          "es": "Continuidad de negocio y gestion de crisis"
+        },
+        "title": {
+          "en": "Backup and redundancy management",
+          "es": "Gestion de copias de seguridad y redundancia"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.4.3",
+        "family": "4",
+        "family_title": {
+          "en": "Business continuity and crisis management",
+          "es": "Continuidad de negocio y gestion de crisis"
+        },
+        "title": {
+          "en": "Crisis management",
+          "es": "Gestion de crisis"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.5.1",
+        "family": "5",
+        "family_title": {
+          "en": "Supply chain security",
+          "es": "Seguridad de la cadena de suministro"
+        },
+        "title": {
+          "en": "Supply chain security policy",
+          "es": "Politica de seguridad de la cadena de suministro"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.5.2",
+        "family": "5",
+        "family_title": {
+          "en": "Supply chain security",
+          "es": "Seguridad de la cadena de suministro"
+        },
+        "title": {
+          "en": "Directory of suppliers and service providers",
+          "es": "Directorio de proveedores y prestadores de servicios"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.1",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Security in acquisition of ICT services or ICT products",
+          "es": "Seguridad en la adquisicion de servicios o productos TIC"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.2",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Secure development life cycle",
+          "es": "Ciclo de vida de desarrollo seguro"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.3",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Configuration management",
+          "es": "Gestion de la configuracion"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.4",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Change management, repairs and maintenance",
+          "es": "Gestion de cambios, reparaciones y mantenimiento"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.5",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Security testing",
+          "es": "Pruebas de seguridad"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.6",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Security patch management",
+          "es": "Gestion de parches de seguridad"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.7",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Network security",
+          "es": "Seguridad de la red"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.8",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Network segmentation",
+          "es": "Segmentacion de la red"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.9",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Protection against malicious and unauthorised software",
+          "es": "Proteccion contra software malicioso y no autorizado"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.6.10",
+        "family": "6",
+        "family_title": {
+          "en": "Security in acquisition, development and maintenance",
+          "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+        },
+        "title": {
+          "en": "Vulnerability handling and disclosure",
+          "es": "Gestion y divulgacion de vulnerabilidades"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.7",
+        "family": "7",
+        "family_title": {
+          "en": "Assessing the effectiveness of the measures",
+          "es": "Evaluacion de la eficacia de las medidas"
+        },
+        "title": {
+          "en": "Policies and procedures to assess the effectiveness of cybersecurity risk-management measures",
+          "es": "Politicas y procedimientos para evaluar la eficacia de las medidas de gestion de riesgos de ciberseguridad"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.8.1",
+        "family": "8",
+        "family_title": {
+          "en": "Basic cyber hygiene and security training",
+          "es": "Ciberhigiene basica y formacion en seguridad"
+        },
+        "title": {
+          "en": "Awareness raising and basic cyber hygiene practices",
+          "es": "Concienciacion y practicas basicas de ciberhigiene"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.8.2",
+        "family": "8",
+        "family_title": {
+          "en": "Basic cyber hygiene and security training",
+          "es": "Ciberhigiene basica y formacion en seguridad"
+        },
+        "title": {
+          "en": "Security training",
+          "es": "Formacion en seguridad"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.9",
+        "family": "9",
+        "family_title": {
+          "en": "Cryptography",
+          "es": "Criptografia"
+        },
+        "title": {
+          "en": "Cryptography",
+          "es": "Criptografia"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.10.1",
+        "family": "10",
+        "family_title": {
+          "en": "Human resources security",
+          "es": "Seguridad de los recursos humanos"
+        },
+        "title": {
+          "en": "Human resources security",
+          "es": "Seguridad de los recursos humanos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.10.2",
+        "family": "10",
+        "family_title": {
+          "en": "Human resources security",
+          "es": "Seguridad de los recursos humanos"
+        },
+        "title": {
+          "en": "Verification of background",
+          "es": "Verificacion de antecedentes"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.10.3",
+        "family": "10",
+        "family_title": {
+          "en": "Human resources security",
+          "es": "Seguridad de los recursos humanos"
+        },
+        "title": {
+          "en": "Termination or change of employment procedures",
+          "es": "Procedimientos de finalizacion o cambio de empleo"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.10.4",
+        "family": "10",
+        "family_title": {
+          "en": "Human resources security",
+          "es": "Seguridad de los recursos humanos"
+        },
+        "title": {
+          "en": "Disciplinary process",
+          "es": "Proceso disciplinario"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.1",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Access control policy",
+          "es": "Politica de control de acceso"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.2",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Management of access rights",
+          "es": "Gestion de los derechos de acceso"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.3",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Privileged accounts and system administration accounts",
+          "es": "Cuentas privilegiadas y cuentas de administracion de sistemas"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.4",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Administration systems",
+          "es": "Sistemas de administracion"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.5",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Identification",
+          "es": "Identificacion"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.6",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Authentication",
+          "es": "Autenticacion"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.11.7",
+        "family": "11",
+        "family_title": {
+          "en": "Access control",
+          "es": "Control de acceso"
+        },
+        "title": {
+          "en": "Multi-factor authentication",
+          "es": "Autenticacion multifactorial"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.12.1",
+        "family": "12",
+        "family_title": {
+          "en": "Asset management",
+          "es": "Gestion de activos"
+        },
+        "title": {
+          "en": "Asset classification",
+          "es": "Clasificacion de activos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.12.2",
+        "family": "12",
+        "family_title": {
+          "en": "Asset management",
+          "es": "Gestion de activos"
+        },
+        "title": {
+          "en": "Handling of assets",
+          "es": "Manipulacion de activos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.12.3",
+        "family": "12",
+        "family_title": {
+          "en": "Asset management",
+          "es": "Gestion de activos"
+        },
+        "title": {
+          "en": "Removable media policy",
+          "es": "Politica de soportes extraibles"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.12.4",
+        "family": "12",
+        "family_title": {
+          "en": "Asset management",
+          "es": "Gestion de activos"
+        },
+        "title": {
+          "en": "Asset inventory",
+          "es": "Inventario de activos"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.12.5",
+        "family": "12",
+        "family_title": {
+          "en": "Asset management",
+          "es": "Gestion de activos"
+        },
+        "title": {
+          "en": "Deposit, return or deletion of assets upon termination of employment",
+          "es": "Deposito, devolucion o borrado de activos al finalizar el empleo"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.13.1",
+        "family": "13",
+        "family_title": {
+          "en": "Environmental and physical security",
+          "es": "Seguridad fisica y ambiental"
+        },
+        "title": {
+          "en": "Supporting utilities",
+          "es": "Instalaciones de suministro"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.13.2",
+        "family": "13",
+        "family_title": {
+          "en": "Environmental and physical security",
+          "es": "Seguridad fisica y ambiental"
+        },
+        "title": {
+          "en": "Protection against physical and environmental threats",
+          "es": "Proteccion frente a amenazas fisicas y ambientales"
+        },
+        "layer": "implementing_regulation"
+      },
+      {
+        "framework": "NIS2",
+        "id": "cir.13.3",
+        "family": "13",
+        "family_title": {
+          "en": "Environmental and physical security",
+          "es": "Seguridad fisica y ambiental"
+        },
+        "title": {
+          "en": "Perimeter and physical access control",
+          "es": "Perimetro y control de acceso fisico"
+        },
+        "layer": "implementing_regulation"
+      }
+    ],
+    "DORA": [
+      {
+        "framework": "DORA",
+        "id": "art.5",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Governance and organisation",
+          "es": "Gobernanza y organizacion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.6",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "ICT risk management framework",
+          "es": "Marco de gestion del riesgo relacionado con las TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.7",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "ICT systems, protocols and tools",
+          "es": "Sistemas, protocolos y herramientas de TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.8",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Identification",
+          "es": "Identificacion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.9",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Protection and prevention",
+          "es": "Proteccion y prevencion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.10",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Detection",
+          "es": "Deteccion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.11",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Response and recovery",
+          "es": "Respuesta y recuperacion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.12",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Backup policies and procedures, restoration and recovery procedures and methods",
+          "es": "Politicas y procedimientos de respaldo y procedimientos y metodos de restablecimiento y recuperacion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.13",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Learning and evolving",
+          "es": "Aprendizaje y evolucion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.14",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Communication",
+          "es": "Comunicacion"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.15",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Further harmonisation of ICT risk management tools, methods, processes and policies",
+          "es": "Mayor armonizacion de las herramientas, metodos, procesos y politicas de gestion del riesgo relacionado con las TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.16",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "Simplified ICT risk management framework",
+          "es": "Marco simplificado de gestion del riesgo relacionado con las TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.17",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "ICT-related incident management process",
+          "es": "Proceso de gestion de incidentes relacionados con las TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.18",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Classification of ICT-related incidents and cyber threats",
+          "es": "Clasificacion de los incidentes relacionados con las TIC y las ciberamenazas"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.19",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Reporting of major ICT-related incidents and voluntary notification of significant cyber threats",
+          "es": "Notificacion de los incidentes graves relacionados con las TIC y notificacion voluntaria de las ciberamenazas importantes"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.20",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Harmonisation of reporting content and templates",
+          "es": "Armonizacion del contenido de la informacion y las plantillas para presentarla"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.21",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Centralisation of reporting of major ICT-related incidents",
+          "es": "Centralizacion de la informacion sobre los incidentes graves relacionados con las TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.22",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Supervisory feedback",
+          "es": "Observaciones de las autoridades de supervision"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.23",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions",
+          "es": "Incidentes operativos o de seguridad relacionados con los pagos que atanen a entidades de credito, entidades de pago, proveedores de servicios de informacion sobre cuentas y entidades de dinero electronico"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.24",
+        "family": "IV",
+        "family_title": {
+          "en": "Chapter IV - Digital operational resilience testing",
+          "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+        },
+        "title": {
+          "en": "General requirements for the performance of digital operational resilience testing",
+          "es": "Requisitos generales para la realizacion de pruebas de resiliencia operativa digital"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.25",
+        "family": "IV",
+        "family_title": {
+          "en": "Chapter IV - Digital operational resilience testing",
+          "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+        },
+        "title": {
+          "en": "Testing of ICT tools and systems",
+          "es": "Pruebas de las herramientas y los sistemas de TIC"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.26",
+        "family": "IV",
+        "family_title": {
+          "en": "Chapter IV - Digital operational resilience testing",
+          "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+        },
+        "title": {
+          "en": "Advanced testing of ICT tools, systems and processes based on TLPT",
+          "es": "Pruebas avanzadas de las herramientas, los sistemas y los procesos de TIC basadas en pruebas de penetracion basadas en amenazas"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.27",
+        "family": "IV",
+        "family_title": {
+          "en": "Chapter IV - Digital operational resilience testing",
+          "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+        },
+        "title": {
+          "en": "Requirements for testers for the carrying out of TLPT",
+          "es": "Requisitos aplicables a los probadores para la realizacion de pruebas de penetracion basadas en amenazas"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.28",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "General principles",
+          "es": "Principios generales"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.29",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "Preliminary assessment of ICT concentration risk at entity level",
+          "es": "Evaluacion preliminar del riesgo de concentracion de TIC a nivel de la entidad"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.30",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "Key contractual provisions",
+          "es": "Clausulas contractuales fundamentales"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "art.45",
+        "family": "VI",
+        "family_title": {
+          "en": "Chapter VI - Information-sharing arrangements",
+          "es": "Capitulo VI - Acuerdos de intercambio de informacion"
+        },
+        "title": {
+          "en": "Information-sharing arrangements on cyber threat information and intelligence",
+          "es": "Acuerdos de intercambio de informacion en relacion con informacion e inteligencia sobre ciberamenazas"
+        },
+        "layer": "regulation"
+      },
+      {
+        "framework": "DORA",
+        "id": "rts.2024/1774",
+        "family": "II",
+        "family_title": {
+          "en": "Chapter II - ICT risk management",
+          "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+        },
+        "title": {
+          "en": "RTS on ICT risk management tools, methods, processes and policies and on the simplified framework (Delegated Regulation (EU) 2024/1774, OJ 25.6.2024)",
+          "es": "NTR sobre herramientas, metodos, procesos y politicas de gestion del riesgo TIC y sobre el marco simplificado (Reglamento Delegado (UE) 2024/1774, DOUE 25.6.2024)"
+        },
+        "layer": "technical_standard"
+      },
+      {
+        "framework": "DORA",
+        "id": "rts.2024/1773",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "RTS on the policy on contractual arrangements for ICT services supporting critical or important functions (Delegated Regulation (EU) 2024/1773, OJ 25.6.2024)",
+          "es": "NTR sobre la politica relativa a los acuerdos contractuales de servicios TIC que sustentan funciones esenciales o importantes (Reglamento Delegado (UE) 2024/1773, DOUE 25.6.2024)"
+        },
+        "layer": "technical_standard"
+      },
+      {
+        "framework": "DORA",
+        "id": "its.2024/2956",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "ITS on the standard templates for the register of information (Implementing Regulation (EU) 2024/2956, OJ 2.12.2024)",
+          "es": "NTE sobre las plantillas normalizadas para el registro de informacion (Reglamento de Ejecucion (UE) 2024/2956, DOUE 2.12.2024)"
+        },
+        "layer": "technical_standard"
+      },
+      {
+        "framework": "DORA",
+        "id": "rts.2025/532",
+        "family": "V",
+        "family_title": {
+          "en": "Chapter V - Managing of ICT third-party risk",
+          "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+        },
+        "title": {
+          "en": "RTS on subcontracting of ICT services supporting critical or important functions (Delegated Regulation (EU) 2025/532, OJ 2.7.2025)",
+          "es": "NTR sobre la subcontratacion de servicios TIC que sustentan funciones esenciales o importantes (Reglamento Delegado (UE) 2025/532, DOUE 2.7.2025)"
+        },
+        "layer": "technical_standard"
+      },
+      {
+        "framework": "DORA",
+        "id": "rts.2024/1772",
+        "family": "III",
+        "family_title": {
+          "en": "Chapter III - ICT-related incident management, classification and reporting",
+          "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+        },
+        "title": {
+          "en": "RTS on the classification of major ICT-related incidents (Delegated Regulation (EU) 2024/1772, OJ 25.6.2024)",
+          "es": "NTR sobre la clasificacion de los incidentes graves relacionados con las TIC (Reglamento Delegado (UE) 2024/1772, DOUE 25.6.2024)"
+        },
+        "layer": "technical_standard"
+      },
+      {
+        "framework": "DORA",
+        "id": "rts.2025/1190",
+        "family": "IV",
+        "family_title": {
+          "en": "Chapter IV - Digital operational resilience testing",
+          "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+        },
+        "title": {
+          "en": "RTS on threat-led penetration testing (Delegated Regulation (EU) 2025/1190, OJ 18.6.2025)",
+          "es": "NTR sobre las pruebas de penetracion basadas en amenazas (Reglamento Delegado (UE) 2025/1190, DOUE 18.6.2025)"
+        },
+        "layer": "technical_standard"
+      }
+    ]
+  },
+  "links": [
+    {
+      "iso": "5.1",
+      "framework": "ENS",
+      "target": "org.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.1",
+      "framework": "ENS",
+      "target": "org.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.1",
+      "framework": "NIS2",
+      "target": "21.2.a",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.1",
+      "framework": "NIS2",
+      "target": "cir.1.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.1",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.1",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.2",
+      "framework": "ENS",
+      "target": "org.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.2",
+      "framework": "ENS",
+      "target": "org.3",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.2",
+      "framework": "NIS2",
+      "target": "art.20",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.2",
+      "framework": "NIS2",
+      "target": "cir.1.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.2",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.3",
+      "framework": "ENS",
+      "target": "op.acc.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.3",
+      "framework": "NIS2",
+      "target": "cir.1.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.3",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.3",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.4",
+      "framework": "ENS",
+      "target": "org.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.4",
+      "framework": "NIS2",
+      "target": "art.20",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.4",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.5",
+      "framework": "ENS",
+      "target": "op.exp.7",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.5",
+      "framework": "NIS2",
+      "target": "art.23",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.5",
+      "framework": "NIS2",
+      "target": "cir.3.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.5",
+      "framework": "DORA",
+      "target": "art.19",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.6",
+      "framework": "NIS2",
+      "target": "art.29",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.6",
+      "framework": "DORA",
+      "target": "art.45",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.7",
+      "framework": "ENS",
+      "target": "op.mon.3",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.7",
+      "framework": "NIS2",
+      "target": "cir.2.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.7",
+      "framework": "NIS2",
+      "target": "art.29",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.7",
+      "framework": "DORA",
+      "target": "art.13",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.7",
+      "framework": "DORA",
+      "target": "art.45",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "ENS",
+      "target": "op.pl.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "ENS",
+      "target": "org.4",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "NIS2",
+      "target": "cir.6.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.8",
+      "framework": "DORA",
+      "target": "art.8",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.9",
+      "framework": "ENS",
+      "target": "op.exp.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.9",
+      "framework": "NIS2",
+      "target": "cir.12.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.9",
+      "framework": "DORA",
+      "target": "art.8",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.10",
+      "framework": "ENS",
+      "target": "mp.per.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.10",
+      "framework": "ENS",
+      "target": "mp.eq.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.10",
+      "framework": "NIS2",
+      "target": "cir.12.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.10",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.11",
+      "framework": "ENS",
+      "target": "mp.if.7",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.11",
+      "framework": "NIS2",
+      "target": "cir.12.5",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.11",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.12",
+      "framework": "ENS",
+      "target": "mp.info.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.12",
+      "framework": "NIS2",
+      "target": "cir.12.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.12",
+      "framework": "DORA",
+      "target": "art.8",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.13",
+      "framework": "ENS",
+      "target": "mp.si.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.13",
+      "framework": "ENS",
+      "target": "mp.info.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.13",
+      "framework": "NIS2",
+      "target": "cir.12.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.13",
+      "framework": "DORA",
+      "target": "art.8",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "ENS",
+      "target": "mp.com.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "ENS",
+      "target": "mp.com.3",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "ENS",
+      "target": "mp.s.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "ENS",
+      "target": "mp.si.4",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "NIS2",
+      "target": "21.2.j",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "NIS2",
+      "target": "cir.9",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.14",
+      "framework": "DORA",
+      "target": "art.14",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "ENS",
+      "target": "op.acc.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "ENS",
+      "target": "op.acc.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "NIS2",
+      "target": "21.2.i",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "NIS2",
+      "target": "cir.11.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.15",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.16",
+      "framework": "ENS",
+      "target": "op.acc.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.16",
+      "framework": "NIS2",
+      "target": "cir.11.5",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.16",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.16",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.17",
+      "framework": "ENS",
+      "target": "op.acc.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.17",
+      "framework": "ENS",
+      "target": "op.acc.6",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.17",
+      "framework": "NIS2",
+      "target": "cir.11.6",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.17",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.17",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.18",
+      "framework": "ENS",
+      "target": "op.acc.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.18",
+      "framework": "NIS2",
+      "target": "cir.11.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.18",
+      "framework": "NIS2",
+      "target": "cir.11.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.18",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.18",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.19",
+      "framework": "ENS",
+      "target": "op.ext.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.19",
+      "framework": "NIS2",
+      "target": "21.2.d",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.19",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.19",
+      "framework": "DORA",
+      "target": "art.28",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.19",
+      "framework": "DORA",
+      "target": "rts.2024/1773",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.20",
+      "framework": "ENS",
+      "target": "op.ext.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.20",
+      "framework": "ENS",
+      "target": "op.pl.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.20",
+      "framework": "ENS",
+      "target": "op.pl.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.20",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.20",
+      "framework": "DORA",
+      "target": "art.30",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.21",
+      "framework": "ENS",
+      "target": "op.ext.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.21",
+      "framework": "NIS2",
+      "target": "21.2.d",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.21",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.21",
+      "framework": "DORA",
+      "target": "art.28",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.21",
+      "framework": "DORA",
+      "target": "rts.2025/532",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.22",
+      "framework": "ENS",
+      "target": "op.ext.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.22",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.22",
+      "framework": "NIS2",
+      "target": "cir.5.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.22",
+      "framework": "DORA",
+      "target": "art.28",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.22",
+      "framework": "DORA",
+      "target": "art.29",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.23",
+      "framework": "ENS",
+      "target": "op.nub.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.23",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.23",
+      "framework": "NIS2",
+      "target": "cir.6.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.23",
+      "framework": "DORA",
+      "target": "art.28",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.23",
+      "framework": "DORA",
+      "target": "art.30",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.24",
+      "framework": "ENS",
+      "target": "op.exp.7",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.24",
+      "framework": "NIS2",
+      "target": "21.2.b",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.24",
+      "framework": "NIS2",
+      "target": "cir.3.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.24",
+      "framework": "DORA",
+      "target": "art.17",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.24",
+      "framework": "DORA",
+      "target": "rts.2024/1772",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.25",
+      "framework": "ENS",
+      "target": "op.exp.7",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.25",
+      "framework": "ENS",
+      "target": "op.mon.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.25",
+      "framework": "NIS2",
+      "target": "cir.3.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.25",
+      "framework": "DORA",
+      "target": "art.18",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.25",
+      "framework": "DORA",
+      "target": "rts.2024/1772",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.26",
+      "framework": "ENS",
+      "target": "op.exp.7",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.26",
+      "framework": "NIS2",
+      "target": "cir.3.5",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.26",
+      "framework": "DORA",
+      "target": "art.11",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.26",
+      "framework": "DORA",
+      "target": "art.17",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.27",
+      "framework": "ENS",
+      "target": "op.exp.9",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.27",
+      "framework": "NIS2",
+      "target": "cir.3.6",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.27",
+      "framework": "DORA",
+      "target": "art.13",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.28",
+      "framework": "ENS",
+      "target": "op.exp.8",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.28",
+      "framework": "ENS",
+      "target": "op.exp.9",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.28",
+      "framework": "NIS2",
+      "target": "cir.3.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.28",
+      "framework": "DORA",
+      "target": "art.12",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.28",
+      "framework": "DORA",
+      "target": "art.17",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "ENS",
+      "target": "op.cont.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "ENS",
+      "target": "op.cont.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "NIS2",
+      "target": "21.2.c",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "NIS2",
+      "target": "cir.4.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "NIS2",
+      "target": "cir.4.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.29",
+      "framework": "DORA",
+      "target": "art.11",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "ENS",
+      "target": "op.cont.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "ENS",
+      "target": "op.cont.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "ENS",
+      "target": "op.cont.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "NIS2",
+      "target": "cir.4.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "DORA",
+      "target": "art.11",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "DORA",
+      "target": "art.12",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.30",
+      "framework": "DORA",
+      "target": "art.24",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "ENS",
+      "target": "org.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "ENS",
+      "target": "mp.info.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "NIS2",
+      "target": "cir.1.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "NIS2",
+      "target": "cir.2.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.31",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.33",
+      "framework": "ENS",
+      "target": "op.exp.8",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.33",
+      "framework": "ENS",
+      "target": "mp.info.6",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.33",
+      "framework": "NIS2",
+      "target": "cir.3.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.33",
+      "framework": "DORA",
+      "target": "art.12",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.34",
+      "framework": "ENS",
+      "target": "mp.info.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "ENS",
+      "target": "op.pl.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "ENS",
+      "target": "op.mon.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "NIS2",
+      "target": "21.2.f",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "NIS2",
+      "target": "cir.2.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "NIS2",
+      "target": "cir.7",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.35",
+      "framework": "DORA",
+      "target": "art.24",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.36",
+      "framework": "ENS",
+      "target": "org.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.36",
+      "framework": "ENS",
+      "target": "org.4",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.36",
+      "framework": "NIS2",
+      "target": "cir.2.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.36",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.37",
+      "framework": "ENS",
+      "target": "org.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.37",
+      "framework": "NIS2",
+      "target": "cir.1.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "5.37",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.1",
+      "framework": "ENS",
+      "target": "mp.per.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.1",
+      "framework": "NIS2",
+      "target": "cir.10.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.1",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.2",
+      "framework": "ENS",
+      "target": "mp.per.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.2",
+      "framework": "NIS2",
+      "target": "cir.10.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.2",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "ENS",
+      "target": "mp.per.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "ENS",
+      "target": "mp.per.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "NIS2",
+      "target": "21.2.g",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "NIS2",
+      "target": "cir.8.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "NIS2",
+      "target": "cir.8.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "NIS2",
+      "target": "art.20",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "DORA",
+      "target": "art.5",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.3",
+      "framework": "DORA",
+      "target": "art.13",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.4",
+      "framework": "NIS2",
+      "target": "cir.10.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.5",
+      "framework": "ENS",
+      "target": "mp.per.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.5",
+      "framework": "NIS2",
+      "target": "cir.10.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.5",
+      "framework": "NIS2",
+      "target": "cir.12.5",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.6",
+      "framework": "ENS",
+      "target": "mp.per.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.6",
+      "framework": "NIS2",
+      "target": "cir.10.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.6",
+      "framework": "DORA",
+      "target": "art.30",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.7",
+      "framework": "ENS",
+      "target": "mp.eq.3",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.7",
+      "framework": "ENS",
+      "target": "op.acc.5",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.7",
+      "framework": "NIS2",
+      "target": "cir.11.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.7",
+      "framework": "NIS2",
+      "target": "cir.6.7",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.7",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.8",
+      "framework": "ENS",
+      "target": "op.exp.7",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.8",
+      "framework": "NIS2",
+      "target": "cir.3.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "6.8",
+      "framework": "DORA",
+      "target": "art.17",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.1",
+      "framework": "ENS",
+      "target": "mp.if.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.1",
+      "framework": "NIS2",
+      "target": "cir.13.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.1",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.2",
+      "framework": "ENS",
+      "target": "mp.if.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.2",
+      "framework": "ENS",
+      "target": "mp.if.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.2",
+      "framework": "NIS2",
+      "target": "cir.13.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.2",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.3",
+      "framework": "ENS",
+      "target": "mp.if.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.3",
+      "framework": "ENS",
+      "target": "mp.if.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.3",
+      "framework": "NIS2",
+      "target": "cir.13.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.3",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.4",
+      "framework": "ENS",
+      "target": "mp.if.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.4",
+      "framework": "NIS2",
+      "target": "cir.13.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.4",
+      "framework": "DORA",
+      "target": "art.10",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.5",
+      "framework": "ENS",
+      "target": "mp.if.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.5",
+      "framework": "ENS",
+      "target": "mp.if.6",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.5",
+      "framework": "NIS2",
+      "target": "cir.13.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.5",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.6",
+      "framework": "ENS",
+      "target": "mp.if.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.6",
+      "framework": "NIS2",
+      "target": "cir.13.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.7",
+      "framework": "ENS",
+      "target": "mp.eq.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.7",
+      "framework": "ENS",
+      "target": "mp.eq.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.7",
+      "framework": "NIS2",
+      "target": "cir.12.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.8",
+      "framework": "ENS",
+      "target": "mp.if.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.8",
+      "framework": "NIS2",
+      "target": "cir.13.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.8",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.9",
+      "framework": "ENS",
+      "target": "mp.eq.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.9",
+      "framework": "ENS",
+      "target": "mp.si.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.9",
+      "framework": "NIS2",
+      "target": "cir.12.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.9",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "ENS",
+      "target": "mp.si.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "ENS",
+      "target": "mp.si.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "ENS",
+      "target": "mp.si.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "ENS",
+      "target": "mp.si.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "NIS2",
+      "target": "cir.12.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.10",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.11",
+      "framework": "ENS",
+      "target": "mp.if.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.11",
+      "framework": "ENS",
+      "target": "mp.if.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.11",
+      "framework": "NIS2",
+      "target": "cir.13.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.11",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.12",
+      "framework": "ENS",
+      "target": "mp.if.3",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.12",
+      "framework": "NIS2",
+      "target": "cir.13.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.13",
+      "framework": "ENS",
+      "target": "op.exp.4",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.13",
+      "framework": "NIS2",
+      "target": "cir.6.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.13",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.14",
+      "framework": "ENS",
+      "target": "mp.si.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.14",
+      "framework": "NIS2",
+      "target": "cir.12.5",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "7.14",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.1",
+      "framework": "ENS",
+      "target": "mp.eq.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.1",
+      "framework": "ENS",
+      "target": "mp.eq.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.1",
+      "framework": "NIS2",
+      "target": "cir.6.9",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.1",
+      "framework": "NIS2",
+      "target": "cir.12.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.1",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.2",
+      "framework": "ENS",
+      "target": "op.acc.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.2",
+      "framework": "NIS2",
+      "target": "cir.11.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.2",
+      "framework": "NIS2",
+      "target": "cir.11.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.2",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.2",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.3",
+      "framework": "ENS",
+      "target": "op.acc.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.3",
+      "framework": "NIS2",
+      "target": "cir.11.1",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.3",
+      "framework": "NIS2",
+      "target": "cir.11.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.3",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.4",
+      "framework": "ENS",
+      "target": "mp.sw.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.4",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.4",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "ENS",
+      "target": "op.acc.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "ENS",
+      "target": "op.acc.6",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "NIS2",
+      "target": "21.2.j",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "NIS2",
+      "target": "cir.11.6",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "NIS2",
+      "target": "cir.11.7",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.5",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.6",
+      "framework": "ENS",
+      "target": "op.pl.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.6",
+      "framework": "ENS",
+      "target": "mp.s.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.6",
+      "framework": "NIS2",
+      "target": "cir.6.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.6",
+      "framework": "DORA",
+      "target": "art.7",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.6",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.7",
+      "framework": "ENS",
+      "target": "op.exp.6",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.7",
+      "framework": "NIS2",
+      "target": "cir.6.9",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.7",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.7",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "ENS",
+      "target": "op.exp.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "NIS2",
+      "target": "21.2.e",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "NIS2",
+      "target": "cir.6.6",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "NIS2",
+      "target": "cir.6.10",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.8",
+      "framework": "DORA",
+      "target": "art.10",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.9",
+      "framework": "ENS",
+      "target": "op.exp.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.9",
+      "framework": "ENS",
+      "target": "op.exp.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.9",
+      "framework": "NIS2",
+      "target": "cir.6.3",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.9",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.9",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.10",
+      "framework": "ENS",
+      "target": "mp.si.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.10",
+      "framework": "NIS2",
+      "target": "cir.12.5",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.10",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.12",
+      "framework": "ENS",
+      "target": "mp.info.5",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.12",
+      "framework": "ENS",
+      "target": "mp.com.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.12",
+      "framework": "NIS2",
+      "target": "cir.6.7",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.12",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.13",
+      "framework": "ENS",
+      "target": "mp.info.6",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.13",
+      "framework": "NIS2",
+      "target": "21.2.c",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.13",
+      "framework": "NIS2",
+      "target": "cir.4.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.13",
+      "framework": "DORA",
+      "target": "art.12",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.13",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.14",
+      "framework": "ENS",
+      "target": "op.cont.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.14",
+      "framework": "ENS",
+      "target": "mp.if.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.14",
+      "framework": "NIS2",
+      "target": "cir.4.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.14",
+      "framework": "DORA",
+      "target": "art.12",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.15",
+      "framework": "ENS",
+      "target": "op.exp.8",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.15",
+      "framework": "NIS2",
+      "target": "cir.3.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.15",
+      "framework": "DORA",
+      "target": "art.10",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.15",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "ENS",
+      "target": "op.mon.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "ENS",
+      "target": "op.mon.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "NIS2",
+      "target": "cir.3.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "NIS2",
+      "target": "cir.3.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "DORA",
+      "target": "art.10",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.16",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.17",
+      "framework": "ENS",
+      "target": "mp.info.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.17",
+      "framework": "ENS",
+      "target": "op.exp.8",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.17",
+      "framework": "NIS2",
+      "target": "cir.3.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.17",
+      "framework": "DORA",
+      "target": "art.10",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.18",
+      "framework": "ENS",
+      "target": "op.acc.4",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.18",
+      "framework": "ENS",
+      "target": "op.exp.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.18",
+      "framework": "NIS2",
+      "target": "cir.11.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.18",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.19",
+      "framework": "ENS",
+      "target": "op.exp.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.19",
+      "framework": "ENS",
+      "target": "op.exp.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.19",
+      "framework": "NIS2",
+      "target": "cir.6.9",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.19",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "ENS",
+      "target": "mp.com.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "ENS",
+      "target": "mp.s.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "NIS2",
+      "target": "21.2.e",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "NIS2",
+      "target": "cir.6.7",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.20",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.21",
+      "framework": "ENS",
+      "target": "mp.com.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.21",
+      "framework": "ENS",
+      "target": "op.ext.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.21",
+      "framework": "NIS2",
+      "target": "cir.6.7",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.21",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.22",
+      "framework": "ENS",
+      "target": "mp.com.4",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.22",
+      "framework": "NIS2",
+      "target": "cir.6.8",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.22",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.22",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.23",
+      "framework": "ENS",
+      "target": "mp.s.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.23",
+      "framework": "NIS2",
+      "target": "cir.6.7",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.23",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "ENS",
+      "target": "mp.si.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "ENS",
+      "target": "mp.com.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "ENS",
+      "target": "op.exp.10",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "ENS",
+      "target": "mp.info.3",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "NIS2",
+      "target": "21.2.h",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "NIS2",
+      "target": "cir.9",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.24",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.25",
+      "framework": "ENS",
+      "target": "mp.sw.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.25",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.25",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.25",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.26",
+      "framework": "ENS",
+      "target": "mp.sw.1",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.26",
+      "framework": "ENS",
+      "target": "mp.s.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.26",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.26",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.27",
+      "framework": "ENS",
+      "target": "op.pl.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.27",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.27",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.27",
+      "framework": "DORA",
+      "target": "art.7",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.28",
+      "framework": "ENS",
+      "target": "mp.sw.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.28",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.28",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.29",
+      "framework": "ENS",
+      "target": "mp.sw.2",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.29",
+      "framework": "NIS2",
+      "target": "cir.6.5",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.29",
+      "framework": "DORA",
+      "target": "art.24",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.29",
+      "framework": "DORA",
+      "target": "art.25",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "ENS",
+      "target": "mp.sw.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "ENS",
+      "target": "op.ext.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "NIS2",
+      "target": "cir.5.1",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "DORA",
+      "target": "art.28",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.30",
+      "framework": "DORA",
+      "target": "art.30",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.31",
+      "framework": "ENS",
+      "target": "mp.sw.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.31",
+      "framework": "NIS2",
+      "target": "cir.6.2",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.31",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.32",
+      "framework": "ENS",
+      "target": "op.exp.5",
+      "coverage": "full",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.32",
+      "framework": "NIS2",
+      "target": "cir.6.4",
+      "coverage": "full",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.32",
+      "framework": "DORA",
+      "target": "art.9",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.32",
+      "framework": "DORA",
+      "target": "rts.2024/1774",
+      "coverage": "full",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.33",
+      "framework": "ENS",
+      "target": "mp.sw.2",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.33",
+      "framework": "NIS2",
+      "target": "cir.6.5",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.34",
+      "framework": "ENS",
+      "target": "op.pl.1",
+      "coverage": "partial",
+      "source": "CCN-STIC-825",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.34",
+      "framework": "NIS2",
+      "target": "cir.2.3",
+      "coverage": "partial",
+      "source": "ENISA-TIG-1.0",
+      "status": "proposed"
+    },
+    {
+      "iso": "8.34",
+      "framework": "DORA",
+      "target": "art.6",
+      "coverage": "partial",
+      "source": "DORA-2022-2554",
+      "status": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ISO-27002-2022",
+      "kind": "standard",
+      "title": {
+        "en": "ISO/IEC 27002:2022 - Information security controls",
+        "es": "ISO/IEC 27002:2022 - Controles de seguridad de la informacion"
+      },
+      "url": "https://www.iso.org/standard/75652.html",
+      "watch": true,
+      "note": {
+        "en": "Control titles only. The standard itself is copyrighted and is not reproduced here.",
+        "es": "Solo los titulos de los controles. La norma es de pago y no se reproduce aqui."
+      }
+    },
+    {
+      "id": "RD-311-2022",
+      "kind": "legislation",
+      "title": {
+        "en": "Royal Decree 311/2022 regulating the National Security Framework (ENS), Annex II",
+        "es": "Real Decreto 311/2022 por el que se regula el Esquema Nacional de Seguridad (ENS), Anexo II"
+      },
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+      "watch": true,
+      "note": {}
+    },
+    {
+      "id": "CCN-STIC-825",
+      "kind": "guidance",
+      "title": {
+        "en": "CCN-STIC 825 Independent Annex - Mapping between ISO 27001:2022 and RD 311/2022 (ENS)",
+        "es": "CCN-STIC 825 Anexo Independiente - Mapeo entre la norma ISO 27001:2022 y el RD 311/2022 (ENS)"
+      },
+      "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/7101-ccn-stic-825-anexo-independiente-mapeo-entre-la-norma-iso-27001-2022-y-el-rd-311-2022-ens",
+      "watch": true,
+      "note": {
+        "en": "The reference correspondence between ISO and the ENS. Rows citing it must be confirmed against the published annex.",
+        "es": "La correspondencia de referencia entre ISO y el ENS. Las filas que lo citan deben confirmarse contra el anexo publicado."
+      }
+    },
+    {
+      "id": "DIR-2022-2555",
+      "kind": "legislation",
+      "title": {
+        "en": "Directive (EU) 2022/2555 (NIS2)",
+        "es": "Directiva (UE) 2022/2555 (NIS2)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "watch": true,
+      "note": {}
+    },
+    {
+      "id": "CIR-2024-2690",
+      "kind": "legislation",
+      "title": {
+        "en": "Commission Implementing Regulation (EU) 2024/2690 - technical and methodological requirements",
+        "es": "Reglamento de Ejecucion (UE) 2024/2690 - requisitos tecnicos y metodologicos"
+      },
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj",
+      "watch": true,
+      "note": {
+        "en": "Legally binding for digital infrastructure, ICT service management and digital provider entities. For other sectors it is the reference of choice until national law says otherwise.",
+        "es": "Vinculante para infraestructura digital, gestion de servicios TIC y proveedores digitales. Para otros sectores es la referencia de eleccion mientras la ley nacional no diga otra cosa."
+      }
+    },
+    {
+      "id": "ENISA-TIG-1.0",
+      "kind": "guidance",
+      "title": {
+        "en": "ENISA Technical Implementation Guidance on cybersecurity risk-management measures, v1.0 (June 2025)",
+        "es": "Guia tecnica de implantacion de ENISA sobre medidas de gestion de riesgos de ciberseguridad, v1.0 (junio 2025)"
+      },
+      "url": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+      "watch": true,
+      "note": {
+        "en": "Non-binding. Its separate mapping table (v1.2, xlsx) is the authority for the NIS2 side of this dataset.",
+        "es": "No vinculante. Su tabla de mapeo aparte (v1.2, xlsx) es la referencia para el lado NIS2 de este conjunto de datos."
+      }
+    },
+    {
+      "id": "ENISA-TIG-MAP",
+      "kind": "guidance",
+      "title": {
+        "en": "ENISA Technical Implementation Guidance mapping table v1.2",
+        "es": "Tabla de mapeo de la guia tecnica de ENISA v1.2"
+      },
+      "url": "https://www.enisa.europa.eu/sites/default/files/2025-09/ENISA_Technical_Implementation_Guidance_Mapping_table_version_1.2.xlsx",
+      "watch": true,
+      "note": {}
+    },
+    {
+      "id": "DORA-2022-2554",
+      "kind": "legislation",
+      "title": {
+        "en": "Regulation (EU) 2022/2554 (DORA)",
+        "es": "Reglamento (UE) 2022/2554 (DORA)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "watch": true,
+      "note": {
+        "en": "Applies from 17 January 2025 to financial entities.",
+        "es": "Aplicable desde el 17 de enero de 2025 a las entidades financieras."
+      }
+    },
+    {
+      "id": "DORA-RTS-2024-1774",
+      "kind": "legislation",
+      "title": {
+        "en": "Delegated Regulation (EU) 2024/1774 - RTS on ICT risk management framework",
+        "es": "Reglamento Delegado (UE) 2024/1774 - NTR sobre el marco de gestion del riesgo TIC"
+      },
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj",
+      "watch": true,
+      "note": {}
+    },
+    {
+      "id": "ES-NIS2-BILL",
+      "kind": "legislation",
+      "title": {
+        "en": "Spain: draft Law on Coordination and Governance of Cybersecurity, transposing NIS2",
+        "es": "Espana: Anteproyecto de Ley de Coordinacion y Gobernanza de la Ciberseguridad, que transpone NIS2"
+      },
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-7191",
+      "watch": false,
+      "note": {
+        "en": "Not in force at the time of writing. Watch this one: when it is published, the NIS2 side of the dataset needs revisiting.",
+        "es": "No vigente al escribir esto. Vigilar: cuando se publique, habra que revisar el lado NIS2 del conjunto de datos."
+      }
+    }
+  ],
+  "stats": {
+    "iso_controls": 93,
+    "links": 386,
+    "verified": 0,
+    "ENS": {
+      "full": 62,
+      "partial": 27,
+      "none": 4
+    },
+    "NIS2": {
+      "full": 52,
+      "partial": 38,
+      "none": 3
+    },
+    "DORA": {
+      "full": 29,
+      "partial": 55,
+      "none": 9
+    }
+  }
+}
