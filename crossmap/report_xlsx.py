@@ -1,7 +1,7 @@
 """The cross-reference as a spreadsheet, one row per ISO control."""
 from __future__ import annotations
 
-from typing import Any, Dict, List
+from typing import Any, List
 
 from .model import COVERAGE_TEXT, Dataset
 
