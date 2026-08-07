@@ -2,6 +2,8 @@
 
 <sub>**mr7security** · seguridad ofensiva y defensiva · [github.com/mr7security](https://github.com/mr7security)</sub>
 
+**Live demo → https://mr7security.github.io/crossmap/** — the interactive cross-reference in your browser (EN/ES).
+
 **One control, four regimes.** Type `op.exp.8` and get the ISO 27002 controls it corresponds to, the NIS2 requirement it helps satisfy and the DORA article it maps onto — or start from `art.12` of DORA and walk it back to the ENS. The cross-reference works in every direction, in English and Spanish, from a command line or from a single self-contained HTML page you can email to a client.
 
 *Una consulta cruzada entre ISO/IEC 27001:2022, el ENS (RD 311/2022), NIS2 y DORA, tomando como eje los 93 controles de ISO/IEC 27002:2022. Funciona en cualquier direccion, en ingles y castellano, desde la linea de comandos o desde una pagina HTML autocontenida.*
