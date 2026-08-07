@@ -1,0 +1,1121 @@
+{
+ "framework": "ISO",
+ "items": [
+  {
+   "id": "5.1",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Policies for information security",
+    "es": "Politicas de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.2",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security roles and responsibilities",
+    "es": "Funciones y responsabilidades en seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.3",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Segregation of duties",
+    "es": "Segregacion de tareas"
+   }
+  },
+  {
+   "id": "5.4",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Management responsibilities",
+    "es": "Responsabilidades de la direccion"
+   }
+  },
+  {
+   "id": "5.5",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Contact with authorities",
+    "es": "Contacto con las autoridades"
+   }
+  },
+  {
+   "id": "5.6",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Contact with special interest groups",
+    "es": "Contacto con grupos de interes especial"
+   }
+  },
+  {
+   "id": "5.7",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Threat intelligence",
+    "es": "Inteligencia de amenazas"
+   }
+  },
+  {
+   "id": "5.8",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security in project management",
+    "es": "Seguridad de la informacion en la gestion de proyectos"
+   }
+  },
+  {
+   "id": "5.9",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Inventory of information and other associated assets",
+    "es": "Inventario de informacion y otros activos asociados"
+   }
+  },
+  {
+   "id": "5.10",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Acceptable use of information and other associated assets",
+    "es": "Uso aceptable de la informacion y otros activos asociados"
+   }
+  },
+  {
+   "id": "5.11",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Return of assets",
+    "es": "Devolucion de activos"
+   }
+  },
+  {
+   "id": "5.12",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Classification of information",
+    "es": "Clasificacion de la informacion"
+   }
+  },
+  {
+   "id": "5.13",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Labelling of information",
+    "es": "Etiquetado de la informacion"
+   }
+  },
+  {
+   "id": "5.14",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information transfer",
+    "es": "Transferencia de informacion"
+   }
+  },
+  {
+   "id": "5.15",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   }
+  },
+  {
+   "id": "5.16",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Identity management",
+    "es": "Gestion de identidades"
+   }
+  },
+  {
+   "id": "5.17",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Authentication information",
+    "es": "Informacion de autenticacion"
+   }
+  },
+  {
+   "id": "5.18",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Access rights",
+    "es": "Derechos de acceso"
+   }
+  },
+  {
+   "id": "5.19",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security in supplier relationships",
+    "es": "Seguridad de la informacion en las relaciones con proveedores"
+   }
+  },
+  {
+   "id": "5.20",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Addressing information security within supplier agreements",
+    "es": "Tratamiento de la seguridad de la informacion en los acuerdos con proveedores"
+   }
+  },
+  {
+   "id": "5.21",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Managing information security in the ICT supply chain",
+    "es": "Gestion de la seguridad de la informacion en la cadena de suministro de TIC"
+   }
+  },
+  {
+   "id": "5.22",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Monitoring, review and change management of supplier services",
+    "es": "Seguimiento, revision y gestion de cambios de los servicios de proveedores"
+   }
+  },
+  {
+   "id": "5.23",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security for use of cloud services",
+    "es": "Seguridad de la informacion para el uso de servicios en la nube"
+   }
+  },
+  {
+   "id": "5.24",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security incident management planning and preparation",
+    "es": "Planificacion y preparacion de la gestion de incidentes de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.25",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Assessment and decision on information security events",
+    "es": "Evaluacion y decision sobre los eventos de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.26",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Response to information security incidents",
+    "es": "Respuesta a incidentes de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.27",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Learning from information security incidents",
+    "es": "Aprendizaje de los incidentes de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.28",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Collection of evidence",
+    "es": "Recopilacion de evidencias"
+   }
+  },
+  {
+   "id": "5.29",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Information security during disruption",
+    "es": "Seguridad de la informacion durante la interrupcion"
+   }
+  },
+  {
+   "id": "5.30",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "ICT readiness for business continuity",
+    "es": "Preparacion de las TIC para la continuidad de negocio"
+   }
+  },
+  {
+   "id": "5.31",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Legal, statutory, regulatory and contractual requirements",
+    "es": "Requisitos legales, estatutarios, reglamentarios y contractuales"
+   }
+  },
+  {
+   "id": "5.32",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Intellectual property rights",
+    "es": "Derechos de propiedad intelectual"
+   }
+  },
+  {
+   "id": "5.33",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Protection of records",
+    "es": "Proteccion de registros"
+   }
+  },
+  {
+   "id": "5.34",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Privacy and protection of PII",
+    "es": "Privacidad y proteccion de la informacion de identificacion personal"
+   }
+  },
+  {
+   "id": "5.35",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Independent review of information security",
+    "es": "Revision independiente de la seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.36",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Compliance with policies, rules and standards for information security",
+    "es": "Cumplimiento de las politicas, reglas y normas de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "5.37",
+   "family": "5",
+   "family_title": {
+    "en": "Organizational controls",
+    "es": "Controles organizativos"
+   },
+   "title": {
+    "en": "Documented operating procedures",
+    "es": "Procedimientos operativos documentados"
+   }
+  },
+  {
+   "id": "6.1",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Screening",
+    "es": "Investigacion de antecedentes"
+   }
+  },
+  {
+   "id": "6.2",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Terms and conditions of employment",
+    "es": "Terminos y condiciones del empleo"
+   }
+  },
+  {
+   "id": "6.3",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Information security awareness, education and training",
+    "es": "Concienciacion, educacion y capacitacion en seguridad de la informacion"
+   }
+  },
+  {
+   "id": "6.4",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Disciplinary process",
+    "es": "Proceso disciplinario"
+   }
+  },
+  {
+   "id": "6.5",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Responsibilities after termination or change of employment",
+    "es": "Responsabilidades ante la finalizacion o el cambio de empleo"
+   }
+  },
+  {
+   "id": "6.6",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Confidentiality or non-disclosure agreements",
+    "es": "Acuerdos de confidencialidad o no divulgacion"
+   }
+  },
+  {
+   "id": "6.7",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Remote working",
+    "es": "Trabajo a distancia"
+   }
+  },
+  {
+   "id": "6.8",
+   "family": "6",
+   "family_title": {
+    "en": "People controls",
+    "es": "Controles de personas"
+   },
+   "title": {
+    "en": "Information security event reporting",
+    "es": "Notificacion de eventos de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "7.1",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Physical security perimeters",
+    "es": "Perimetros de seguridad fisica"
+   }
+  },
+  {
+   "id": "7.2",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Physical entry",
+    "es": "Entrada fisica"
+   }
+  },
+  {
+   "id": "7.3",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Securing offices, rooms and facilities",
+    "es": "Seguridad de oficinas, despachos e instalaciones"
+   }
+  },
+  {
+   "id": "7.4",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Physical security monitoring",
+    "es": "Supervision de la seguridad fisica"
+   }
+  },
+  {
+   "id": "7.5",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Protecting against physical and environmental threats",
+    "es": "Proteccion contra amenazas fisicas y ambientales"
+   }
+  },
+  {
+   "id": "7.6",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Working in secure areas",
+    "es": "Trabajo en areas seguras"
+   }
+  },
+  {
+   "id": "7.7",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Clear desk and clear screen",
+    "es": "Puesto de trabajo despejado y pantalla limpia"
+   }
+  },
+  {
+   "id": "7.8",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Equipment siting and protection",
+    "es": "Emplazamiento y proteccion de equipos"
+   }
+  },
+  {
+   "id": "7.9",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Security of assets off-premises",
+    "es": "Seguridad de los activos fuera de las instalaciones"
+   }
+  },
+  {
+   "id": "7.10",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Storage media",
+    "es": "Soportes de almacenamiento"
+   }
+  },
+  {
+   "id": "7.11",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Supporting utilities",
+    "es": "Instalaciones de suministro"
+   }
+  },
+  {
+   "id": "7.12",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Cabling security",
+    "es": "Seguridad del cableado"
+   }
+  },
+  {
+   "id": "7.13",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Equipment maintenance",
+    "es": "Mantenimiento de equipos"
+   }
+  },
+  {
+   "id": "7.14",
+   "family": "7",
+   "family_title": {
+    "en": "Physical controls",
+    "es": "Controles fisicos"
+   },
+   "title": {
+    "en": "Secure disposal or re-use of equipment",
+    "es": "Eliminacion o reutilizacion segura de equipos"
+   }
+  },
+  {
+   "id": "8.1",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "User endpoint devices",
+    "es": "Dispositivos de usuario final"
+   }
+  },
+  {
+   "id": "8.2",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Privileged access rights",
+    "es": "Derechos de acceso privilegiado"
+   }
+  },
+  {
+   "id": "8.3",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Information access restriction",
+    "es": "Restriccion del acceso a la informacion"
+   }
+  },
+  {
+   "id": "8.4",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Access to source code",
+    "es": "Acceso al codigo fuente"
+   }
+  },
+  {
+   "id": "8.5",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Secure authentication",
+    "es": "Autenticacion segura"
+   }
+  },
+  {
+   "id": "8.6",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Capacity management",
+    "es": "Gestion de capacidades"
+   }
+  },
+  {
+   "id": "8.7",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Protection against malware",
+    "es": "Proteccion contra el malware"
+   }
+  },
+  {
+   "id": "8.8",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Management of technical vulnerabilities",
+    "es": "Gestion de las vulnerabilidades tecnicas"
+   }
+  },
+  {
+   "id": "8.9",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Configuration management",
+    "es": "Gestion de la configuracion"
+   }
+  },
+  {
+   "id": "8.10",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Information deletion",
+    "es": "Borrado de informacion"
+   }
+  },
+  {
+   "id": "8.11",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Data masking",
+    "es": "Enmascaramiento de datos"
+   }
+  },
+  {
+   "id": "8.12",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Data leakage prevention",
+    "es": "Prevencion de la fuga de datos"
+   }
+  },
+  {
+   "id": "8.13",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Information backup",
+    "es": "Copias de seguridad de la informacion"
+   }
+  },
+  {
+   "id": "8.14",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Redundancy of information processing facilities",
+    "es": "Redundancia de las instalaciones de tratamiento de la informacion"
+   }
+  },
+  {
+   "id": "8.15",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Logging",
+    "es": "Registro de eventos"
+   }
+  },
+  {
+   "id": "8.16",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Monitoring activities",
+    "es": "Actividades de seguimiento"
+   }
+  },
+  {
+   "id": "8.17",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Clock synchronization",
+    "es": "Sincronizacion de relojes"
+   }
+  },
+  {
+   "id": "8.18",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Use of privileged utility programs",
+    "es": "Uso de programas de utilidad privilegiados"
+   }
+  },
+  {
+   "id": "8.19",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Installation of software on operational systems",
+    "es": "Instalacion de software en sistemas operativos"
+   }
+  },
+  {
+   "id": "8.20",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Networks security",
+    "es": "Seguridad de redes"
+   }
+  },
+  {
+   "id": "8.21",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Security of network services",
+    "es": "Seguridad de los servicios de red"
+   }
+  },
+  {
+   "id": "8.22",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Segregation of networks",
+    "es": "Segregacion de redes"
+   }
+  },
+  {
+   "id": "8.23",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Web filtering",
+    "es": "Filtrado web"
+   }
+  },
+  {
+   "id": "8.24",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Use of cryptography",
+    "es": "Uso de criptografia"
+   }
+  },
+  {
+   "id": "8.25",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Secure development life cycle",
+    "es": "Ciclo de vida de desarrollo seguro"
+   }
+  },
+  {
+   "id": "8.26",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Application security requirements",
+    "es": "Requisitos de seguridad de las aplicaciones"
+   }
+  },
+  {
+   "id": "8.27",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Secure system architecture and engineering principles",
+    "es": "Principios de ingenieria y arquitectura de sistemas seguros"
+   }
+  },
+  {
+   "id": "8.28",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Secure coding",
+    "es": "Codificacion segura"
+   }
+  },
+  {
+   "id": "8.29",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Security testing in development and acceptance",
+    "es": "Pruebas de seguridad en desarrollo y aceptacion"
+   }
+  },
+  {
+   "id": "8.30",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Outsourced development",
+    "es": "Desarrollo externalizado"
+   }
+  },
+  {
+   "id": "8.31",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Separation of development, test and production environments",
+    "es": "Separacion de los entornos de desarrollo, prueba y produccion"
+   }
+  },
+  {
+   "id": "8.32",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Change management",
+    "es": "Gestion de cambios"
+   }
+  },
+  {
+   "id": "8.33",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Test information",
+    "es": "Informacion de prueba"
+   }
+  },
+  {
+   "id": "8.34",
+   "family": "8",
+   "family_title": {
+    "en": "Technological controls",
+    "es": "Controles tecnologicos"
+   },
+   "title": {
+    "en": "Protection of information systems during audit testing",
+    "es": "Proteccion de los sistemas de informacion durante las pruebas de auditoria"
+   }
+  }
+ ]
+}

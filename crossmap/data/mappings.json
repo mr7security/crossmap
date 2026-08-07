@@ -1,0 +1,2421 @@
+{
+ "anchor": "ISO",
+ "rows": [
+  {
+   "iso": "5.1",
+   "ens": {
+    "ids": [
+     "org.1",
+     "org.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.a",
+     "cir.1.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5",
+     "art.6"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.2",
+   "ens": {
+    "ids": [
+     "org.1",
+     "org.3"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "art.20",
+     "cir.1.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.3",
+   "ens": {
+    "ids": [
+     "op.acc.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.1.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5",
+     "rts.2024/1774"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.4",
+   "ens": {
+    "ids": [
+     "org.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "art.20"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.5",
+   "ens": {
+    "ids": [
+     "op.exp.7"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "art.23",
+     "cir.3.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.19"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.6",
+   "ens": {
+    "ids": [],
+    "coverage": "none",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "art.29"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.45"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.7",
+   "ens": {
+    "ids": [
+     "op.mon.3"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.2.1",
+     "art.29"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.13",
+     "art.45"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.8",
+   "ens": {
+    "ids": [
+     "op.pl.2",
+     "org.4"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.1",
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6",
+     "art.8"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.9",
+   "ens": {
+    "ids": [
+     "op.exp.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.8"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.10",
+   "ens": {
+    "ids": [
+     "mp.per.2",
+     "mp.eq.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.11",
+   "ens": {
+    "ids": [
+     "mp.if.7"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.5"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.12",
+   "ens": {
+    "ids": [
+     "mp.info.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.8"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.13",
+   "ens": {
+    "ids": [
+     "mp.si.1",
+     "mp.info.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.8"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.14",
+   "ens": {
+    "ids": [
+     "mp.com.2",
+     "mp.com.3",
+     "mp.s.1",
+     "mp.si.4"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.j",
+     "cir.9"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "art.14"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.15",
+   "ens": {
+    "ids": [
+     "op.acc.2",
+     "op.acc.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.i",
+     "cir.11.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.16",
+   "ens": {
+    "ids": [
+     "op.acc.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.5"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.17",
+   "ens": {
+    "ids": [
+     "op.acc.5",
+     "op.acc.6"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.6"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.18",
+   "ens": {
+    "ids": [
+     "op.acc.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.2",
+     "cir.11.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.19",
+   "ens": {
+    "ids": [
+     "op.ext.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.d",
+     "cir.5.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.28",
+     "rts.2024/1773"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.20",
+   "ens": {
+    "ids": [
+     "op.ext.1",
+     "op.pl.3",
+     "op.pl.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.5.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.30"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.21",
+   "ens": {
+    "ids": [
+     "op.ext.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.d",
+     "cir.5.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.28",
+     "rts.2025/532"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.22",
+   "ens": {
+    "ids": [
+     "op.ext.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.5.1",
+     "cir.5.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.28",
+     "art.29"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.23",
+   "ens": {
+    "ids": [
+     "op.nub.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.5.1",
+     "cir.6.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.28",
+     "art.30"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.24",
+   "ens": {
+    "ids": [
+     "op.exp.7"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.b",
+     "cir.3.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.17",
+     "rts.2024/1772"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.25",
+   "ens": {
+    "ids": [
+     "op.exp.7",
+     "op.mon.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.18",
+     "rts.2024/1772"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.26",
+   "ens": {
+    "ids": [
+     "op.exp.7"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.5"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.11",
+     "art.17"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.27",
+   "ens": {
+    "ids": [
+     "op.exp.9"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.6"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.13"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.28",
+   "ens": {
+    "ids": [
+     "op.exp.8",
+     "op.exp.9"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.12",
+     "art.17"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.29",
+   "ens": {
+    "ids": [
+     "op.cont.2",
+     "op.cont.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.c",
+     "cir.4.1",
+     "cir.4.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.11"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.30",
+   "ens": {
+    "ids": [
+     "op.cont.1",
+     "op.cont.2",
+     "op.cont.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.4.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.11",
+     "art.12",
+     "art.24"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.31",
+   "ens": {
+    "ids": [
+     "org.2",
+     "mp.info.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.1.1",
+     "cir.2.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5",
+     "art.6"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.32",
+   "ens": {
+    "ids": [],
+    "coverage": "none",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [],
+    "coverage": "none",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.33",
+   "ens": {
+    "ids": [
+     "op.exp.8",
+     "mp.info.6"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.12"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.34",
+   "ens": {
+    "ids": [
+     "mp.info.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [],
+    "coverage": "none",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.35",
+   "ens": {
+    "ids": [
+     "op.pl.1",
+     "op.mon.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.f",
+     "cir.2.3",
+     "cir.7"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6",
+     "art.24"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.36",
+   "ens": {
+    "ids": [
+     "org.2",
+     "org.4"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.2.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "5.37",
+   "ens": {
+    "ids": [
+     "org.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.1.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.1",
+   "ens": {
+    "ids": [
+     "mp.per.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.10.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.2",
+   "ens": {
+    "ids": [
+     "mp.per.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.10.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.3",
+   "ens": {
+    "ids": [
+     "mp.per.3",
+     "mp.per.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.g",
+     "cir.8.1",
+     "cir.8.2",
+     "art.20"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.5",
+     "art.13"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.4",
+   "ens": {
+    "ids": [],
+    "coverage": "none",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.10.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.5",
+   "ens": {
+    "ids": [
+     "mp.per.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.10.3",
+     "cir.12.5"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.6",
+   "ens": {
+    "ids": [
+     "mp.per.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.10.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.30"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.7",
+   "ens": {
+    "ids": [
+     "mp.eq.3",
+     "op.acc.5"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.1",
+     "cir.6.7"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "6.8",
+   "ens": {
+    "ids": [
+     "op.exp.7"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.17"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.1",
+   "ens": {
+    "ids": [
+     "mp.if.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.2",
+   "ens": {
+    "ids": [
+     "mp.if.1",
+     "mp.if.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.3",
+   "ens": {
+    "ids": [
+     "mp.if.1",
+     "mp.if.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.4",
+   "ens": {
+    "ids": [
+     "mp.if.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.10"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.5",
+   "ens": {
+    "ids": [
+     "mp.if.5",
+     "mp.if.6"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.6",
+   "ens": {
+    "ids": [
+     "mp.if.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.7",
+   "ens": {
+    "ids": [
+     "mp.eq.1",
+     "mp.eq.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.8",
+   "ens": {
+    "ids": [
+     "mp.if.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.9",
+   "ens": {
+    "ids": [
+     "mp.eq.3",
+     "mp.si.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.10",
+   "ens": {
+    "ids": [
+     "mp.si.1",
+     "mp.si.3",
+     "mp.si.4",
+     "mp.si.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.11",
+   "ens": {
+    "ids": [
+     "mp.if.4",
+     "mp.if.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.1"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.12",
+   "ens": {
+    "ids": [
+     "mp.if.3"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.13.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.13",
+   "ens": {
+    "ids": [
+     "op.exp.4"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "7.14",
+   "ens": {
+    "ids": [
+     "mp.si.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.5"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.1",
+   "ens": {
+    "ids": [
+     "mp.eq.3",
+     "mp.eq.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.9",
+     "cir.12.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.2",
+   "ens": {
+    "ids": [
+     "op.acc.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.3",
+     "cir.11.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.3",
+   "ens": {
+    "ids": [
+     "op.acc.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.1",
+     "cir.11.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.4",
+   "ens": {
+    "ids": [
+     "mp.sw.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.5",
+   "ens": {
+    "ids": [
+     "op.acc.5",
+     "op.acc.6"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.j",
+     "cir.11.6",
+     "cir.11.7"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.6",
+   "ens": {
+    "ids": [
+     "op.pl.4",
+     "mp.s.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.7",
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.7",
+   "ens": {
+    "ids": [
+     "op.exp.6"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.9"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.8",
+   "ens": {
+    "ids": [
+     "op.exp.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.e",
+     "cir.6.6",
+     "cir.6.10"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "art.10"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.9",
+   "ens": {
+    "ids": [
+     "op.exp.2",
+     "op.exp.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.3"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.10",
+   "ens": {
+    "ids": [
+     "mp.si.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.12.5"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.11",
+   "ens": {
+    "ids": [],
+    "coverage": "none",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [],
+    "coverage": "none",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.12",
+   "ens": {
+    "ids": [
+     "mp.info.5",
+     "mp.com.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.7"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.13",
+   "ens": {
+    "ids": [
+     "mp.info.6"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.c",
+     "cir.4.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.12",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.14",
+   "ens": {
+    "ids": [
+     "op.cont.4",
+     "mp.if.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.4.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.12"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.15",
+   "ens": {
+    "ids": [
+     "op.exp.8"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.10",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.16",
+   "ens": {
+    "ids": [
+     "op.mon.1",
+     "op.mon.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.2",
+     "cir.3.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.10",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.17",
+   "ens": {
+    "ids": [
+     "mp.info.4",
+     "op.exp.8"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.3.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.10"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.18",
+   "ens": {
+    "ids": [
+     "op.acc.4",
+     "op.exp.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.11.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.19",
+   "ens": {
+    "ids": [
+     "op.exp.2",
+     "op.exp.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.9"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.20",
+   "ens": {
+    "ids": [
+     "mp.com.1",
+     "mp.s.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.e",
+     "cir.6.7"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.21",
+   "ens": {
+    "ids": [
+     "mp.com.1",
+     "op.ext.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.7"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.22",
+   "ens": {
+    "ids": [
+     "mp.com.4"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.8"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.23",
+   "ens": {
+    "ids": [
+     "mp.s.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.7"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.24",
+   "ens": {
+    "ids": [
+     "mp.si.2",
+     "mp.com.2",
+     "op.exp.10",
+     "mp.info.3"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "21.2.h",
+     "cir.9"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.25",
+   "ens": {
+    "ids": [
+     "mp.sw.1"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.26",
+   "ens": {
+    "ids": [
+     "mp.sw.1",
+     "mp.s.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.27",
+   "ens": {
+    "ids": [
+     "op.pl.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6",
+     "art.7"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.28",
+   "ens": {
+    "ids": [
+     "mp.sw.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.29",
+   "ens": {
+    "ids": [
+     "mp.sw.2"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.5"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.24",
+     "art.25"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.30",
+   "ens": {
+    "ids": [
+     "mp.sw.1",
+     "op.ext.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2",
+     "cir.5.1"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.28",
+     "art.30"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.31",
+   "ens": {
+    "ids": [
+     "mp.sw.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.2"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.32",
+   "ens": {
+    "ids": [
+     "op.exp.5"
+    ],
+    "coverage": "full",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.4"
+    ],
+    "coverage": "full",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.9",
+     "rts.2024/1774"
+    ],
+    "coverage": "full",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.33",
+   "ens": {
+    "ids": [
+     "mp.sw.2"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.6.5"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [],
+    "coverage": "none",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  },
+  {
+   "iso": "8.34",
+   "ens": {
+    "ids": [
+     "op.pl.1"
+    ],
+    "coverage": "partial",
+    "source": "CCN-STIC-825"
+   },
+   "nis2": {
+    "ids": [
+     "cir.2.3"
+    ],
+    "coverage": "partial",
+    "source": "ENISA-TIG-1.0"
+   },
+   "dora": {
+    "ids": [
+     "art.6"
+    ],
+    "coverage": "partial",
+    "source": "DORA-2022-2554"
+   },
+   "status": "proposed"
+  }
+ ]
+}

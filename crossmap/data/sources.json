@@ -1,0 +1,128 @@
+{
+ "sources": [
+  {
+   "id": "ISO-27002-2022",
+   "kind": "standard",
+   "title": {
+    "en": "ISO/IEC 27002:2022 - Information security controls",
+    "es": "ISO/IEC 27002:2022 - Controles de seguridad de la informacion"
+   },
+   "url": "https://www.iso.org/standard/75652.html",
+   "note": {
+    "en": "Control titles only. The standard itself is copyrighted and is not reproduced here.",
+    "es": "Solo los titulos de los controles. La norma es de pago y no se reproduce aqui."
+   },
+   "watch": true
+  },
+  {
+   "id": "RD-311-2022",
+   "kind": "legislation",
+   "title": {
+    "en": "Royal Decree 311/2022 regulating the National Security Framework (ENS), Annex II",
+    "es": "Real Decreto 311/2022 por el que se regula el Esquema Nacional de Seguridad (ENS), Anexo II"
+   },
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+   "watch": true
+  },
+  {
+   "id": "CCN-STIC-825",
+   "kind": "guidance",
+   "title": {
+    "en": "CCN-STIC 825 Independent Annex - Mapping between ISO 27001:2022 and RD 311/2022 (ENS)",
+    "es": "CCN-STIC 825 Anexo Independiente - Mapeo entre la norma ISO 27001:2022 y el RD 311/2022 (ENS)"
+   },
+   "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/7101-ccn-stic-825-anexo-independiente-mapeo-entre-la-norma-iso-27001-2022-y-el-rd-311-2022-ens",
+   "note": {
+    "en": "The reference correspondence between ISO and the ENS. Rows citing it must be confirmed against the published annex.",
+    "es": "La correspondencia de referencia entre ISO y el ENS. Las filas que lo citan deben confirmarse contra el anexo publicado."
+   },
+   "watch": true
+  },
+  {
+   "id": "DIR-2022-2555",
+   "kind": "legislation",
+   "title": {
+    "en": "Directive (EU) 2022/2555 (NIS2)",
+    "es": "Directiva (UE) 2022/2555 (NIS2)"
+   },
+   "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+   "watch": true
+  },
+  {
+   "id": "CIR-2024-2690",
+   "kind": "legislation",
+   "title": {
+    "en": "Commission Implementing Regulation (EU) 2024/2690 - technical and methodological requirements",
+    "es": "Reglamento de Ejecucion (UE) 2024/2690 - requisitos tecnicos y metodologicos"
+   },
+   "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj",
+   "note": {
+    "en": "Legally binding for digital infrastructure, ICT service management and digital provider entities. For other sectors it is the reference of choice until national law says otherwise.",
+    "es": "Vinculante para infraestructura digital, gestion de servicios TIC y proveedores digitales. Para otros sectores es la referencia de eleccion mientras la ley nacional no diga otra cosa."
+   },
+   "watch": true
+  },
+  {
+   "id": "ENISA-TIG-1.0",
+   "kind": "guidance",
+   "title": {
+    "en": "ENISA Technical Implementation Guidance on cybersecurity risk-management measures, v1.0 (June 2025)",
+    "es": "Guia tecnica de implantacion de ENISA sobre medidas de gestion de riesgos de ciberseguridad, v1.0 (junio 2025)"
+   },
+   "url": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+   "note": {
+    "en": "Non-binding. Its separate mapping table (v1.2, xlsx) is the authority for the NIS2 side of this dataset.",
+    "es": "No vinculante. Su tabla de mapeo aparte (v1.2, xlsx) es la referencia para el lado NIS2 de este conjunto de datos."
+   },
+   "watch": true
+  },
+  {
+   "id": "ENISA-TIG-MAP",
+   "kind": "guidance",
+   "title": {
+    "en": "ENISA Technical Implementation Guidance mapping table v1.2",
+    "es": "Tabla de mapeo de la guia tecnica de ENISA v1.2"
+   },
+   "url": "https://www.enisa.europa.eu/sites/default/files/2025-09/ENISA_Technical_Implementation_Guidance_Mapping_table_version_1.2.xlsx",
+   "watch": true
+  },
+  {
+   "id": "DORA-2022-2554",
+   "kind": "legislation",
+   "title": {
+    "en": "Regulation (EU) 2022/2554 (DORA)",
+    "es": "Reglamento (UE) 2022/2554 (DORA)"
+   },
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+   "note": {
+    "en": "Applies from 17 January 2025 to financial entities.",
+    "es": "Aplicable desde el 17 de enero de 2025 a las entidades financieras."
+   },
+   "watch": true
+  },
+  {
+   "id": "DORA-RTS-2024-1774",
+   "kind": "legislation",
+   "title": {
+    "en": "Delegated Regulation (EU) 2024/1774 - RTS on ICT risk management framework",
+    "es": "Reglamento Delegado (UE) 2024/1774 - NTR sobre el marco de gestion del riesgo TIC"
+   },
+   "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj",
+   "watch": true
+  },
+  {
+   "id": "ES-NIS2-BILL",
+   "kind": "legislation",
+   "title": {
+    "en": "Spain: draft Law on Coordination and Governance of Cybersecurity, transposing NIS2",
+    "es": "Espana: Anteproyecto de Ley de Coordinacion y Gobernanza de la Ciberseguridad, que transpone NIS2"
+   },
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-7191",
+   "note": {
+    "en": "Not in force at the time of writing. Watch this one: when it is published, the NIS2 side of the dataset needs revisiting.",
+    "es": "No vigente al escribir esto. Vigilar: cuando se publique, habra que revisar el lado NIS2 del conjunto de datos."
+   },
+   "watch": false
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+{
+ "framework": "DORA",
+ "items": [
+  {
+   "id": "art.5",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Governance and organisation",
+    "es": "Gobernanza y organizacion"
+   }
+  },
+  {
+   "id": "art.6",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "ICT risk management framework",
+    "es": "Marco de gestion del riesgo relacionado con las TIC"
+   }
+  },
+  {
+   "id": "art.7",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "ICT systems, protocols and tools",
+    "es": "Sistemas, protocolos y herramientas de TIC"
+   }
+  },
+  {
+   "id": "art.8",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Identification",
+    "es": "Identificacion"
+   }
+  },
+  {
+   "id": "art.9",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Protection and prevention",
+    "es": "Proteccion y prevencion"
+   }
+  },
+  {
+   "id": "art.10",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Detection",
+    "es": "Deteccion"
+   }
+  },
+  {
+   "id": "art.11",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Response and recovery",
+    "es": "Respuesta y recuperacion"
+   }
+  },
+  {
+   "id": "art.12",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Backup policies and procedures, restoration and recovery procedures and methods",
+    "es": "Politicas y procedimientos de respaldo y procedimientos y metodos de restablecimiento y recuperacion"
+   }
+  },
+  {
+   "id": "art.13",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Learning and evolving",
+    "es": "Aprendizaje y evolucion"
+   }
+  },
+  {
+   "id": "art.14",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Communication",
+    "es": "Comunicacion"
+   }
+  },
+  {
+   "id": "art.15",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Further harmonisation of ICT risk management tools, methods, processes and policies",
+    "es": "Mayor armonizacion de las herramientas, metodos, procesos y politicas de gestion del riesgo relacionado con las TIC"
+   }
+  },
+  {
+   "id": "art.16",
+   "layer": "regulation",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "Simplified ICT risk management framework",
+    "es": "Marco simplificado de gestion del riesgo relacionado con las TIC"
+   }
+  },
+  {
+   "id": "art.17",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "ICT-related incident management process",
+    "es": "Proceso de gestion de incidentes relacionados con las TIC"
+   }
+  },
+  {
+   "id": "art.18",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Classification of ICT-related incidents and cyber threats",
+    "es": "Clasificacion de los incidentes relacionados con las TIC y las ciberamenazas"
+   }
+  },
+  {
+   "id": "art.19",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Reporting of major ICT-related incidents and voluntary notification of significant cyber threats",
+    "es": "Notificacion de los incidentes graves relacionados con las TIC y notificacion voluntaria de las ciberamenazas importantes"
+   }
+  },
+  {
+   "id": "art.20",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Harmonisation of reporting content and templates",
+    "es": "Armonizacion del contenido de la informacion y las plantillas para presentarla"
+   }
+  },
+  {
+   "id": "art.21",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Centralisation of reporting of major ICT-related incidents",
+    "es": "Centralizacion de la informacion sobre los incidentes graves relacionados con las TIC"
+   }
+  },
+  {
+   "id": "art.22",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Supervisory feedback",
+    "es": "Observaciones de las autoridades de supervision"
+   }
+  },
+  {
+   "id": "art.23",
+   "layer": "regulation",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions",
+    "es": "Incidentes operativos o de seguridad relacionados con los pagos que atanen a entidades de credito, entidades de pago, proveedores de servicios de informacion sobre cuentas y entidades de dinero electronico"
+   }
+  },
+  {
+   "id": "art.24",
+   "layer": "regulation",
+   "family": "IV",
+   "family_title": {
+    "en": "Chapter IV - Digital operational resilience testing",
+    "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+   },
+   "title": {
+    "en": "General requirements for the performance of digital operational resilience testing",
+    "es": "Requisitos generales para la realizacion de pruebas de resiliencia operativa digital"
+   }
+  },
+  {
+   "id": "art.25",
+   "layer": "regulation",
+   "family": "IV",
+   "family_title": {
+    "en": "Chapter IV - Digital operational resilience testing",
+    "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+   },
+   "title": {
+    "en": "Testing of ICT tools and systems",
+    "es": "Pruebas de las herramientas y los sistemas de TIC"
+   }
+  },
+  {
+   "id": "art.26",
+   "layer": "regulation",
+   "family": "IV",
+   "family_title": {
+    "en": "Chapter IV - Digital operational resilience testing",
+    "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+   },
+   "title": {
+    "en": "Advanced testing of ICT tools, systems and processes based on TLPT",
+    "es": "Pruebas avanzadas de las herramientas, los sistemas y los procesos de TIC basadas en pruebas de penetracion basadas en amenazas"
+   }
+  },
+  {
+   "id": "art.27",
+   "layer": "regulation",
+   "family": "IV",
+   "family_title": {
+    "en": "Chapter IV - Digital operational resilience testing",
+    "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+   },
+   "title": {
+    "en": "Requirements for testers for the carrying out of TLPT",
+    "es": "Requisitos aplicables a los probadores para la realizacion de pruebas de penetracion basadas en amenazas"
+   }
+  },
+  {
+   "id": "art.28",
+   "layer": "regulation",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "General principles",
+    "es": "Principios generales"
+   }
+  },
+  {
+   "id": "art.29",
+   "layer": "regulation",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "Preliminary assessment of ICT concentration risk at entity level",
+    "es": "Evaluacion preliminar del riesgo de concentracion de TIC a nivel de la entidad"
+   }
+  },
+  {
+   "id": "art.30",
+   "layer": "regulation",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "Key contractual provisions",
+    "es": "Clausulas contractuales fundamentales"
+   }
+  },
+  {
+   "id": "art.45",
+   "layer": "regulation",
+   "family": "VI",
+   "family_title": {
+    "en": "Chapter VI - Information-sharing arrangements",
+    "es": "Capitulo VI - Acuerdos de intercambio de informacion"
+   },
+   "title": {
+    "en": "Information-sharing arrangements on cyber threat information and intelligence",
+    "es": "Acuerdos de intercambio de informacion en relacion con informacion e inteligencia sobre ciberamenazas"
+   }
+  },
+  {
+   "id": "rts.2024/1774",
+   "layer": "technical_standard",
+   "family": "II",
+   "family_title": {
+    "en": "Chapter II - ICT risk management",
+    "es": "Capitulo II - Gestion del riesgo relacionado con las TIC"
+   },
+   "title": {
+    "en": "RTS on ICT risk management tools, methods, processes and policies and on the simplified framework (Delegated Regulation (EU) 2024/1774, OJ 25.6.2024)",
+    "es": "NTR sobre herramientas, metodos, procesos y politicas de gestion del riesgo TIC y sobre el marco simplificado (Reglamento Delegado (UE) 2024/1774, DOUE 25.6.2024)"
+   }
+  },
+  {
+   "id": "rts.2024/1773",
+   "layer": "technical_standard",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "RTS on the policy on contractual arrangements for ICT services supporting critical or important functions (Delegated Regulation (EU) 2024/1773, OJ 25.6.2024)",
+    "es": "NTR sobre la politica relativa a los acuerdos contractuales de servicios TIC que sustentan funciones esenciales o importantes (Reglamento Delegado (UE) 2024/1773, DOUE 25.6.2024)"
+   }
+  },
+  {
+   "id": "its.2024/2956",
+   "layer": "technical_standard",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "ITS on the standard templates for the register of information (Implementing Regulation (EU) 2024/2956, OJ 2.12.2024)",
+    "es": "NTE sobre las plantillas normalizadas para el registro de informacion (Reglamento de Ejecucion (UE) 2024/2956, DOUE 2.12.2024)"
+   }
+  },
+  {
+   "id": "rts.2025/532",
+   "layer": "technical_standard",
+   "family": "V",
+   "family_title": {
+    "en": "Chapter V - Managing of ICT third-party risk",
+    "es": "Capitulo V - Gestion del riesgo relacionado con las TIC derivado de terceros"
+   },
+   "title": {
+    "en": "RTS on subcontracting of ICT services supporting critical or important functions (Delegated Regulation (EU) 2025/532, OJ 2.7.2025)",
+    "es": "NTR sobre la subcontratacion de servicios TIC que sustentan funciones esenciales o importantes (Reglamento Delegado (UE) 2025/532, DOUE 2.7.2025)"
+   }
+  },
+  {
+   "id": "rts.2024/1772",
+   "layer": "technical_standard",
+   "family": "III",
+   "family_title": {
+    "en": "Chapter III - ICT-related incident management, classification and reporting",
+    "es": "Capitulo III - Gestion, clasificacion y notificacion de incidentes relacionados con las TIC"
+   },
+   "title": {
+    "en": "RTS on the classification of major ICT-related incidents (Delegated Regulation (EU) 2024/1772, OJ 25.6.2024)",
+    "es": "NTR sobre la clasificacion de los incidentes graves relacionados con las TIC (Reglamento Delegado (UE) 2024/1772, DOUE 25.6.2024)"
+   }
+  },
+  {
+   "id": "rts.2025/1190",
+   "layer": "technical_standard",
+   "family": "IV",
+   "family_title": {
+    "en": "Chapter IV - Digital operational resilience testing",
+    "es": "Capitulo IV - Pruebas de resiliencia operativa digital"
+   },
+   "title": {
+    "en": "RTS on threat-led penetration testing (Delegated Regulation (EU) 2025/1190, OJ 18.6.2025)",
+    "es": "NTR sobre las pruebas de penetracion basadas en amenazas (Reglamento Delegado (UE) 2025/1190, DOUE 18.6.2025)"
+   }
+  }
+ ]
+}

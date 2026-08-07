@@ -1,0 +1,68 @@
+{
+ "frameworks": [
+  {
+   "id": "ISO",
+   "name": {
+    "en": "ISO/IEC 27001:2022 / 27002:2022",
+    "es": "ISO/IEC 27001:2022 / 27002:2022"
+   },
+   "kind": {
+    "en": "Voluntary standard, certifiable",
+    "es": "Norma voluntaria, certificable"
+   },
+   "scope": {
+    "en": "Any organisation",
+    "es": "Cualquier organizacion"
+   },
+   "source": "ISO-27002-2022"
+  },
+  {
+   "id": "ENS",
+   "name": {
+    "en": "National Security Framework (RD 311/2022)",
+    "es": "Esquema Nacional de Seguridad (RD 311/2022)"
+   },
+   "kind": {
+    "en": "Spanish law, certifiable",
+    "es": "Norma espanola, certificable"
+   },
+   "scope": {
+    "en": "Spanish public sector and its suppliers",
+    "es": "Sector publico espanol y sus proveedores"
+   },
+   "source": "RD-311-2022"
+  },
+  {
+   "id": "NIS2",
+   "name": {
+    "en": "Directive (EU) 2022/2555 (NIS2)",
+    "es": "Directiva (UE) 2022/2555 (NIS2)"
+   },
+   "kind": {
+    "en": "EU directive, transposed nationally",
+    "es": "Directiva europea, de transposicion nacional"
+   },
+   "scope": {
+    "en": "Essential and important entities in the listed sectors",
+    "es": "Entidades esenciales e importantes de los sectores listados"
+   },
+   "source": "DIR-2022-2555"
+  },
+  {
+   "id": "DORA",
+   "name": {
+    "en": "Regulation (EU) 2022/2554 (DORA)",
+    "es": "Reglamento (UE) 2022/2554 (DORA)"
+   },
+   "kind": {
+    "en": "EU regulation, directly applicable",
+    "es": "Reglamento europeo, de aplicacion directa"
+   },
+   "scope": {
+    "en": "Financial entities and their critical ICT providers",
+    "es": "Entidades financieras y sus proveedores TIC esenciales"
+   },
+   "source": "DORA-2022-2554"
+  }
+ ]
+}

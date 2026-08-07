@@ -1,0 +1,881 @@
+{
+ "framework": "ENS",
+ "items": [
+  {
+   "id": "org.1",
+   "family": "org",
+   "family_title": {
+    "en": "Organisational framework",
+    "es": "Marco organizativo"
+   },
+   "title": {
+    "en": "Security policy",
+    "es": "Politica de seguridad"
+   }
+  },
+  {
+   "id": "org.2",
+   "family": "org",
+   "family_title": {
+    "en": "Organisational framework",
+    "es": "Marco organizativo"
+   },
+   "title": {
+    "en": "Security regulations",
+    "es": "Normativa de seguridad"
+   }
+  },
+  {
+   "id": "org.3",
+   "family": "org",
+   "family_title": {
+    "en": "Organisational framework",
+    "es": "Marco organizativo"
+   },
+   "title": {
+    "en": "Security procedures",
+    "es": "Procedimientos de seguridad"
+   }
+  },
+  {
+   "id": "org.4",
+   "family": "org",
+   "family_title": {
+    "en": "Organisational framework",
+    "es": "Marco organizativo"
+   },
+   "title": {
+    "en": "Authorisation process",
+    "es": "Proceso de autorizacion"
+   }
+  },
+  {
+   "id": "op.pl.1",
+   "family": "op.pl",
+   "family_title": {
+    "en": "Operational / Planning",
+    "es": "Operacional / Planificacion"
+   },
+   "title": {
+    "en": "Risk analysis",
+    "es": "Analisis de riesgos"
+   }
+  },
+  {
+   "id": "op.pl.2",
+   "family": "op.pl",
+   "family_title": {
+    "en": "Operational / Planning",
+    "es": "Operacional / Planificacion"
+   },
+   "title": {
+    "en": "Security architecture",
+    "es": "Arquitectura de seguridad"
+   }
+  },
+  {
+   "id": "op.pl.3",
+   "family": "op.pl",
+   "family_title": {
+    "en": "Operational / Planning",
+    "es": "Operacional / Planificacion"
+   },
+   "title": {
+    "en": "Acquisition of new components",
+    "es": "Adquisicion de nuevos componentes"
+   }
+  },
+  {
+   "id": "op.pl.4",
+   "family": "op.pl",
+   "family_title": {
+    "en": "Operational / Planning",
+    "es": "Operacional / Planificacion"
+   },
+   "title": {
+    "en": "Capacity sizing and management",
+    "es": "Dimensionamiento/gestion de la capacidad"
+   }
+  },
+  {
+   "id": "op.pl.5",
+   "family": "op.pl",
+   "family_title": {
+    "en": "Operational / Planning",
+    "es": "Operacional / Planificacion"
+   },
+   "title": {
+    "en": "Certified components",
+    "es": "Componentes certificados"
+   }
+  },
+  {
+   "id": "op.acc.1",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Identification",
+    "es": "Identificacion"
+   }
+  },
+  {
+   "id": "op.acc.2",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Access requirements",
+    "es": "Requisitos de acceso"
+   }
+  },
+  {
+   "id": "op.acc.3",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Segregation of duties and tasks",
+    "es": "Segregacion de funciones y tareas"
+   }
+  },
+  {
+   "id": "op.acc.4",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Access rights management process",
+    "es": "Proceso de gestion de derechos de acceso"
+   }
+  },
+  {
+   "id": "op.acc.5",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Authentication mechanism (external users)",
+    "es": "Mecanismo de autenticacion (usuarios externos)"
+   }
+  },
+  {
+   "id": "op.acc.6",
+   "family": "op.acc",
+   "family_title": {
+    "en": "Operational / Access control",
+    "es": "Operacional / Control de acceso"
+   },
+   "title": {
+    "en": "Authentication mechanism (organisation users)",
+    "es": "Mecanismo de autenticacion (usuarios de la organizacion)"
+   }
+  },
+  {
+   "id": "op.exp.1",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Asset inventory",
+    "es": "Inventario de activos"
+   }
+  },
+  {
+   "id": "op.exp.2",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Security configuration",
+    "es": "Configuracion de seguridad"
+   }
+  },
+  {
+   "id": "op.exp.3",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Security configuration management",
+    "es": "Gestion de la configuracion de seguridad"
+   }
+  },
+  {
+   "id": "op.exp.4",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Maintenance and security updates",
+    "es": "Mantenimiento y actualizaciones de seguridad"
+   }
+  },
+  {
+   "id": "op.exp.5",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Change management",
+    "es": "Gestion de cambios"
+   }
+  },
+  {
+   "id": "op.exp.6",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Protection against malicious code",
+    "es": "Proteccion frente a codigo danino"
+   }
+  },
+  {
+   "id": "op.exp.7",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Incident management",
+    "es": "Gestion de incidentes"
+   }
+  },
+  {
+   "id": "op.exp.8",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Activity logging",
+    "es": "Registro de la actividad"
+   }
+  },
+  {
+   "id": "op.exp.9",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Incident management logging",
+    "es": "Registro de la gestion de incidentes"
+   }
+  },
+  {
+   "id": "op.exp.10",
+   "family": "op.exp",
+   "family_title": {
+    "en": "Operational / Exploitation",
+    "es": "Operacional / Explotacion"
+   },
+   "title": {
+    "en": "Protection of cryptographic keys",
+    "es": "Proteccion de claves criptograficas"
+   }
+  },
+  {
+   "id": "op.ext.1",
+   "family": "op.ext",
+   "family_title": {
+    "en": "Operational / External services",
+    "es": "Operacional / Servicios externos"
+   },
+   "title": {
+    "en": "Contracting and service level agreements",
+    "es": "Contratacion y acuerdos de nivel de servicio"
+   }
+  },
+  {
+   "id": "op.ext.2",
+   "family": "op.ext",
+   "family_title": {
+    "en": "Operational / External services",
+    "es": "Operacional / Servicios externos"
+   },
+   "title": {
+    "en": "Day-to-day management",
+    "es": "Gestion diaria"
+   }
+  },
+  {
+   "id": "op.ext.3",
+   "family": "op.ext",
+   "family_title": {
+    "en": "Operational / External services",
+    "es": "Operacional / Servicios externos"
+   },
+   "title": {
+    "en": "Supply chain protection",
+    "es": "Proteccion de la cadena de suministro"
+   }
+  },
+  {
+   "id": "op.ext.4",
+   "family": "op.ext",
+   "family_title": {
+    "en": "Operational / External services",
+    "es": "Operacional / Servicios externos"
+   },
+   "title": {
+    "en": "System interconnection",
+    "es": "Interconexion de sistemas"
+   }
+  },
+  {
+   "id": "op.nub.1",
+   "family": "op.nub",
+   "family_title": {
+    "en": "Operational / Cloud services",
+    "es": "Operacional / Servicios en la nube"
+   },
+   "title": {
+    "en": "Protection of cloud services",
+    "es": "Proteccion de servicios en la nube"
+   }
+  },
+  {
+   "id": "op.cont.1",
+   "family": "op.cont",
+   "family_title": {
+    "en": "Operational / Continuity",
+    "es": "Operacional / Continuidad del servicio"
+   },
+   "title": {
+    "en": "Impact analysis",
+    "es": "Analisis de impacto"
+   }
+  },
+  {
+   "id": "op.cont.2",
+   "family": "op.cont",
+   "family_title": {
+    "en": "Operational / Continuity",
+    "es": "Operacional / Continuidad del servicio"
+   },
+   "title": {
+    "en": "Continuity plan",
+    "es": "Plan de continuidad"
+   }
+  },
+  {
+   "id": "op.cont.3",
+   "family": "op.cont",
+   "family_title": {
+    "en": "Operational / Continuity",
+    "es": "Operacional / Continuidad del servicio"
+   },
+   "title": {
+    "en": "Periodic testing",
+    "es": "Pruebas periodicas"
+   }
+  },
+  {
+   "id": "op.cont.4",
+   "family": "op.cont",
+   "family_title": {
+    "en": "Operational / Continuity",
+    "es": "Operacional / Continuidad del servicio"
+   },
+   "title": {
+    "en": "Alternative means",
+    "es": "Medios alternativos"
+   }
+  },
+  {
+   "id": "op.mon.1",
+   "family": "op.mon",
+   "family_title": {
+    "en": "Operational / Monitoring",
+    "es": "Operacional / Monitorizacion del sistema"
+   },
+   "title": {
+    "en": "Intrusion detection",
+    "es": "Deteccion de intrusion"
+   }
+  },
+  {
+   "id": "op.mon.2",
+   "family": "op.mon",
+   "family_title": {
+    "en": "Operational / Monitoring",
+    "es": "Operacional / Monitorizacion del sistema"
+   },
+   "title": {
+    "en": "Metrics system",
+    "es": "Sistema de metricas"
+   }
+  },
+  {
+   "id": "op.mon.3",
+   "family": "op.mon",
+   "family_title": {
+    "en": "Operational / Monitoring",
+    "es": "Operacional / Monitorizacion del sistema"
+   },
+   "title": {
+    "en": "Surveillance",
+    "es": "Vigilancia"
+   }
+  },
+  {
+   "id": "mp.if.1",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Separate areas with access control",
+    "es": "Areas separadas y con control de acceso"
+   }
+  },
+  {
+   "id": "mp.if.2",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Identification of persons",
+    "es": "Identificacion de las personas"
+   }
+  },
+  {
+   "id": "mp.if.3",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Fitting out of premises",
+    "es": "Acondicionamiento de los locales"
+   }
+  },
+  {
+   "id": "mp.if.4",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Electrical power",
+    "es": "Energia electrica"
+   }
+  },
+  {
+   "id": "mp.if.5",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Fire protection",
+    "es": "Proteccion frente a incendios"
+   }
+  },
+  {
+   "id": "mp.if.6",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Flood protection",
+    "es": "Proteccion frente a inundaciones"
+   }
+  },
+  {
+   "id": "mp.if.7",
+   "family": "mp.if",
+   "family_title": {
+    "en": "Protection / Facilities",
+    "es": "Proteccion / Instalaciones e infraestructuras"
+   },
+   "title": {
+    "en": "Equipment entry and exit register",
+    "es": "Registro de entrada y salida de equipamiento"
+   }
+  },
+  {
+   "id": "mp.per.1",
+   "family": "mp.per",
+   "family_title": {
+    "en": "Protection / Personnel",
+    "es": "Proteccion / Gestion del personal"
+   },
+   "title": {
+    "en": "Job characterisation",
+    "es": "Caracterizacion del puesto de trabajo"
+   }
+  },
+  {
+   "id": "mp.per.2",
+   "family": "mp.per",
+   "family_title": {
+    "en": "Protection / Personnel",
+    "es": "Proteccion / Gestion del personal"
+   },
+   "title": {
+    "en": "Duties and obligations",
+    "es": "Deberes y obligaciones"
+   }
+  },
+  {
+   "id": "mp.per.3",
+   "family": "mp.per",
+   "family_title": {
+    "en": "Protection / Personnel",
+    "es": "Proteccion / Gestion del personal"
+   },
+   "title": {
+    "en": "Awareness",
+    "es": "Concienciacion"
+   }
+  },
+  {
+   "id": "mp.per.4",
+   "family": "mp.per",
+   "family_title": {
+    "en": "Protection / Personnel",
+    "es": "Proteccion / Gestion del personal"
+   },
+   "title": {
+    "en": "Training",
+    "es": "Formacion"
+   }
+  },
+  {
+   "id": "mp.eq.1",
+   "family": "mp.eq",
+   "family_title": {
+    "en": "Protection / Equipment",
+    "es": "Proteccion / Equipos"
+   },
+   "title": {
+    "en": "Clear desk",
+    "es": "Puesto de trabajo despejado"
+   }
+  },
+  {
+   "id": "mp.eq.2",
+   "family": "mp.eq",
+   "family_title": {
+    "en": "Protection / Equipment",
+    "es": "Proteccion / Equipos"
+   },
+   "title": {
+    "en": "Workstation lock",
+    "es": "Bloqueo de puesto de trabajo"
+   }
+  },
+  {
+   "id": "mp.eq.3",
+   "family": "mp.eq",
+   "family_title": {
+    "en": "Protection / Equipment",
+    "es": "Proteccion / Equipos"
+   },
+   "title": {
+    "en": "Protection of portable devices",
+    "es": "Proteccion de dispositivos portatiles"
+   }
+  },
+  {
+   "id": "mp.eq.4",
+   "family": "mp.eq",
+   "family_title": {
+    "en": "Protection / Equipment",
+    "es": "Proteccion / Equipos"
+   },
+   "title": {
+    "en": "Other devices connected to the network",
+    "es": "Otros dispositivos conectados a la red"
+   }
+  },
+  {
+   "id": "mp.com.1",
+   "family": "mp.com",
+   "family_title": {
+    "en": "Protection / Communications",
+    "es": "Proteccion / Comunicaciones"
+   },
+   "title": {
+    "en": "Secure perimeter",
+    "es": "Perimetro seguro"
+   }
+  },
+  {
+   "id": "mp.com.2",
+   "family": "mp.com",
+   "family_title": {
+    "en": "Protection / Communications",
+    "es": "Proteccion / Comunicaciones"
+   },
+   "title": {
+    "en": "Protection of confidentiality",
+    "es": "Proteccion de la confidencialidad"
+   }
+  },
+  {
+   "id": "mp.com.3",
+   "family": "mp.com",
+   "family_title": {
+    "en": "Protection / Communications",
+    "es": "Proteccion / Comunicaciones"
+   },
+   "title": {
+    "en": "Protection of integrity and authenticity",
+    "es": "Proteccion de la integridad y de la autenticidad"
+   }
+  },
+  {
+   "id": "mp.com.4",
+   "family": "mp.com",
+   "family_title": {
+    "en": "Protection / Communications",
+    "es": "Proteccion / Comunicaciones"
+   },
+   "title": {
+    "en": "Separation of information flows in the network",
+    "es": "Separacion de flujos de informacion en la red"
+   }
+  },
+  {
+   "id": "mp.si.1",
+   "family": "mp.si",
+   "family_title": {
+    "en": "Protection / Information media",
+    "es": "Proteccion / Soportes de informacion"
+   },
+   "title": {
+    "en": "Media marking",
+    "es": "Marcado de soportes"
+   }
+  },
+  {
+   "id": "mp.si.2",
+   "family": "mp.si",
+   "family_title": {
+    "en": "Protection / Information media",
+    "es": "Proteccion / Soportes de informacion"
+   },
+   "title": {
+    "en": "Cryptography",
+    "es": "Criptografia"
+   }
+  },
+  {
+   "id": "mp.si.3",
+   "family": "mp.si",
+   "family_title": {
+    "en": "Protection / Information media",
+    "es": "Proteccion / Soportes de informacion"
+   },
+   "title": {
+    "en": "Custody",
+    "es": "Custodia"
+   }
+  },
+  {
+   "id": "mp.si.4",
+   "family": "mp.si",
+   "family_title": {
+    "en": "Protection / Information media",
+    "es": "Proteccion / Soportes de informacion"
+   },
+   "title": {
+    "en": "Transport",
+    "es": "Transporte"
+   }
+  },
+  {
+   "id": "mp.si.5",
+   "family": "mp.si",
+   "family_title": {
+    "en": "Protection / Information media",
+    "es": "Proteccion / Soportes de informacion"
+   },
+   "title": {
+    "en": "Erasure and destruction",
+    "es": "Borrado y destruccion"
+   }
+  },
+  {
+   "id": "mp.sw.1",
+   "family": "mp.sw",
+   "family_title": {
+    "en": "Protection / Applications",
+    "es": "Proteccion / Aplicaciones informaticas"
+   },
+   "title": {
+    "en": "Application development",
+    "es": "Desarrollo de aplicaciones"
+   }
+  },
+  {
+   "id": "mp.sw.2",
+   "family": "mp.sw",
+   "family_title": {
+    "en": "Protection / Applications",
+    "es": "Proteccion / Aplicaciones informaticas"
+   },
+   "title": {
+    "en": "Acceptance and commissioning",
+    "es": "Aceptacion y puesta en servicio"
+   }
+  },
+  {
+   "id": "mp.info.1",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Personal data",
+    "es": "Datos personales"
+   }
+  },
+  {
+   "id": "mp.info.2",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Information classification",
+    "es": "Calificacion de la informacion"
+   }
+  },
+  {
+   "id": "mp.info.3",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Electronic signature",
+    "es": "Firma electronica"
+   }
+  },
+  {
+   "id": "mp.info.4",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Time stamps",
+    "es": "Sellos de tiempo"
+   }
+  },
+  {
+   "id": "mp.info.5",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Cleaning of published documents",
+    "es": "Limpieza de documentos"
+   }
+  },
+  {
+   "id": "mp.info.6",
+   "family": "mp.info",
+   "family_title": {
+    "en": "Protection / Information",
+    "es": "Proteccion / Informacion"
+   },
+   "title": {
+    "en": "Backups",
+    "es": "Copias de seguridad"
+   }
+  },
+  {
+   "id": "mp.s.1",
+   "family": "mp.s",
+   "family_title": {
+    "en": "Protection / Services",
+    "es": "Proteccion / Servicios"
+   },
+   "title": {
+    "en": "Email protection",
+    "es": "Proteccion del correo electronico"
+   }
+  },
+  {
+   "id": "mp.s.2",
+   "family": "mp.s",
+   "family_title": {
+    "en": "Protection / Services",
+    "es": "Proteccion / Servicios"
+   },
+   "title": {
+    "en": "Protection of web services and applications",
+    "es": "Proteccion de servicios y aplicaciones web"
+   }
+  },
+  {
+   "id": "mp.s.3",
+   "family": "mp.s",
+   "family_title": {
+    "en": "Protection / Services",
+    "es": "Proteccion / Servicios"
+   },
+   "title": {
+    "en": "Web browsing protection",
+    "es": "Proteccion de la navegacion web"
+   }
+  },
+  {
+   "id": "mp.s.4",
+   "family": "mp.s",
+   "family_title": {
+    "en": "Protection / Services",
+    "es": "Proteccion / Servicios"
+   },
+   "title": {
+    "en": "Denial of service protection",
+    "es": "Proteccion frente a denegacion de servicio"
+   }
+  }
+ ]
+}

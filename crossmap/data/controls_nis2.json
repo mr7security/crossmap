@@ -1,0 +1,811 @@
+{
+ "framework": "NIS2",
+ "items": [
+  {
+   "id": "21.2.a",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Policies on risk analysis and information system security",
+    "es": "Politicas de analisis de riesgos y de seguridad de los sistemas de informacion"
+   }
+  },
+  {
+   "id": "21.2.b",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   }
+  },
+  {
+   "id": "21.2.c",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Business continuity, such as backup management and disaster recovery, and crisis management",
+    "es": "Continuidad de la actividad, como la gestion de copias de seguridad y la recuperacion en caso de catastrofe, y gestion de crisis"
+   }
+  },
+  {
+   "id": "21.2.d",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Supply chain security, including security-related aspects concerning the relationships between each entity and its direct suppliers or service providers",
+    "es": "Seguridad de la cadena de suministro, incluidos los aspectos de seguridad relativos a las relaciones entre cada entidad y sus proveedores directos o prestadores de servicios"
+   }
+  },
+  {
+   "id": "21.2.e",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure",
+    "es": "Seguridad en la adquisicion, el desarrollo y el mantenimiento de sistemas de redes y de informacion, incluida la gestion y divulgacion de las vulnerabilidades"
+   }
+  },
+  {
+   "id": "21.2.f",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Policies and procedures to assess the effectiveness of cybersecurity risk-management measures",
+    "es": "Politicas y procedimientos para evaluar la eficacia de las medidas para la gestion de riesgos de ciberseguridad"
+   }
+  },
+  {
+   "id": "21.2.g",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Basic cyber hygiene practices and cybersecurity training",
+    "es": "Practicas basicas de ciberhigiene y formacion en ciberseguridad"
+   }
+  },
+  {
+   "id": "21.2.h",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Policies and procedures regarding the use of cryptography and, where appropriate, encryption",
+    "es": "Politicas y procedimientos relativos a la utilizacion de criptografia y, en su caso, de cifrado"
+   }
+  },
+  {
+   "id": "21.2.i",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Human resources security, access control policies and asset management",
+    "es": "Seguridad de los recursos humanos, politicas de control de acceso y gestion de activos"
+   }
+  },
+  {
+   "id": "21.2.j",
+   "layer": "directive",
+   "family": "art21",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, Article 21(2)",
+    "es": "Directiva (UE) 2022/2555, articulo 21.2"
+   },
+   "title": {
+    "en": "Use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communication systems",
+    "es": "Utilizacion de soluciones de autenticacion multifactorial o de autenticacion continua, comunicaciones de voz, video y texto protegidas y sistemas de comunicaciones de emergencia protegidos"
+   }
+  },
+  {
+   "id": "art.20",
+   "layer": "directive",
+   "family": "articles",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, other obligations",
+    "es": "Directiva (UE) 2022/2555, otras obligaciones"
+   },
+   "title": {
+    "en": "Governance: management bodies approve the risk-management measures, oversee their implementation and follow cybersecurity training",
+    "es": "Gobernanza: los organos de direccion aprueban las medidas de gestion de riesgos, supervisan su aplicacion y siguen formacion en ciberseguridad"
+   }
+  },
+  {
+   "id": "art.23",
+   "layer": "directive",
+   "family": "articles",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, other obligations",
+    "es": "Directiva (UE) 2022/2555, otras obligaciones"
+   },
+   "title": {
+    "en": "Reporting obligations: early warning within 24 hours, incident notification within 72 hours and final report within one month",
+    "es": "Obligaciones de notificacion: alerta temprana en 24 horas, notificacion del incidente en 72 horas e informe final en un mes"
+   }
+  },
+  {
+   "id": "art.29",
+   "layer": "directive",
+   "family": "articles",
+   "family_title": {
+    "en": "Directive (EU) 2022/2555, other obligations",
+    "es": "Directiva (UE) 2022/2555, otras obligaciones"
+   },
+   "title": {
+    "en": "Cybersecurity information-sharing arrangements between entities",
+    "es": "Acuerdos de intercambio de informacion sobre ciberseguridad entre entidades"
+   }
+  },
+  {
+   "id": "cir.1.1",
+   "layer": "implementing_regulation",
+   "family": "1",
+   "family_title": {
+    "en": "Policy on the security of network and information systems",
+    "es": "Politica de seguridad de las redes y sistemas de informacion"
+   },
+   "title": {
+    "en": "Policy on the security of network and information systems",
+    "es": "Politica de seguridad de las redes y sistemas de informacion"
+   }
+  },
+  {
+   "id": "cir.1.2",
+   "layer": "implementing_regulation",
+   "family": "1",
+   "family_title": {
+    "en": "Policy on the security of network and information systems",
+    "es": "Politica de seguridad de las redes y sistemas de informacion"
+   },
+   "title": {
+    "en": "Roles, responsibilities and authorities",
+    "es": "Funciones, responsabilidades y autoridades"
+   }
+  },
+  {
+   "id": "cir.2.1",
+   "layer": "implementing_regulation",
+   "family": "2",
+   "family_title": {
+    "en": "Risk management policy",
+    "es": "Politica de gestion de riesgos"
+   },
+   "title": {
+    "en": "Risk management framework",
+    "es": "Marco de gestion de riesgos"
+   }
+  },
+  {
+   "id": "cir.2.2",
+   "layer": "implementing_regulation",
+   "family": "2",
+   "family_title": {
+    "en": "Risk management policy",
+    "es": "Politica de gestion de riesgos"
+   },
+   "title": {
+    "en": "Compliance monitoring",
+    "es": "Seguimiento del cumplimiento"
+   }
+  },
+  {
+   "id": "cir.2.3",
+   "layer": "implementing_regulation",
+   "family": "2",
+   "family_title": {
+    "en": "Risk management policy",
+    "es": "Politica de gestion de riesgos"
+   },
+   "title": {
+    "en": "Independent review of information and network security",
+    "es": "Revision independiente de la seguridad de la informacion y de las redes"
+   }
+  },
+  {
+   "id": "cir.3.1",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Incident handling policy",
+    "es": "Politica de gestion de incidentes"
+   }
+  },
+  {
+   "id": "cir.3.2",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Monitoring and logging",
+    "es": "Monitorizacion y registro"
+   }
+  },
+  {
+   "id": "cir.3.3",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Event reporting",
+    "es": "Notificacion de eventos"
+   }
+  },
+  {
+   "id": "cir.3.4",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Event assessment and classification",
+    "es": "Evaluacion y clasificacion de eventos"
+   }
+  },
+  {
+   "id": "cir.3.5",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Incident response",
+    "es": "Respuesta a incidentes"
+   }
+  },
+  {
+   "id": "cir.3.6",
+   "layer": "implementing_regulation",
+   "family": "3",
+   "family_title": {
+    "en": "Incident handling",
+    "es": "Gestion de incidentes"
+   },
+   "title": {
+    "en": "Post-incident reviews",
+    "es": "Revisiones posteriores a incidentes"
+   }
+  },
+  {
+   "id": "cir.4.1",
+   "layer": "implementing_regulation",
+   "family": "4",
+   "family_title": {
+    "en": "Business continuity and crisis management",
+    "es": "Continuidad de negocio y gestion de crisis"
+   },
+   "title": {
+    "en": "Business continuity and disaster recovery plan",
+    "es": "Plan de continuidad de negocio y de recuperacion ante desastres"
+   }
+  },
+  {
+   "id": "cir.4.2",
+   "layer": "implementing_regulation",
+   "family": "4",
+   "family_title": {
+    "en": "Business continuity and crisis management",
+    "es": "Continuidad de negocio y gestion de crisis"
+   },
+   "title": {
+    "en": "Backup and redundancy management",
+    "es": "Gestion de copias de seguridad y redundancia"
+   }
+  },
+  {
+   "id": "cir.4.3",
+   "layer": "implementing_regulation",
+   "family": "4",
+   "family_title": {
+    "en": "Business continuity and crisis management",
+    "es": "Continuidad de negocio y gestion de crisis"
+   },
+   "title": {
+    "en": "Crisis management",
+    "es": "Gestion de crisis"
+   }
+  },
+  {
+   "id": "cir.5.1",
+   "layer": "implementing_regulation",
+   "family": "5",
+   "family_title": {
+    "en": "Supply chain security",
+    "es": "Seguridad de la cadena de suministro"
+   },
+   "title": {
+    "en": "Supply chain security policy",
+    "es": "Politica de seguridad de la cadena de suministro"
+   }
+  },
+  {
+   "id": "cir.5.2",
+   "layer": "implementing_regulation",
+   "family": "5",
+   "family_title": {
+    "en": "Supply chain security",
+    "es": "Seguridad de la cadena de suministro"
+   },
+   "title": {
+    "en": "Directory of suppliers and service providers",
+    "es": "Directorio de proveedores y prestadores de servicios"
+   }
+  },
+  {
+   "id": "cir.6.1",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Security in acquisition of ICT services or ICT products",
+    "es": "Seguridad en la adquisicion de servicios o productos TIC"
+   }
+  },
+  {
+   "id": "cir.6.2",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Secure development life cycle",
+    "es": "Ciclo de vida de desarrollo seguro"
+   }
+  },
+  {
+   "id": "cir.6.3",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Configuration management",
+    "es": "Gestion de la configuracion"
+   }
+  },
+  {
+   "id": "cir.6.4",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Change management, repairs and maintenance",
+    "es": "Gestion de cambios, reparaciones y mantenimiento"
+   }
+  },
+  {
+   "id": "cir.6.5",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Security testing",
+    "es": "Pruebas de seguridad"
+   }
+  },
+  {
+   "id": "cir.6.6",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Security patch management",
+    "es": "Gestion de parches de seguridad"
+   }
+  },
+  {
+   "id": "cir.6.7",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Network security",
+    "es": "Seguridad de la red"
+   }
+  },
+  {
+   "id": "cir.6.8",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Network segmentation",
+    "es": "Segmentacion de la red"
+   }
+  },
+  {
+   "id": "cir.6.9",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Protection against malicious and unauthorised software",
+    "es": "Proteccion contra software malicioso y no autorizado"
+   }
+  },
+  {
+   "id": "cir.6.10",
+   "layer": "implementing_regulation",
+   "family": "6",
+   "family_title": {
+    "en": "Security in acquisition, development and maintenance",
+    "es": "Seguridad en la adquisicion, desarrollo y mantenimiento"
+   },
+   "title": {
+    "en": "Vulnerability handling and disclosure",
+    "es": "Gestion y divulgacion de vulnerabilidades"
+   }
+  },
+  {
+   "id": "cir.7",
+   "layer": "implementing_regulation",
+   "family": "7",
+   "family_title": {
+    "en": "Assessing the effectiveness of the measures",
+    "es": "Evaluacion de la eficacia de las medidas"
+   },
+   "title": {
+    "en": "Policies and procedures to assess the effectiveness of cybersecurity risk-management measures",
+    "es": "Politicas y procedimientos para evaluar la eficacia de las medidas de gestion de riesgos de ciberseguridad"
+   }
+  },
+  {
+   "id": "cir.8.1",
+   "layer": "implementing_regulation",
+   "family": "8",
+   "family_title": {
+    "en": "Basic cyber hygiene and security training",
+    "es": "Ciberhigiene basica y formacion en seguridad"
+   },
+   "title": {
+    "en": "Awareness raising and basic cyber hygiene practices",
+    "es": "Concienciacion y practicas basicas de ciberhigiene"
+   }
+  },
+  {
+   "id": "cir.8.2",
+   "layer": "implementing_regulation",
+   "family": "8",
+   "family_title": {
+    "en": "Basic cyber hygiene and security training",
+    "es": "Ciberhigiene basica y formacion en seguridad"
+   },
+   "title": {
+    "en": "Security training",
+    "es": "Formacion en seguridad"
+   }
+  },
+  {
+   "id": "cir.9",
+   "layer": "implementing_regulation",
+   "family": "9",
+   "family_title": {
+    "en": "Cryptography",
+    "es": "Criptografia"
+   },
+   "title": {
+    "en": "Cryptography",
+    "es": "Criptografia"
+   }
+  },
+  {
+   "id": "cir.10.1",
+   "layer": "implementing_regulation",
+   "family": "10",
+   "family_title": {
+    "en": "Human resources security",
+    "es": "Seguridad de los recursos humanos"
+   },
+   "title": {
+    "en": "Human resources security",
+    "es": "Seguridad de los recursos humanos"
+   }
+  },
+  {
+   "id": "cir.10.2",
+   "layer": "implementing_regulation",
+   "family": "10",
+   "family_title": {
+    "en": "Human resources security",
+    "es": "Seguridad de los recursos humanos"
+   },
+   "title": {
+    "en": "Verification of background",
+    "es": "Verificacion de antecedentes"
+   }
+  },
+  {
+   "id": "cir.10.3",
+   "layer": "implementing_regulation",
+   "family": "10",
+   "family_title": {
+    "en": "Human resources security",
+    "es": "Seguridad de los recursos humanos"
+   },
+   "title": {
+    "en": "Termination or change of employment procedures",
+    "es": "Procedimientos de finalizacion o cambio de empleo"
+   }
+  },
+  {
+   "id": "cir.10.4",
+   "layer": "implementing_regulation",
+   "family": "10",
+   "family_title": {
+    "en": "Human resources security",
+    "es": "Seguridad de los recursos humanos"
+   },
+   "title": {
+    "en": "Disciplinary process",
+    "es": "Proceso disciplinario"
+   }
+  },
+  {
+   "id": "cir.11.1",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Access control policy",
+    "es": "Politica de control de acceso"
+   }
+  },
+  {
+   "id": "cir.11.2",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Management of access rights",
+    "es": "Gestion de los derechos de acceso"
+   }
+  },
+  {
+   "id": "cir.11.3",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Privileged accounts and system administration accounts",
+    "es": "Cuentas privilegiadas y cuentas de administracion de sistemas"
+   }
+  },
+  {
+   "id": "cir.11.4",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Administration systems",
+    "es": "Sistemas de administracion"
+   }
+  },
+  {
+   "id": "cir.11.5",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Identification",
+    "es": "Identificacion"
+   }
+  },
+  {
+   "id": "cir.11.6",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Authentication",
+    "es": "Autenticacion"
+   }
+  },
+  {
+   "id": "cir.11.7",
+   "layer": "implementing_regulation",
+   "family": "11",
+   "family_title": {
+    "en": "Access control",
+    "es": "Control de acceso"
+   },
+   "title": {
+    "en": "Multi-factor authentication",
+    "es": "Autenticacion multifactorial"
+   }
+  },
+  {
+   "id": "cir.12.1",
+   "layer": "implementing_regulation",
+   "family": "12",
+   "family_title": {
+    "en": "Asset management",
+    "es": "Gestion de activos"
+   },
+   "title": {
+    "en": "Asset classification",
+    "es": "Clasificacion de activos"
+   }
+  },
+  {
+   "id": "cir.12.2",
+   "layer": "implementing_regulation",
+   "family": "12",
+   "family_title": {
+    "en": "Asset management",
+    "es": "Gestion de activos"
+   },
+   "title": {
+    "en": "Handling of assets",
+    "es": "Manipulacion de activos"
+   }
+  },
+  {
+   "id": "cir.12.3",
+   "layer": "implementing_regulation",
+   "family": "12",
+   "family_title": {
+    "en": "Asset management",
+    "es": "Gestion de activos"
+   },
+   "title": {
+    "en": "Removable media policy",
+    "es": "Politica de soportes extraibles"
+   }
+  },
+  {
+   "id": "cir.12.4",
+   "layer": "implementing_regulation",
+   "family": "12",
+   "family_title": {
+    "en": "Asset management",
+    "es": "Gestion de activos"
+   },
+   "title": {
+    "en": "Asset inventory",
+    "es": "Inventario de activos"
+   }
+  },
+  {
+   "id": "cir.12.5",
+   "layer": "implementing_regulation",
+   "family": "12",
+   "family_title": {
+    "en": "Asset management",
+    "es": "Gestion de activos"
+   },
+   "title": {
+    "en": "Deposit, return or deletion of assets upon termination of employment",
+    "es": "Deposito, devolucion o borrado de activos al finalizar el empleo"
+   }
+  },
+  {
+   "id": "cir.13.1",
+   "layer": "implementing_regulation",
+   "family": "13",
+   "family_title": {
+    "en": "Environmental and physical security",
+    "es": "Seguridad fisica y ambiental"
+   },
+   "title": {
+    "en": "Supporting utilities",
+    "es": "Instalaciones de suministro"
+   }
+  },
+  {
+   "id": "cir.13.2",
+   "layer": "implementing_regulation",
+   "family": "13",
+   "family_title": {
+    "en": "Environmental and physical security",
+    "es": "Seguridad fisica y ambiental"
+   },
+   "title": {
+    "en": "Protection against physical and environmental threats",
+    "es": "Proteccion frente a amenazas fisicas y ambientales"
+   }
+  },
+  {
+   "id": "cir.13.3",
+   "layer": "implementing_regulation",
+   "family": "13",
+   "family_title": {
+    "en": "Environmental and physical security",
+    "es": "Seguridad fisica y ambiental"
+   },
+   "title": {
+    "en": "Perimeter and physical access control",
+    "es": "Perimetro y control de acceso fisico"
+   }
+  }
+ ]
+}
