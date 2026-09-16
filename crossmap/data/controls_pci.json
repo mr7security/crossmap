@@ -1,0 +1,761 @@
+{
+ "framework": "PCI",
+ "items": [
+  {
+   "id": "req.1.1",
+   "family": "1",
+   "family_title": {
+    "en": "Requirement 1 - Install and maintain network security controls",
+    "es": "Requisito 1 - Instalar y mantener controles de seguridad de red"
+   },
+   "title": {
+    "en": "Processes and mechanisms for installing and maintaining network security controls are defined and understood",
+    "es": "Los procesos y mecanismos para instalar y mantener controles de seguridad de red estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.1.2",
+   "family": "1",
+   "family_title": {
+    "en": "Requirement 1 - Install and maintain network security controls",
+    "es": "Requisito 1 - Instalar y mantener controles de seguridad de red"
+   },
+   "title": {
+    "en": "Network security controls (NSCs) are configured and maintained",
+    "es": "Los controles de seguridad de red (NSC) estan configurados y se mantienen"
+   }
+  },
+  {
+   "id": "req.1.3",
+   "family": "1",
+   "family_title": {
+    "en": "Requirement 1 - Install and maintain network security controls",
+    "es": "Requisito 1 - Instalar y mantener controles de seguridad de red"
+   },
+   "title": {
+    "en": "Network access to and from the cardholder data environment is restricted",
+    "es": "El acceso de red hacia y desde el entorno de datos del titular (CDE) esta restringido"
+   }
+  },
+  {
+   "id": "req.1.4",
+   "family": "1",
+   "family_title": {
+    "en": "Requirement 1 - Install and maintain network security controls",
+    "es": "Requisito 1 - Instalar y mantener controles de seguridad de red"
+   },
+   "title": {
+    "en": "Network connections between trusted and untrusted networks are controlled",
+    "es": "Las conexiones de red entre redes de confianza y no confiables estan controladas"
+   }
+  },
+  {
+   "id": "req.1.5",
+   "family": "1",
+   "family_title": {
+    "en": "Requirement 1 - Install and maintain network security controls",
+    "es": "Requisito 1 - Instalar y mantener controles de seguridad de red"
+   },
+   "title": {
+    "en": "Risks to the CDE from computing devices that connect to both untrusted networks and the CDE are mitigated",
+    "es": "Se mitigan los riesgos para el CDE derivados de dispositivos que se conectan tanto a redes no confiables como al CDE"
+   }
+  },
+  {
+   "id": "req.2.1",
+   "family": "2",
+   "family_title": {
+    "en": "Requirement 2 - Apply secure configurations to all system components",
+    "es": "Requisito 2 - Aplicar configuraciones seguras a todos los componentes del sistema"
+   },
+   "title": {
+    "en": "Processes and mechanisms for applying secure configurations to all system components are defined and understood",
+    "es": "Los procesos y mecanismos para aplicar configuraciones seguras a todos los componentes estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.2.2",
+   "family": "2",
+   "family_title": {
+    "en": "Requirement 2 - Apply secure configurations to all system components",
+    "es": "Requisito 2 - Aplicar configuraciones seguras a todos los componentes del sistema"
+   },
+   "title": {
+    "en": "System components are configured and managed securely",
+    "es": "Los componentes del sistema se configuran y gestionan de forma segura"
+   }
+  },
+  {
+   "id": "req.2.3",
+   "family": "2",
+   "family_title": {
+    "en": "Requirement 2 - Apply secure configurations to all system components",
+    "es": "Requisito 2 - Aplicar configuraciones seguras a todos los componentes del sistema"
+   },
+   "title": {
+    "en": "Wireless environments are configured and managed securely",
+    "es": "Los entornos inalambricos se configuran y gestionan de forma segura"
+   }
+  },
+  {
+   "id": "req.3.1",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Processes and mechanisms for protecting stored account data are defined and understood",
+    "es": "Los procesos y mecanismos para proteger los datos de cuenta almacenados estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.3.2",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Storage of account data is kept to a minimum",
+    "es": "El almacenamiento de datos de cuenta se reduce al minimo"
+   }
+  },
+  {
+   "id": "req.3.3",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Sensitive authentication data (SAD) is not stored after authorization",
+    "es": "Los datos sensibles de autenticacion (SAD) no se almacenan tras la autorizacion"
+   }
+  },
+  {
+   "id": "req.3.4",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Access to displays of full PAN and ability to copy PAN are restricted",
+    "es": "El acceso a la visualizacion del PAN completo y la capacidad de copiarlo estan restringidos"
+   }
+  },
+  {
+   "id": "req.3.5",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Primary account number (PAN) is secured wherever it is stored",
+    "es": "El numero de cuenta principal (PAN) esta protegido alli donde se almacena"
+   }
+  },
+  {
+   "id": "req.3.6",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Cryptographic keys used to protect stored account data are secured",
+    "es": "Las claves criptograficas usadas para proteger los datos de cuenta almacenados estan protegidas"
+   }
+  },
+  {
+   "id": "req.3.7",
+   "family": "3",
+   "family_title": {
+    "en": "Requirement 3 - Protect stored account data",
+    "es": "Requisito 3 - Proteger los datos de cuenta almacenados"
+   },
+   "title": {
+    "en": "Key management processes and procedures covering the full key lifecycle are defined and implemented",
+    "es": "Los procesos y procedimientos de gestion de claves que cubren todo su ciclo de vida estan definidos e implantados"
+   }
+  },
+  {
+   "id": "req.4.1",
+   "family": "4",
+   "family_title": {
+    "en": "Requirement 4 - Protect cardholder data with strong cryptography during transmission over open, public networks",
+    "es": "Requisito 4 - Proteger los datos del titular de la tarjeta con criptografia robusta durante su transmision por redes publicas abiertas"
+   },
+   "title": {
+    "en": "Processes and mechanisms for protecting cardholder data in transit are defined and understood",
+    "es": "Los procesos y mecanismos para proteger los datos del titular en transito estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.4.2",
+   "family": "4",
+   "family_title": {
+    "en": "Requirement 4 - Protect cardholder data with strong cryptography during transmission over open, public networks",
+    "es": "Requisito 4 - Proteger los datos del titular de la tarjeta con criptografia robusta durante su transmision por redes publicas abiertas"
+   },
+   "title": {
+    "en": "PAN is protected with strong cryptography during transmission",
+    "es": "El PAN se protege con criptografia robusta durante su transmision"
+   }
+  },
+  {
+   "id": "req.5.1",
+   "family": "5",
+   "family_title": {
+    "en": "Requirement 5 - Protect all systems and networks from malicious software",
+    "es": "Requisito 5 - Proteger todos los sistemas y redes frente al software malicioso"
+   },
+   "title": {
+    "en": "Processes and mechanisms for protecting systems and networks from malware are defined and understood",
+    "es": "Los procesos y mecanismos para proteger sistemas y redes frente al malware estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.5.2",
+   "family": "5",
+   "family_title": {
+    "en": "Requirement 5 - Protect all systems and networks from malicious software",
+    "es": "Requisito 5 - Proteger todos los sistemas y redes frente al software malicioso"
+   },
+   "title": {
+    "en": "Malicious software (malware) is prevented, or detected and addressed",
+    "es": "El software malicioso se previene, o se detecta y se trata"
+   }
+  },
+  {
+   "id": "req.5.3",
+   "family": "5",
+   "family_title": {
+    "en": "Requirement 5 - Protect all systems and networks from malicious software",
+    "es": "Requisito 5 - Proteger todos los sistemas y redes frente al software malicioso"
+   },
+   "title": {
+    "en": "Anti-malware mechanisms and processes are active, maintained, and monitored",
+    "es": "Los mecanismos y procesos antimalware estan activos, se mantienen y se supervisan"
+   }
+  },
+  {
+   "id": "req.5.4",
+   "family": "5",
+   "family_title": {
+    "en": "Requirement 5 - Protect all systems and networks from malicious software",
+    "es": "Requisito 5 - Proteger todos los sistemas y redes frente al software malicioso"
+   },
+   "title": {
+    "en": "Anti-phishing mechanisms protect users against phishing attacks",
+    "es": "Mecanismos antiphishing protegen a los usuarios frente a ataques de phishing"
+   }
+  },
+  {
+   "id": "req.6.1",
+   "family": "6",
+   "family_title": {
+    "en": "Requirement 6 - Develop and maintain secure systems and software",
+    "es": "Requisito 6 - Desarrollar y mantener sistemas y software seguros"
+   },
+   "title": {
+    "en": "Processes and mechanisms for developing and maintaining secure systems and software are defined and understood",
+    "es": "Los procesos y mecanismos para desarrollar y mantener sistemas y software seguros estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.6.2",
+   "family": "6",
+   "family_title": {
+    "en": "Requirement 6 - Develop and maintain secure systems and software",
+    "es": "Requisito 6 - Desarrollar y mantener sistemas y software seguros"
+   },
+   "title": {
+    "en": "Bespoke and custom software are developed securely",
+    "es": "El software a medida y personalizado se desarrolla de forma segura"
+   }
+  },
+  {
+   "id": "req.6.3",
+   "family": "6",
+   "family_title": {
+    "en": "Requirement 6 - Develop and maintain secure systems and software",
+    "es": "Requisito 6 - Desarrollar y mantener sistemas y software seguros"
+   },
+   "title": {
+    "en": "Security vulnerabilities are identified and addressed",
+    "es": "Las vulnerabilidades de seguridad se identifican y se tratan"
+   }
+  },
+  {
+   "id": "req.6.4",
+   "family": "6",
+   "family_title": {
+    "en": "Requirement 6 - Develop and maintain secure systems and software",
+    "es": "Requisito 6 - Desarrollar y mantener sistemas y software seguros"
+   },
+   "title": {
+    "en": "Public-facing web applications are protected against attacks",
+    "es": "Las aplicaciones web expuestas al publico estan protegidas frente a ataques"
+   }
+  },
+  {
+   "id": "req.6.5",
+   "family": "6",
+   "family_title": {
+    "en": "Requirement 6 - Develop and maintain secure systems and software",
+    "es": "Requisito 6 - Desarrollar y mantener sistemas y software seguros"
+   },
+   "title": {
+    "en": "Changes to all system components are managed securely",
+    "es": "Los cambios en todos los componentes del sistema se gestionan de forma segura"
+   }
+  },
+  {
+   "id": "req.7.1",
+   "family": "7",
+   "family_title": {
+    "en": "Requirement 7 - Restrict access to system components and cardholder data by business need to know",
+    "es": "Requisito 7 - Restringir el acceso a los componentes del sistema y a los datos del titular segun la necesidad de conocer"
+   },
+   "title": {
+    "en": "Processes and mechanisms for restricting access by business need to know are defined and understood",
+    "es": "Los procesos y mecanismos para restringir el acceso segun la necesidad de conocer estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.7.2",
+   "family": "7",
+   "family_title": {
+    "en": "Requirement 7 - Restrict access to system components and cardholder data by business need to know",
+    "es": "Requisito 7 - Restringir el acceso a los componentes del sistema y a los datos del titular segun la necesidad de conocer"
+   },
+   "title": {
+    "en": "Access to system components and data is appropriately defined and assigned",
+    "es": "El acceso a los componentes del sistema y a los datos esta definido y asignado adecuadamente"
+   }
+  },
+  {
+   "id": "req.7.3",
+   "family": "7",
+   "family_title": {
+    "en": "Requirement 7 - Restrict access to system components and cardholder data by business need to know",
+    "es": "Requisito 7 - Restringir el acceso a los componentes del sistema y a los datos del titular segun la necesidad de conocer"
+   },
+   "title": {
+    "en": "Access to system components and data is managed via an access control system(s)",
+    "es": "El acceso a los componentes del sistema y a los datos se gestiona mediante sistemas de control de acceso"
+   }
+  },
+  {
+   "id": "req.8.1",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "Processes and mechanisms for identifying users and authenticating access are defined and understood",
+    "es": "Los procesos y mecanismos para identificar usuarios y autenticar el acceso estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.8.2",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "User identification and related accounts are strictly managed throughout the account lifecycle",
+    "es": "La identificacion de usuarios y sus cuentas se gestionan estrictamente durante todo el ciclo de vida de la cuenta"
+   }
+  },
+  {
+   "id": "req.8.3",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "Strong authentication for users and administrators is established and managed",
+    "es": "Se establece y gestiona una autenticacion robusta para usuarios y administradores"
+   }
+  },
+  {
+   "id": "req.8.4",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "Multi-factor authentication (MFA) is implemented to secure access into the CDE",
+    "es": "Se implanta autenticacion multifactor (MFA) para proteger el acceso al CDE"
+   }
+  },
+  {
+   "id": "req.8.5",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "Multi-factor authentication (MFA) systems are configured to prevent misuse",
+    "es": "Los sistemas de autenticacion multifactor estan configurados para impedir su uso indebido"
+   }
+  },
+  {
+   "id": "req.8.6",
+   "family": "8",
+   "family_title": {
+    "en": "Requirement 8 - Identify users and authenticate access to system components",
+    "es": "Requisito 8 - Identificar a los usuarios y autenticar el acceso a los componentes del sistema"
+   },
+   "title": {
+    "en": "Use of application and system accounts and associated authentication factors is strictly managed",
+    "es": "El uso de cuentas de aplicacion y de sistema y de sus factores de autenticacion se gestiona estrictamente"
+   }
+  },
+  {
+   "id": "req.9.1",
+   "family": "9",
+   "family_title": {
+    "en": "Requirement 9 - Restrict physical access to cardholder data",
+    "es": "Requisito 9 - Restringir el acceso fisico a los datos del titular de la tarjeta"
+   },
+   "title": {
+    "en": "Processes and mechanisms for restricting physical access to cardholder data are defined and understood",
+    "es": "Los procesos y mecanismos para restringir el acceso fisico a los datos del titular estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.9.2",
+   "family": "9",
+   "family_title": {
+    "en": "Requirement 9 - Restrict physical access to cardholder data",
+    "es": "Requisito 9 - Restringir el acceso fisico a los datos del titular de la tarjeta"
+   },
+   "title": {
+    "en": "Physical access controls manage entry into facilities and systems containing cardholder data",
+    "es": "Controles de acceso fisico gestionan la entrada a instalaciones y sistemas que contienen datos del titular"
+   }
+  },
+  {
+   "id": "req.9.3",
+   "family": "9",
+   "family_title": {
+    "en": "Requirement 9 - Restrict physical access to cardholder data",
+    "es": "Requisito 9 - Restringir el acceso fisico a los datos del titular de la tarjeta"
+   },
+   "title": {
+    "en": "Physical access for personnel and visitors is authorized and managed",
+    "es": "El acceso fisico del personal y de los visitantes esta autorizado y gestionado"
+   }
+  },
+  {
+   "id": "req.9.4",
+   "family": "9",
+   "family_title": {
+    "en": "Requirement 9 - Restrict physical access to cardholder data",
+    "es": "Requisito 9 - Restringir el acceso fisico a los datos del titular de la tarjeta"
+   },
+   "title": {
+    "en": "Media with cardholder data is securely stored, accessed, distributed, and destroyed",
+    "es": "Los soportes con datos del titular se almacenan, consultan, distribuyen y destruyen de forma segura"
+   }
+  },
+  {
+   "id": "req.9.5",
+   "family": "9",
+   "family_title": {
+    "en": "Requirement 9 - Restrict physical access to cardholder data",
+    "es": "Requisito 9 - Restringir el acceso fisico a los datos del titular de la tarjeta"
+   },
+   "title": {
+    "en": "Point-of-interaction (POI) devices are protected from tampering and unauthorized substitution",
+    "es": "Los dispositivos de punto de interaccion (POI) estan protegidos frente a manipulacion y sustitucion no autorizada"
+   }
+  },
+  {
+   "id": "req.10.1",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Processes and mechanisms for logging and monitoring all access are defined and understood",
+    "es": "Los procesos y mecanismos para registrar y supervisar todo acceso estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.10.2",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Audit logs are implemented to support the detection of anomalies and suspicious activity, and forensic analysis",
+    "es": "Se implantan registros de auditoria que permiten detectar anomalias y actividad sospechosa y realizar analisis forense"
+   }
+  },
+  {
+   "id": "req.10.3",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Audit logs are protected from destruction and unauthorized modifications",
+    "es": "Los registros de auditoria estan protegidos frente a destruccion y modificaciones no autorizadas"
+   }
+  },
+  {
+   "id": "req.10.4",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Audit logs are reviewed to identify anomalies or suspicious activity",
+    "es": "Los registros de auditoria se revisan para identificar anomalias o actividad sospechosa"
+   }
+  },
+  {
+   "id": "req.10.5",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Audit log history is retained and available for analysis",
+    "es": "El historico de registros de auditoria se conserva y esta disponible para su analisis"
+   }
+  },
+  {
+   "id": "req.10.6",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Time-synchronization mechanisms support consistent time settings across all systems",
+    "es": "Mecanismos de sincronizacion horaria garantizan una hora coherente en todos los sistemas"
+   }
+  },
+  {
+   "id": "req.10.7",
+   "family": "10",
+   "family_title": {
+    "en": "Requirement 10 - Log and monitor all access to system components and cardholder data",
+    "es": "Requisito 10 - Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular"
+   },
+   "title": {
+    "en": "Failures of critical security control systems are detected, reported, and responded to promptly",
+    "es": "Los fallos de los sistemas de control de seguridad criticos se detectan, notifican y atienden con prontitud"
+   }
+  },
+  {
+   "id": "req.11.1",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "Processes and mechanisms for regularly testing security of systems and networks are defined and understood",
+    "es": "Los procesos y mecanismos para probar regularmente la seguridad de sistemas y redes estan definidos y se comprenden"
+   }
+  },
+  {
+   "id": "req.11.2",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "Wireless access points are identified and monitored, and unauthorized wireless access points are addressed",
+    "es": "Los puntos de acceso inalambrico se identifican y supervisan, y los no autorizados se tratan"
+   }
+  },
+  {
+   "id": "req.11.3",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "External and internal vulnerabilities are regularly identified, prioritized, and addressed",
+    "es": "Las vulnerabilidades externas e internas se identifican, priorizan y tratan regularmente"
+   }
+  },
+  {
+   "id": "req.11.4",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "External and internal penetration testing is regularly performed, and exploitable weaknesses are corrected",
+    "es": "Se realizan regularmente pruebas de penetracion externas e internas y se corrigen las debilidades explotables"
+   }
+  },
+  {
+   "id": "req.11.5",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "Network intrusions and unexpected file changes are detected and responded to",
+    "es": "Las intrusiones de red y los cambios inesperados en ficheros se detectan y se atienden"
+   }
+  },
+  {
+   "id": "req.11.6",
+   "family": "11",
+   "family_title": {
+    "en": "Requirement 11 - Test security of systems and networks regularly",
+    "es": "Requisito 11 - Probar regularmente la seguridad de los sistemas y redes"
+   },
+   "title": {
+    "en": "Unauthorized changes on payment pages are detected and responded to",
+    "es": "Los cambios no autorizados en las paginas de pago se detectan y se atienden"
+   }
+  },
+  {
+   "id": "req.12.1",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "A comprehensive information security policy that governs and provides direction for protection of information assets is known and current",
+    "es": "Una politica integral de seguridad de la informacion que gobierna y orienta la proteccion de los activos es conocida y esta actualizada"
+   }
+  },
+  {
+   "id": "req.12.2",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Acceptable use policies for end-user technologies are defined and implemented",
+    "es": "Las politicas de uso aceptable de las tecnologias de usuario final estan definidas e implantadas"
+   }
+  },
+  {
+   "id": "req.12.3",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Risks to the cardholder data environment are formally identified, evaluated, and managed",
+    "es": "Los riesgos para el entorno de datos del titular se identifican, evaluan y gestionan formalmente"
+   }
+  },
+  {
+   "id": "req.12.4",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "PCI DSS compliance is managed",
+    "es": "El cumplimiento de PCI DSS se gestiona"
+   }
+  },
+  {
+   "id": "req.12.5",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "PCI DSS scope is documented and validated",
+    "es": "El alcance de PCI DSS esta documentado y validado"
+   }
+  },
+  {
+   "id": "req.12.6",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Security awareness education is an ongoing activity",
+    "es": "La formacion en concienciacion de seguridad es una actividad continua"
+   }
+  },
+  {
+   "id": "req.12.7",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Personnel are screened to reduce risks from insider threats",
+    "es": "Se investiga al personal para reducir los riesgos de amenazas internas"
+   }
+  },
+  {
+   "id": "req.12.8",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Risk to information assets associated with third-party service provider (TPSP) relationships is managed",
+    "es": "Se gestiona el riesgo para los activos de informacion asociado a las relaciones con proveedores de servicios (TPSP)"
+   }
+  },
+  {
+   "id": "req.12.9",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Third-party service providers (TPSPs) support their customers' PCI DSS compliance",
+    "es": "Los proveedores de servicios (TPSP) respaldan el cumplimiento de PCI DSS de sus clientes"
+   }
+  },
+  {
+   "id": "req.12.10",
+   "family": "12",
+   "family_title": {
+    "en": "Requirement 12 - Support information security with organizational policies and programs",
+    "es": "Requisito 12 - Respaldar la seguridad de la informacion con politicas y programas organizativos"
+   },
+   "title": {
+    "en": "Suspected and confirmed security incidents that could impact the CDE are responded to immediately",
+    "es": "Los incidentes de seguridad sospechados y confirmados que puedan afectar al CDE se atienden de inmediato"
+   }
+  }
+ ]
+}

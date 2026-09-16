@@ -1,0 +1,408 @@
+{
+ "framework": "SOX",
+ "items": [
+  {
+   "id": "sec.302",
+   "layer": "law",
+   "family": "act",
+   "family_title": {
+    "en": "Sarbanes-Oxley Act sections",
+    "es": "Secciones de la ley Sarbanes-Oxley"
+   },
+   "title": {
+    "en": "Corporate responsibility for financial reports: officers certify the reports and the effectiveness of disclosure controls",
+    "es": "Responsabilidad corporativa sobre los informes financieros: los directivos certifican los informes y la eficacia de los controles de divulgacion"
+   }
+  },
+  {
+   "id": "sec.404",
+   "layer": "law",
+   "family": "act",
+   "family_title": {
+    "en": "Sarbanes-Oxley Act sections",
+    "es": "Secciones de la ley Sarbanes-Oxley"
+   },
+   "title": {
+    "en": "Management assessment of internal control over financial reporting and auditor attestation",
+    "es": "Evaluacion por la direccion del control interno sobre la informacion financiera y atestacion del auditor"
+   }
+  },
+  {
+   "id": "sec.409",
+   "layer": "law",
+   "family": "act",
+   "family_title": {
+    "en": "Sarbanes-Oxley Act sections",
+    "es": "Secciones de la ley Sarbanes-Oxley"
+   },
+   "title": {
+    "en": "Real-time disclosure of material changes in financial condition or operations",
+    "es": "Divulgacion en tiempo real de cambios materiales en la situacion financiera o las operaciones"
+   }
+  },
+  {
+   "id": "sec.802",
+   "layer": "law",
+   "family": "act",
+   "family_title": {
+    "en": "Sarbanes-Oxley Act sections",
+    "es": "Secciones de la ley Sarbanes-Oxley"
+   },
+   "title": {
+    "en": "Retention of audit records and criminal penalties for altering or destroying them",
+    "es": "Conservacion de los registros de auditoria y sanciones penales por alterarlos o destruirlos"
+   }
+  },
+  {
+   "id": "sec.906",
+   "layer": "law",
+   "family": "act",
+   "family_title": {
+    "en": "Sarbanes-Oxley Act sections",
+    "es": "Secciones de la ley Sarbanes-Oxley"
+   },
+   "title": {
+    "en": "Criminal certification of periodic financial reports by the CEO and CFO",
+    "es": "Certificacion penal de los informes financieros periodicos por el CEO y el CFO"
+   }
+  },
+  {
+   "id": "elc.1",
+   "layer": "itgc",
+   "family": "elc",
+   "family_title": {
+    "en": "Entity-level controls (COSO)",
+    "es": "Controles a nivel de entidad (COSO)"
+   },
+   "title": {
+    "en": "Control environment: tone at the top, IT governance and defined responsibilities over financial systems",
+    "es": "Entorno de control: tono desde la direccion, gobierno de TI y responsabilidades definidas sobre los sistemas financieros"
+   }
+  },
+  {
+   "id": "elc.2",
+   "layer": "itgc",
+   "family": "elc",
+   "family_title": {
+    "en": "Entity-level controls (COSO)",
+    "es": "Controles a nivel de entidad (COSO)"
+   },
+   "title": {
+    "en": "IT risk assessment over the systems that support financial reporting",
+    "es": "Evaluacion de riesgos de TI sobre los sistemas que soportan la informacion financiera"
+   }
+  },
+  {
+   "id": "elc.3",
+   "layer": "itgc",
+   "family": "elc",
+   "family_title": {
+    "en": "Entity-level controls (COSO)",
+    "es": "Controles a nivel de entidad (COSO)"
+   },
+   "title": {
+    "en": "Policies and procedures for information technology are documented, approved and communicated",
+    "es": "Las politicas y procedimientos de tecnologias de la informacion estan documentados, aprobados y comunicados"
+   }
+  },
+  {
+   "id": "elc.4",
+   "layer": "itgc",
+   "family": "elc",
+   "family_title": {
+    "en": "Entity-level controls (COSO)",
+    "es": "Controles a nivel de entidad (COSO)"
+   },
+   "title": {
+    "en": "Monitoring: internal audit, control self-assessment and remediation of deficiencies",
+    "es": "Supervision: auditoria interna, autoevaluacion de controles y remediacion de deficiencias"
+   }
+  },
+  {
+   "id": "elc.5",
+   "layer": "itgc",
+   "family": "elc",
+   "family_title": {
+    "en": "Entity-level controls (COSO)",
+    "es": "Controles a nivel de entidad (COSO)"
+   },
+   "title": {
+    "en": "Reliance on service organisations is supported by SOC 1 reports and complementary user controls",
+    "es": "La dependencia de organizaciones de servicios se soporta con informes SOC 1 y controles complementarios del usuario"
+   }
+  },
+  {
+   "id": "acc.1",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "User access provisioning is requested, approved and granted according to the role",
+    "es": "El alta de acceso de usuarios se solicita, aprueba y concede segun el rol"
+   }
+  },
+  {
+   "id": "acc.2",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Access is removed promptly on termination or transfer",
+    "es": "El acceso se retira con prontitud al cesar o cambiar de puesto"
+   }
+  },
+  {
+   "id": "acc.3",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Periodic review of user access rights by the business owner",
+    "es": "Revision periodica de los derechos de acceso de los usuarios por el propietario de negocio"
+   }
+  },
+  {
+   "id": "acc.4",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Privileged and administrative access is restricted, approved and monitored",
+    "es": "El acceso privilegiado y administrativo esta restringido, aprobado y supervisado"
+   }
+  },
+  {
+   "id": "acc.5",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Authentication parameters: unique identifiers, password rules and multi-factor where applicable",
+    "es": "Parametros de autenticacion: identificadores unicos, reglas de contrasena y multifactor cuando aplique"
+   }
+  },
+  {
+   "id": "acc.6",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Segregation of duties within financial applications and between IT roles",
+    "es": "Segregacion de funciones dentro de las aplicaciones financieras y entre los roles de TI"
+   }
+  },
+  {
+   "id": "acc.7",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Physical access to data centres and computer rooms is restricted",
+    "es": "El acceso fisico a los centros de datos y salas de servidores esta restringido"
+   }
+  },
+  {
+   "id": "acc.8",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Security logging and monitoring of financial systems, with review of security events",
+    "es": "Registro y supervision de seguridad de los sistemas financieros, con revision de los eventos de seguridad"
+   }
+  },
+  {
+   "id": "acc.9",
+   "layer": "itgc",
+   "family": "acc",
+   "family_title": {
+    "en": "ITGC - Access to programs and data",
+    "es": "ITGC - Acceso a programas y datos"
+   },
+   "title": {
+    "en": "Direct access to data (database, operating system) and the use of powerful utilities are restricted",
+    "es": "El acceso directo a los datos (base de datos, sistema operativo) y el uso de utilidades potentes estan restringidos"
+   }
+  },
+  {
+   "id": "chg.1",
+   "layer": "itgc",
+   "family": "chg",
+   "family_title": {
+    "en": "ITGC - Program changes",
+    "es": "ITGC - Cambios en programas"
+   },
+   "title": {
+    "en": "Changes are requested, authorised and approved before development",
+    "es": "Los cambios se solicitan, autorizan y aprueban antes de desarrollarse"
+   }
+  },
+  {
+   "id": "chg.2",
+   "layer": "itgc",
+   "family": "chg",
+   "family_title": {
+    "en": "ITGC - Program changes",
+    "es": "ITGC - Cambios en programas"
+   },
+   "title": {
+    "en": "Changes are tested and accepted by the business before release",
+    "es": "Los cambios se prueban y son aceptados por el negocio antes de su puesta en produccion"
+   }
+  },
+  {
+   "id": "chg.3",
+   "layer": "itgc",
+   "family": "chg",
+   "family_title": {
+    "en": "ITGC - Program changes",
+    "es": "ITGC - Cambios en programas"
+   },
+   "title": {
+    "en": "Segregation between development, test and production, and restricted migration to production",
+    "es": "Segregacion entre desarrollo, pruebas y produccion, y migracion a produccion restringida"
+   }
+  },
+  {
+   "id": "chg.4",
+   "layer": "itgc",
+   "family": "chg",
+   "family_title": {
+    "en": "ITGC - Program changes",
+    "es": "ITGC - Cambios en programas"
+   },
+   "title": {
+    "en": "Emergency changes are controlled and approved retrospectively",
+    "es": "Los cambios de emergencia estan controlados y se aprueban a posteriori"
+   }
+  },
+  {
+   "id": "chg.5",
+   "layer": "itgc",
+   "family": "chg",
+   "family_title": {
+    "en": "ITGC - Program changes",
+    "es": "ITGC - Cambios en programas"
+   },
+   "title": {
+    "en": "Configuration, patches and infrastructure changes follow the change process",
+    "es": "La configuracion, los parches y los cambios de infraestructura siguen el proceso de cambios"
+   }
+  },
+  {
+   "id": "dev.1",
+   "layer": "itgc",
+   "family": "dev",
+   "family_title": {
+    "en": "ITGC - Program development",
+    "es": "ITGC - Desarrollo de programas"
+   },
+   "title": {
+    "en": "A system development methodology governs new systems and major enhancements",
+    "es": "Una metodologia de desarrollo de sistemas gobierna los nuevos sistemas y las mejoras importantes"
+   }
+  },
+  {
+   "id": "dev.2",
+   "layer": "itgc",
+   "family": "dev",
+   "family_title": {
+    "en": "ITGC - Program development",
+    "es": "ITGC - Desarrollo de programas"
+   },
+   "title": {
+    "en": "Data conversion and migration are controlled and reconciled",
+    "es": "La conversion y migracion de datos estan controladas y conciliadas"
+   }
+  },
+  {
+   "id": "dev.3",
+   "layer": "itgc",
+   "family": "dev",
+   "family_title": {
+    "en": "ITGC - Program development",
+    "es": "ITGC - Desarrollo de programas"
+   },
+   "title": {
+    "en": "Implementation of a new system is approved and its controls tested before go-live",
+    "es": "La implantacion de un nuevo sistema se aprueba y sus controles se prueban antes de la puesta en marcha"
+   }
+  },
+  {
+   "id": "ops.1",
+   "layer": "itgc",
+   "family": "ops",
+   "family_title": {
+    "en": "ITGC - Computer operations",
+    "es": "ITGC - Operaciones informaticas"
+   },
+   "title": {
+    "en": "Batch jobs and interfaces are scheduled, monitored and failures resolved",
+    "es": "Los procesos por lotes y las interfaces se planifican y supervisan, y los fallos se resuelven"
+   }
+  },
+  {
+   "id": "ops.2",
+   "layer": "itgc",
+   "family": "ops",
+   "family_title": {
+    "en": "ITGC - Computer operations",
+    "es": "ITGC - Operaciones informaticas"
+   },
+   "title": {
+    "en": "Backups of financial data are taken, monitored and periodically restored",
+    "es": "Se realizan copias de seguridad de los datos financieros, se supervisan y se restauran periodicamente"
+   }
+  },
+  {
+   "id": "ops.3",
+   "layer": "itgc",
+   "family": "ops",
+   "family_title": {
+    "en": "ITGC - Computer operations",
+    "es": "ITGC - Operaciones informaticas"
+   },
+   "title": {
+    "en": "Incidents and problems affecting financial systems are recorded, resolved and escalated",
+    "es": "Los incidentes y problemas que afectan a los sistemas financieros se registran, resuelven y escalan"
+   }
+  },
+  {
+   "id": "ops.4",
+   "layer": "itgc",
+   "family": "ops",
+   "family_title": {
+    "en": "ITGC - Computer operations",
+    "es": "ITGC - Operaciones informaticas"
+   },
+   "title": {
+    "en": "Continuity and recovery of the systems that support financial reporting",
+    "es": "Continuidad y recuperacion de los sistemas que soportan la informacion financiera"
+   }
+  }
+ ]
+}

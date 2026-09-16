@@ -11,6 +11,10 @@
    "title": {
     "en": "Policies for information security",
     "es": "Politicas de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Management defines, approves, publishes and periodically reviews an information security policy and the topic-specific policies that hang from it.",
+    "es": "La direccion define, aprueba, publica y revisa periodicamente una politica de seguridad de la informacion y las politicas especificas que dependen de ella."
    }
   },
   {
@@ -23,6 +27,10 @@
    "title": {
     "en": "Information security roles and responsibilities",
     "es": "Funciones y responsabilidades en seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Every information security responsibility is assigned to a named role and communicated, so that nothing depends on goodwill.",
+    "es": "Cada responsabilidad de seguridad de la informacion se asigna a un rol concreto y se comunica, de modo que nada dependa de la buena voluntad."
    }
   },
   {
@@ -35,6 +43,10 @@
    "title": {
     "en": "Segregation of duties",
     "es": "Segregacion de tareas"
+   },
+   "summary": {
+    "en": "Conflicting duties are separated so that no single person can execute and conceal fraud or error.",
+    "es": "Las funciones en conflicto se separan para que ninguna persona pueda ejecutar y ocultar por si sola un fraude o un error."
    }
   },
   {
@@ -47,6 +59,10 @@
    "title": {
     "en": "Management responsibilities",
     "es": "Responsabilidades de la direccion"
+   },
+   "summary": {
+    "en": "Management requires and visibly supports the application of security by all personnel, in line with policy.",
+    "es": "La direccion exige y respalda de forma visible que todo el personal aplique la seguridad conforme a la politica."
    }
   },
   {
@@ -59,6 +75,10 @@
    "title": {
     "en": "Contact with authorities",
     "es": "Contacto con las autoridades"
+   },
+   "summary": {
+    "en": "The organisation knows which authorities to contact, when and how, and keeps those channels ready.",
+    "es": "La organizacion sabe con que autoridades contactar, cuando y como, y mantiene esos canales preparados."
    }
   },
   {
@@ -71,6 +91,10 @@
    "title": {
     "en": "Contact with special interest groups",
     "es": "Contacto con grupos de interes especial"
+   },
+   "summary": {
+    "en": "Contacts with professional bodies, forums and peer groups keep the organisation informed about threats and practice.",
+    "es": "Los contactos con asociaciones profesionales, foros y grupos de pares mantienen a la organizacion al dia de amenazas y practicas."
    }
   },
   {
@@ -83,6 +107,10 @@
    "title": {
     "en": "Threat intelligence",
     "es": "Inteligencia de amenazas"
+   },
+   "summary": {
+    "en": "Information about threats is collected, analysed and turned into actions that reduce risk.",
+    "es": "La informacion sobre amenazas se recopila, analiza y convierte en acciones que reducen el riesgo."
    }
   },
   {
@@ -95,6 +123,10 @@
    "title": {
     "en": "Information security in project management",
     "es": "Seguridad de la informacion en la gestion de proyectos"
+   },
+   "summary": {
+    "en": "Security is built into every project, whatever its nature, from initiation to closure.",
+    "es": "La seguridad se integra en todo proyecto, sea del tipo que sea, desde su inicio hasta su cierre."
    }
   },
   {
@@ -107,6 +139,10 @@
    "title": {
     "en": "Inventory of information and other associated assets",
     "es": "Inventario de informacion y otros activos asociados"
+   },
+   "summary": {
+    "en": "An inventory of information and associated assets is kept, with an owner for each entry.",
+    "es": "Se mantiene un inventario de la informacion y los activos asociados, con un propietario para cada entrada."
    }
   },
   {
@@ -119,6 +155,10 @@
    "title": {
     "en": "Acceptable use of information and other associated assets",
     "es": "Uso aceptable de la informacion y otros activos asociados"
+   },
+   "summary": {
+    "en": "Rules for the acceptable use and handling of information and assets are defined and communicated.",
+    "es": "Se definen y comunican las reglas de uso aceptable y manejo de la informacion y los activos."
    }
   },
   {
@@ -131,6 +171,10 @@
    "title": {
     "en": "Return of assets",
     "es": "Devolucion de activos"
+   },
+   "summary": {
+    "en": "Personnel and third parties return all organisational assets when their engagement ends or changes.",
+    "es": "El personal y los terceros devuelven todos los activos de la organizacion al terminar o cambiar su relacion."
    }
   },
   {
@@ -143,6 +187,10 @@
    "title": {
     "en": "Classification of information",
     "es": "Clasificacion de la informacion"
+   },
+   "summary": {
+    "en": "Information is classified by its confidentiality, integrity and availability needs and by stakeholder requirements.",
+    "es": "La informacion se clasifica segun sus necesidades de confidencialidad, integridad y disponibilidad y los requisitos de las partes interesadas."
    }
   },
   {
@@ -155,6 +203,10 @@
    "title": {
     "en": "Labelling of information",
     "es": "Etiquetado de la informacion"
+   },
+   "summary": {
+    "en": "Labelling procedures make the classification visible on information and in systems, following the scheme adopted.",
+    "es": "Los procedimientos de etiquetado hacen visible la clasificacion en la informacion y en los sistemas, segun el esquema adoptado."
    }
   },
   {
@@ -167,6 +219,10 @@
    "title": {
     "en": "Information transfer",
     "es": "Transferencia de informacion"
+   },
+   "summary": {
+    "en": "Rules, procedures and agreements govern how information is transferred inside and outside the organisation, by any means.",
+    "es": "Reglas, procedimientos y acuerdos rigen como se transfiere la informacion dentro y fuera de la organizacion, por cualquier medio."
    }
   },
   {
@@ -179,6 +235,10 @@
    "title": {
     "en": "Access control",
     "es": "Control de acceso"
+   },
+   "summary": {
+    "en": "Rules restrict logical and physical access to information and assets according to business and security requirements.",
+    "es": "Unas reglas restringen el acceso logico y fisico a la informacion y los activos segun los requisitos del negocio y de seguridad."
    }
   },
   {
@@ -191,6 +251,10 @@
    "title": {
     "en": "Identity management",
     "es": "Gestion de identidades"
+   },
+   "summary": {
+    "en": "The full lifecycle of identities is managed: creation, uniqueness, changes and removal, for people and for systems.",
+    "es": "Se gestiona todo el ciclo de vida de las identidades: creacion, unicidad, cambios y baja, tanto de personas como de sistemas."
    }
   },
   {
@@ -203,6 +267,10 @@
    "title": {
     "en": "Authentication information",
     "es": "Informacion de autenticacion"
+   },
+   "summary": {
+    "en": "Passwords and other authentication secrets are allocated, protected and changed through a controlled process.",
+    "es": "Las contrasenas y otros secretos de autenticacion se asignan, protegen y cambian mediante un proceso controlado."
    }
   },
   {
@@ -215,6 +283,10 @@
    "title": {
     "en": "Access rights",
     "es": "Derechos de acceso"
+   },
+   "summary": {
+    "en": "Access rights are provisioned, reviewed, modified and revoked in line with the access control policy.",
+    "es": "Los derechos de acceso se conceden, revisan, modifican y revocan de acuerdo con la politica de control de acceso."
    }
   },
   {
@@ -227,6 +299,10 @@
    "title": {
     "en": "Information security in supplier relationships",
     "es": "Seguridad de la informacion en las relaciones con proveedores"
+   },
+   "summary": {
+    "en": "Processes manage the risks that come from suppliers having access to the organisation's information or assets.",
+    "es": "Unos procesos gestionan los riesgos derivados de que los proveedores accedan a la informacion o los activos de la organizacion."
    }
   },
   {
@@ -239,6 +315,10 @@
    "title": {
     "en": "Addressing information security within supplier agreements",
     "es": "Tratamiento de la seguridad de la informacion en los acuerdos con proveedores"
+   },
+   "summary": {
+    "en": "Supplier agreements set out the security requirements each party must meet.",
+    "es": "Los acuerdos con proveedores establecen los requisitos de seguridad que cada parte debe cumplir."
    }
   },
   {
@@ -251,6 +331,10 @@
    "title": {
     "en": "Managing information security in the ICT supply chain",
     "es": "Gestion de la seguridad de la informacion en la cadena de suministro de TIC"
+   },
+   "summary": {
+    "en": "Risks in the ICT products and services supply chain are identified and managed, beyond the direct supplier.",
+    "es": "Los riesgos en la cadena de suministro de productos y servicios TIC se identifican y gestionan, mas alla del proveedor directo."
    }
   },
   {
@@ -263,6 +347,10 @@
    "title": {
     "en": "Monitoring, review and change management of supplier services",
     "es": "Seguimiento, revision y gestion de cambios de los servicios de proveedores"
+   },
+   "summary": {
+    "en": "Supplier service delivery is monitored, reviewed and its changes evaluated for their impact on security.",
+    "es": "La prestacion de servicios de los proveedores se supervisa, se revisa y sus cambios se evaluan por su impacto en la seguridad."
    }
   },
   {
@@ -275,6 +363,10 @@
    "title": {
     "en": "Information security for use of cloud services",
     "es": "Seguridad de la informacion para el uso de servicios en la nube"
+   },
+   "summary": {
+    "en": "Acquisition, use, management and exit from cloud services follow the organisation's security requirements.",
+    "es": "La adquisicion, uso, gestion y salida de servicios en la nube siguen los requisitos de seguridad de la organizacion."
    }
   },
   {
@@ -287,6 +379,10 @@
    "title": {
     "en": "Information security incident management planning and preparation",
     "es": "Planificacion y preparacion de la gestion de incidentes de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Incident management is planned in advance: roles, procedures, contacts and tooling to respond quickly and in order.",
+    "es": "La gestion de incidentes se planifica de antemano: roles, procedimientos, contactos y herramientas para responder con rapidez y orden."
    }
   },
   {
@@ -299,6 +395,10 @@
    "title": {
     "en": "Assessment and decision on information security events",
     "es": "Evaluacion y decision sobre los eventos de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Security events are assessed and it is decided whether they constitute incidents and with what priority.",
+    "es": "Los eventos de seguridad se evaluan y se decide si constituyen incidentes y con que prioridad."
    }
   },
   {
@@ -311,6 +411,10 @@
    "title": {
     "en": "Response to information security incidents",
     "es": "Respuesta a incidentes de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Incidents are responded to following documented procedures: containment, eradication, recovery and communication.",
+    "es": "Los incidentes se atienden siguiendo procedimientos documentados: contencion, erradicacion, recuperacion y comunicacion."
    }
   },
   {
@@ -323,6 +427,10 @@
    "title": {
     "en": "Learning from information security incidents",
     "es": "Aprendizaje de los incidentes de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Lessons from incidents feed back into controls, so that the same failure is not repeated.",
+    "es": "Las lecciones de los incidentes retroalimentan los controles, para que el mismo fallo no se repita."
    }
   },
   {
@@ -335,6 +443,10 @@
    "title": {
     "en": "Collection of evidence",
     "es": "Recopilacion de evidencias"
+   },
+   "summary": {
+    "en": "Evidence related to security events is identified, collected, acquired and preserved so that it is admissible.",
+    "es": "Las evidencias relacionadas con eventos de seguridad se identifican, recopilan, adquieren y preservan de forma que sean admisibles."
    }
   },
   {
@@ -347,6 +459,10 @@
    "title": {
     "en": "Information security during disruption",
     "es": "Seguridad de la informacion durante la interrupcion"
+   },
+   "summary": {
+    "en": "The organisation plans how to keep information security at the required level during a disruption.",
+    "es": "La organizacion planifica como mantener la seguridad de la informacion al nivel requerido durante una interrupcion."
    }
   },
   {
@@ -359,6 +475,10 @@
    "title": {
     "en": "ICT readiness for business continuity",
     "es": "Preparacion de las TIC para la continuidad de negocio"
+   },
+   "summary": {
+    "en": "ICT continuity is planned, implemented, maintained and tested according to business continuity objectives.",
+    "es": "La continuidad de las TIC se planifica, implanta, mantiene y prueba conforme a los objetivos de continuidad de negocio."
    }
   },
   {
@@ -371,6 +491,10 @@
    "title": {
     "en": "Legal, statutory, regulatory and contractual requirements",
     "es": "Requisitos legales, estatutarios, reglamentarios y contractuales"
+   },
+   "summary": {
+    "en": "The legal, statutory, regulatory and contractual requirements relevant to security are identified, documented and kept up to date.",
+    "es": "Los requisitos legales, estatutarios, reglamentarios y contractuales relevantes para la seguridad se identifican, documentan y mantienen al dia."
    }
   },
   {
@@ -383,6 +507,10 @@
    "title": {
     "en": "Intellectual property rights",
     "es": "Derechos de propiedad intelectual"
+   },
+   "summary": {
+    "en": "Procedures protect intellectual property rights and ensure that only licensed software and content are used.",
+    "es": "Unos procedimientos protegen los derechos de propiedad intelectual y aseguran que solo se usen software y contenidos con licencia."
    }
   },
   {
@@ -395,6 +523,10 @@
    "title": {
     "en": "Protection of records",
     "es": "Proteccion de registros"
+   },
+   "summary": {
+    "en": "Records are protected from loss, destruction, falsification and unauthorised access, for as long as they must be kept.",
+    "es": "Los registros se protegen frente a perdida, destruccion, falsificacion y acceso no autorizado durante el tiempo en que deban conservarse."
    }
   },
   {
@@ -407,6 +539,10 @@
    "title": {
     "en": "Privacy and protection of PII",
     "es": "Privacidad y proteccion de la informacion de identificacion personal"
+   },
+   "summary": {
+    "en": "Privacy and personal data protection requirements are identified and met according to applicable law and contracts.",
+    "es": "Los requisitos de privacidad y proteccion de datos personales se identifican y cumplen conforme a la ley y los contratos aplicables."
    }
   },
   {
@@ -419,6 +555,10 @@
    "title": {
     "en": "Independent review of information security",
     "es": "Revision independiente de la seguridad de la informacion"
+   },
+   "summary": {
+    "en": "The organisation's approach to security and its implementation are reviewed independently at planned intervals and after significant change.",
+    "es": "El enfoque de seguridad de la organizacion y su implantacion se revisan de forma independiente a intervalos planificados y tras cambios significativos."
    }
   },
   {
@@ -431,6 +571,10 @@
    "title": {
     "en": "Compliance with policies, rules and standards for information security",
     "es": "Cumplimiento de las politicas, reglas y normas de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Compliance with the security policy, rules and standards is regularly reviewed by managers and corrected where needed.",
+    "es": "El cumplimiento de la politica, reglas y normas de seguridad se revisa regularmente por los responsables y se corrige cuando es necesario."
    }
   },
   {
@@ -443,6 +587,10 @@
    "title": {
     "en": "Documented operating procedures",
     "es": "Procedimientos operativos documentados"
+   },
+   "summary": {
+    "en": "Operating procedures for information processing facilities are documented and available to those who need them.",
+    "es": "Los procedimientos operativos de las instalaciones de tratamiento de la informacion estan documentados y disponibles para quien los necesita."
    }
   },
   {
@@ -455,6 +603,10 @@
    "title": {
     "en": "Screening",
     "es": "Investigacion de antecedentes"
+   },
+   "summary": {
+    "en": "Candidates are vetted before joining, and periodically afterwards, in proportion to the risk of the role.",
+    "es": "Los candidatos se verifican antes de incorporarse, y periodicamente despues, en proporcion al riesgo del puesto."
    }
   },
   {
@@ -467,6 +619,10 @@
    "title": {
     "en": "Terms and conditions of employment",
     "es": "Terminos y condiciones del empleo"
+   },
+   "summary": {
+    "en": "Employment contracts state the information security responsibilities of the person and of the organisation.",
+    "es": "Los contratos de trabajo recogen las responsabilidades de seguridad de la informacion de la persona y de la organizacion."
    }
   },
   {
@@ -479,6 +635,10 @@
    "title": {
     "en": "Information security awareness, education and training",
     "es": "Concienciacion, educacion y capacitacion en seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Personnel and relevant third parties receive awareness, education and training appropriate to their role and updated over time.",
+    "es": "El personal y los terceros relevantes reciben concienciacion, educacion y formacion adecuadas a su rol y actualizadas en el tiempo."
    }
   },
   {
@@ -491,6 +651,10 @@
    "title": {
     "en": "Disciplinary process",
     "es": "Proceso disciplinario"
+   },
+   "summary": {
+    "en": "A formal disciplinary process handles security policy violations, known to and applied on all personnel.",
+    "es": "Un proceso disciplinario formal trata las violaciones de la politica de seguridad, conocido y aplicable a todo el personal."
    }
   },
   {
@@ -503,6 +667,10 @@
    "title": {
     "en": "Responsibilities after termination or change of employment",
     "es": "Responsabilidades ante la finalizacion o el cambio de empleo"
+   },
+   "summary": {
+    "en": "Security duties that survive termination or change of employment are defined, communicated and enforced.",
+    "es": "Las obligaciones de seguridad que perduran tras el cese o cambio de empleo se definen, comunican y hacen cumplir."
    }
   },
   {
@@ -515,6 +683,10 @@
    "title": {
     "en": "Confidentiality or non-disclosure agreements",
     "es": "Acuerdos de confidencialidad o no divulgacion"
+   },
+   "summary": {
+    "en": "Confidentiality or non-disclosure agreements reflect the organisation's needs and are signed by personnel and third parties.",
+    "es": "Los acuerdos de confidencialidad o no divulgacion reflejan las necesidades de la organizacion y los firman el personal y los terceros."
    }
   },
   {
@@ -527,6 +699,10 @@
    "title": {
     "en": "Remote working",
     "es": "Trabajo a distancia"
+   },
+   "summary": {
+    "en": "Security measures protect information accessed, processed or stored when personnel work outside the premises.",
+    "es": "Medidas de seguridad protegen la informacion a la que se accede, se procesa o se almacena cuando el personal trabaja fuera de las instalaciones."
    }
   },
   {
@@ -539,6 +715,10 @@
    "title": {
     "en": "Information security event reporting",
     "es": "Notificacion de eventos de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Personnel can report observed or suspected security events quickly through an appropriate channel.",
+    "es": "El personal puede notificar con rapidez, por un canal adecuado, los eventos de seguridad observados o sospechados."
    }
   },
   {
@@ -551,6 +731,10 @@
    "title": {
     "en": "Physical security perimeters",
     "es": "Perimetros de seguridad fisica"
+   },
+   "summary": {
+    "en": "Physical perimeters are defined and used to protect areas holding information and assets.",
+    "es": "Se definen y usan perimetros fisicos para proteger las areas que albergan informacion y activos."
    }
   },
   {
@@ -563,6 +747,10 @@
    "title": {
     "en": "Physical entry",
     "es": "Entrada fisica"
+   },
+   "summary": {
+    "en": "Entry controls ensure that only authorised people access secure areas.",
+    "es": "Controles de entrada garantizan que solo las personas autorizadas acceden a las areas seguras."
    }
   },
   {
@@ -575,6 +763,10 @@
    "title": {
     "en": "Securing offices, rooms and facilities",
     "es": "Seguridad de oficinas, despachos e instalaciones"
+   },
+   "summary": {
+    "en": "Offices, rooms and facilities are designed and protected physically.",
+    "es": "Las oficinas, despachos e instalaciones se disenan y protegen fisicamente."
    }
   },
   {
@@ -587,6 +779,10 @@
    "title": {
     "en": "Physical security monitoring",
     "es": "Supervision de la seguridad fisica"
+   },
+   "summary": {
+    "en": "Premises are continuously monitored for unauthorised physical access.",
+    "es": "Las instalaciones se vigilan de forma continua frente a accesos fisicos no autorizados."
    }
   },
   {
@@ -599,6 +795,10 @@
    "title": {
     "en": "Protecting against physical and environmental threats",
     "es": "Proteccion contra amenazas fisicas y ambientales"
+   },
+   "summary": {
+    "en": "Protection against fire, flood, earthquake, explosion, civil unrest and other physical or environmental threats is designed and implemented.",
+    "es": "Se disena e implanta proteccion frente a incendio, inundacion, terremoto, explosion, disturbios y otras amenazas fisicas o ambientales."
    }
   },
   {
@@ -611,6 +811,10 @@
    "title": {
     "en": "Working in secure areas",
     "es": "Trabajo en areas seguras"
+   },
+   "summary": {
+    "en": "Rules govern how people work inside secure areas.",
+    "es": "Unas reglas rigen como se trabaja dentro de las areas seguras."
    }
   },
   {
@@ -623,6 +827,10 @@
    "title": {
     "en": "Clear desk and clear screen",
     "es": "Puesto de trabajo despejado y pantalla limpia"
+   },
+   "summary": {
+    "en": "Rules for a clear desk of papers and media and a clear screen are defined and enforced.",
+    "es": "Se definen y aplican reglas de puesto de trabajo despejado de papeles y soportes y de pantalla limpia."
    }
   },
   {
@@ -635,6 +843,10 @@
    "title": {
     "en": "Equipment siting and protection",
     "es": "Emplazamiento y proteccion de equipos"
+   },
+   "summary": {
+    "en": "Equipment is sited and protected to reduce environmental risks and opportunities for unauthorised access.",
+    "es": "Los equipos se ubican y protegen para reducir los riesgos ambientales y las oportunidades de acceso no autorizado."
    }
   },
   {
@@ -647,6 +859,10 @@
    "title": {
     "en": "Security of assets off-premises",
     "es": "Seguridad de los activos fuera de las instalaciones"
+   },
+   "summary": {
+    "en": "Assets taken or used off-site are protected.",
+    "es": "Los activos que salen de las instalaciones o se usan fuera de ellas estan protegidos."
    }
   },
   {
@@ -659,6 +875,10 @@
    "title": {
     "en": "Storage media",
     "es": "Soportes de almacenamiento"
+   },
+   "summary": {
+    "en": "Storage media are managed across their lifecycle: acquisition, use, transport and disposal, according to classification.",
+    "es": "Los soportes de almacenamiento se gestionan durante todo su ciclo de vida: adquisicion, uso, transporte y eliminacion, segun su clasificacion."
    }
   },
   {
@@ -671,6 +891,10 @@
    "title": {
     "en": "Supporting utilities",
     "es": "Instalaciones de suministro"
+   },
+   "summary": {
+    "en": "Information processing facilities are protected from power failures and other disruptions of supporting utilities.",
+    "es": "Las instalaciones de tratamiento de la informacion estan protegidas frente a fallos electricos y otras interrupciones de los suministros."
    }
   },
   {
@@ -683,6 +907,10 @@
    "title": {
     "en": "Cabling security",
     "es": "Seguridad del cableado"
+   },
+   "summary": {
+    "en": "Cables carrying power, data or services are protected from interception, interference and damage.",
+    "es": "Los cables que transportan energia, datos o servicios se protegen frente a interceptacion, interferencias y danos."
    }
   },
   {
@@ -695,6 +923,10 @@
    "title": {
     "en": "Equipment maintenance",
     "es": "Mantenimiento de equipos"
+   },
+   "summary": {
+    "en": "Equipment is maintained correctly to ensure its availability, integrity and confidentiality.",
+    "es": "Los equipos se mantienen correctamente para asegurar su disponibilidad, integridad y confidencialidad."
    }
   },
   {
@@ -707,6 +939,10 @@
    "title": {
     "en": "Secure disposal or re-use of equipment",
     "es": "Eliminacion o reutilizacion segura de equipos"
+   },
+   "summary": {
+    "en": "Before disposal or re-use, equipment is checked and any sensitive data or licensed software is removed or securely overwritten.",
+    "es": "Antes de eliminar o reutilizar un equipo se verifica y se elimina o sobrescribe de forma segura cualquier dato sensible o software con licencia."
    }
   },
   {
@@ -719,6 +955,10 @@
    "title": {
     "en": "User endpoint devices",
     "es": "Dispositivos de usuario final"
+   },
+   "summary": {
+    "en": "Information on and accessed through user endpoint devices is protected: configuration, encryption, remote wipe and user rules.",
+    "es": "La informacion en los dispositivos de usuario final, y la accesible a traves de ellos, esta protegida: configuracion, cifrado, borrado remoto y reglas de uso."
    }
   },
   {
@@ -731,6 +971,10 @@
    "title": {
     "en": "Privileged access rights",
     "es": "Derechos de acceso privilegiado"
+   },
+   "summary": {
+    "en": "Privileged access rights are allocated and managed restrictively, and their use is subject to control.",
+    "es": "Los derechos de acceso privilegiado se asignan y gestionan de forma restrictiva y su uso esta sujeto a control."
    }
   },
   {
@@ -743,6 +987,10 @@
    "title": {
     "en": "Information access restriction",
     "es": "Restriccion del acceso a la informacion"
+   },
+   "summary": {
+    "en": "Access to information and assets is restricted according to the access control policy.",
+    "es": "El acceso a la informacion y los activos se restringe de acuerdo con la politica de control de acceso."
    }
   },
   {
@@ -755,6 +1003,10 @@
    "title": {
     "en": "Access to source code",
     "es": "Acceso al codigo fuente"
+   },
+   "summary": {
+    "en": "Read and write access to source code, development tools and software libraries is managed.",
+    "es": "El acceso de lectura y escritura al codigo fuente, las herramientas de desarrollo y las bibliotecas de software esta gestionado."
    }
   },
   {
@@ -767,6 +1019,10 @@
    "title": {
     "en": "Secure authentication",
     "es": "Autenticacion segura"
+   },
+   "summary": {
+    "en": "Authentication technologies and procedures are proportionate to the access restriction, including multi-factor where warranted.",
+    "es": "Las tecnologias y procedimientos de autenticacion son proporcionales a la restriccion de acceso, incluido el multifactor cuando esta justificado."
    }
   },
   {
@@ -779,6 +1035,10 @@
    "title": {
     "en": "Capacity management",
     "es": "Gestion de capacidades"
+   },
+   "summary": {
+    "en": "Resource use is monitored and adjusted to current and expected capacity requirements.",
+    "es": "El uso de los recursos se supervisa y ajusta a las necesidades de capacidad actuales y previstas."
    }
   },
   {
@@ -791,6 +1051,10 @@
    "title": {
     "en": "Protection against malware",
     "es": "Proteccion contra el malware"
+   },
+   "summary": {
+    "en": "Protection against malware combines technical controls with user awareness.",
+    "es": "La proteccion frente al malware combina controles tecnicos con la concienciacion de los usuarios."
    }
   },
   {
@@ -803,6 +1067,10 @@
    "title": {
     "en": "Management of technical vulnerabilities",
     "es": "Gestion de las vulnerabilidades tecnicas"
+   },
+   "summary": {
+    "en": "Information about technical vulnerabilities is obtained, exposure is evaluated and appropriate measures are taken.",
+    "es": "Se obtiene informacion sobre vulnerabilidades tecnicas, se evalua la exposicion y se toman las medidas apropiadas."
    }
   },
   {
@@ -815,6 +1083,10 @@
    "title": {
     "en": "Configuration management",
     "es": "Gestion de la configuracion"
+   },
+   "summary": {
+    "en": "Configurations, including security configurations, of hardware, software, services and networks are established, documented, monitored and reviewed.",
+    "es": "Las configuraciones, incluidas las de seguridad, del hardware, software, servicios y redes se establecen, documentan, supervisan y revisan."
    }
   },
   {
@@ -827,6 +1099,10 @@
    "title": {
     "en": "Information deletion",
     "es": "Borrado de informacion"
+   },
+   "summary": {
+    "en": "Information is deleted from systems, devices and media when it is no longer required.",
+    "es": "La informacion se borra de sistemas, dispositivos y soportes cuando ya no es necesaria."
    }
   },
   {
@@ -839,6 +1115,10 @@
    "title": {
     "en": "Data masking",
     "es": "Enmascaramiento de datos"
+   },
+   "summary": {
+    "en": "Data masking is applied according to the access control policy and business requirements, taking legislation into account.",
+    "es": "El enmascaramiento de datos se aplica segun la politica de control de acceso y los requisitos del negocio, teniendo en cuenta la legislacion."
    }
   },
   {
@@ -851,6 +1131,10 @@
    "title": {
     "en": "Data leakage prevention",
     "es": "Prevencion de la fuga de datos"
+   },
+   "summary": {
+    "en": "Data leakage prevention measures are applied to systems, networks and devices that handle sensitive information.",
+    "es": "Se aplican medidas de prevencion de fuga de datos a los sistemas, redes y dispositivos que tratan informacion sensible."
    }
   },
   {
@@ -863,6 +1147,10 @@
    "title": {
     "en": "Information backup",
     "es": "Copias de seguridad de la informacion"
+   },
+   "summary": {
+    "en": "Backup copies of information, software and systems are kept and regularly tested according to the backup policy.",
+    "es": "Se mantienen copias de seguridad de la informacion, el software y los sistemas y se prueban regularmente segun la politica de copias."
    }
   },
   {
@@ -875,6 +1163,10 @@
    "title": {
     "en": "Redundancy of information processing facilities",
     "es": "Redundancia de las instalaciones de tratamiento de la informacion"
+   },
+   "summary": {
+    "en": "Information processing facilities have enough redundancy to meet availability requirements.",
+    "es": "Las instalaciones de tratamiento de la informacion tienen redundancia suficiente para cumplir los requisitos de disponibilidad."
    }
   },
   {
@@ -887,6 +1179,10 @@
    "title": {
     "en": "Logging",
     "es": "Registro de eventos"
+   },
+   "summary": {
+    "en": "Logs recording activities, exceptions, faults and relevant events are produced, stored, protected and analysed.",
+    "es": "Se generan, almacenan, protegen y analizan registros de actividades, excepciones, fallos y eventos relevantes."
    }
   },
   {
@@ -899,6 +1195,10 @@
    "title": {
     "en": "Monitoring activities",
     "es": "Actividades de seguimiento"
+   },
+   "summary": {
+    "en": "Networks, systems and applications are monitored for anomalous behaviour and appropriate action is taken.",
+    "es": "Las redes, sistemas y aplicaciones se supervisan para detectar comportamientos anomalos y actuar en consecuencia."
    }
   },
   {
@@ -911,6 +1211,10 @@
    "title": {
     "en": "Clock synchronization",
     "es": "Sincronizacion de relojes"
+   },
+   "summary": {
+    "en": "Clocks of the information processing systems are synchronised to approved time sources.",
+    "es": "Los relojes de los sistemas de tratamiento de la informacion se sincronizan con fuentes de tiempo aprobadas."
    }
   },
   {
@@ -923,6 +1227,10 @@
    "title": {
     "en": "Use of privileged utility programs",
     "es": "Uso de programas de utilidad privilegiados"
+   },
+   "summary": {
+    "en": "The use of utility programs that could override system and application controls is restricted and tightly controlled.",
+    "es": "El uso de programas de utilidad capaces de eludir los controles del sistema y de las aplicaciones esta restringido y estrechamente controlado."
    }
   },
   {
@@ -935,6 +1243,10 @@
    "title": {
     "en": "Installation of software on operational systems",
     "es": "Instalacion de software en sistemas operativos"
+   },
+   "summary": {
+    "en": "Procedures and measures securely manage the installation of software on operational systems.",
+    "es": "Procedimientos y medidas gestionan de forma segura la instalacion de software en los sistemas en produccion."
    }
   },
   {
@@ -947,6 +1259,10 @@
    "title": {
     "en": "Networks security",
     "es": "Seguridad de redes"
+   },
+   "summary": {
+    "en": "Networks and network devices are secured, managed and controlled to protect the information in systems and applications.",
+    "es": "Las redes y los dispositivos de red se protegen, gestionan y controlan para proteger la informacion de los sistemas y aplicaciones."
    }
   },
   {
@@ -959,6 +1275,10 @@
    "title": {
     "en": "Security of network services",
     "es": "Seguridad de los servicios de red"
+   },
+   "summary": {
+    "en": "Security mechanisms, service levels and requirements for network services are identified, implemented and monitored.",
+    "es": "Los mecanismos de seguridad, niveles de servicio y requisitos de los servicios de red se identifican, implantan y supervisan."
    }
   },
   {
@@ -971,6 +1291,10 @@
    "title": {
     "en": "Segregation of networks",
     "es": "Segregacion de redes"
+   },
+   "summary": {
+    "en": "Groups of information services, users and systems are segregated in the organisation's networks.",
+    "es": "Los grupos de servicios de informacion, usuarios y sistemas se segregan en las redes de la organizacion."
    }
   },
   {
@@ -983,6 +1307,10 @@
    "title": {
     "en": "Web filtering",
     "es": "Filtrado web"
+   },
+   "summary": {
+    "en": "Access to external websites is managed to reduce exposure to malicious content.",
+    "es": "El acceso a sitios web externos se gestiona para reducir la exposicion a contenidos maliciosos."
    }
   },
   {
@@ -995,6 +1323,10 @@
    "title": {
     "en": "Use of cryptography",
     "es": "Uso de criptografia"
+   },
+   "summary": {
+    "en": "Rules for the effective use of cryptography, including key management, are defined and implemented.",
+    "es": "Se definen e implantan reglas para el uso eficaz de la criptografia, incluida la gestion de claves."
    }
   },
   {
@@ -1007,6 +1339,10 @@
    "title": {
     "en": "Secure development life cycle",
     "es": "Ciclo de vida de desarrollo seguro"
+   },
+   "summary": {
+    "en": "Rules for secure development of software and systems are established and applied.",
+    "es": "Se establecen y aplican reglas para el desarrollo seguro de software y sistemas."
    }
   },
   {
@@ -1019,6 +1355,10 @@
    "title": {
     "en": "Application security requirements",
     "es": "Requisitos de seguridad de las aplicaciones"
+   },
+   "summary": {
+    "en": "Security requirements are identified, specified and approved when applications are developed or acquired.",
+    "es": "Los requisitos de seguridad se identifican, especifican y aprueban al desarrollar o adquirir aplicaciones."
    }
   },
   {
@@ -1031,6 +1371,10 @@
    "title": {
     "en": "Secure system architecture and engineering principles",
     "es": "Principios de ingenieria y arquitectura de sistemas seguros"
+   },
+   "summary": {
+    "en": "Principles for engineering secure systems are established, documented, maintained and applied to development.",
+    "es": "Se establecen, documentan, mantienen y aplican principios de ingenieria de sistemas seguros en el desarrollo."
    }
   },
   {
@@ -1043,6 +1387,10 @@
    "title": {
     "en": "Secure coding",
     "es": "Codificacion segura"
+   },
+   "summary": {
+    "en": "Secure coding principles are applied to software development.",
+    "es": "Se aplican principios de codificacion segura en el desarrollo de software."
    }
   },
   {
@@ -1055,6 +1403,10 @@
    "title": {
     "en": "Security testing in development and acceptance",
     "es": "Pruebas de seguridad en desarrollo y aceptacion"
+   },
+   "summary": {
+    "en": "Security testing processes are defined and implemented in the development lifecycle.",
+    "es": "Se definen e implantan procesos de pruebas de seguridad en el ciclo de vida de desarrollo."
    }
   },
   {
@@ -1067,6 +1419,10 @@
    "title": {
     "en": "Outsourced development",
     "es": "Desarrollo externalizado"
+   },
+   "summary": {
+    "en": "The organisation directs, monitors and reviews the activities of outsourced system development.",
+    "es": "La organizacion dirige, supervisa y revisa las actividades del desarrollo de sistemas externalizado."
    }
   },
   {
@@ -1079,6 +1435,10 @@
    "title": {
     "en": "Separation of development, test and production environments",
     "es": "Separacion de los entornos de desarrollo, prueba y produccion"
+   },
+   "summary": {
+    "en": "Development, test and production environments are separated and secured.",
+    "es": "Los entornos de desarrollo, prueba y produccion estan separados y protegidos."
    }
   },
   {
@@ -1091,6 +1451,10 @@
    "title": {
     "en": "Change management",
     "es": "Gestion de cambios"
+   },
+   "summary": {
+    "en": "Changes to information processing facilities and systems are subject to change management procedures.",
+    "es": "Los cambios en las instalaciones y sistemas de tratamiento de la informacion estan sujetos a procedimientos de gestion de cambios."
    }
   },
   {
@@ -1103,6 +1467,10 @@
    "title": {
     "en": "Test information",
     "es": "Informacion de prueba"
+   },
+   "summary": {
+    "en": "Test information is appropriately selected, protected and managed.",
+    "es": "La informacion de prueba se selecciona, protege y gestiona adecuadamente."
    }
   },
   {
@@ -1115,6 +1483,10 @@
    "title": {
     "en": "Protection of information systems during audit testing",
     "es": "Proteccion de los sistemas de informacion durante las pruebas de auditoria"
+   },
+   "summary": {
+    "en": "Audit tests and other assurance activities on operational systems are planned and agreed between the tester and management.",
+    "es": "Las pruebas de auditoria y otras actividades de aseguramiento sobre sistemas en produccion se planifican y acuerdan entre el auditor y la direccion."
    }
   }
  ]

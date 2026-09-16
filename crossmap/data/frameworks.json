@@ -63,6 +63,38 @@
     "es": "Entidades financieras y sus proveedores TIC esenciales"
    },
    "source": "DORA-2022-2554"
+  },
+  {
+   "id": "PCI",
+   "name": {
+    "en": "PCI DSS v4.0.1",
+    "es": "PCI DSS v4.0.1"
+   },
+   "kind": {
+    "en": "Industry standard, contractually mandated by the card brands",
+    "es": "Norma sectorial, exigida contractualmente por las marcas de tarjetas"
+   },
+   "scope": {
+    "en": "Any entity that stores, processes or transmits cardholder data",
+    "es": "Cualquier entidad que almacene, procese o transmita datos de tarjetas"
+   },
+   "source": "PCI-DSS-4.0.1"
+  },
+  {
+   "id": "SOX",
+   "name": {
+    "en": "Sarbanes-Oxley Act (SOX) - IT General Controls",
+    "es": "Ley Sarbanes-Oxley (SOX) - Controles generales de TI"
+   },
+   "kind": {
+    "en": "US federal law; IT controls tested via ITGC under Section 404",
+    "es": "Ley federal de EE. UU.; controles de TI evaluados como ITGC bajo la seccion 404"
+   },
+   "scope": {
+    "en": "SEC-registered companies and their subsidiaries, including those outside the US",
+    "es": "Empresas registradas en la SEC y sus filiales, incluidas las de fuera de EE. UU."
+   },
+   "source": "SOX-2002"
   }
  ]
 }
