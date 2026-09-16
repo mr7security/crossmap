@@ -53,6 +53,24 @@ S = [
   "note":{"en":"Not in force at the time of writing. Watch this one: when it is published, the NIS2 side of the dataset needs revisiting.",
           "es":"No vigente al escribir esto. Vigilar: cuando se publique, habra que revisar el lado NIS2 del conjunto de datos."},
   "watch":False},
+ {"id":"PCI-DSS-4.0.1","kind":"standard",
+  "title":{"en":"PCI DSS v4.0.1 - Payment Card Industry Data Security Standard (PCI SSC, June 2024)",
+           "es":"PCI DSS v4.0.1 - Norma de seguridad de datos del sector de tarjetas de pago (PCI SSC, junio 2024)"},
+  "url":"https://www.pcisecuritystandards.org/document_library/",
+  "note":{"en":"Requirement titles at the x.y level only. The detailed requirements, testing procedures and guidance are in the standard, which is free to download from the PCI SSC document library.",
+          "es":"Solo los titulos de los requisitos de nivel x.y. Los requisitos detallados, procedimientos de prueba y guia estan en la norma, descargable gratuitamente de la biblioteca del PCI SSC."},
+  "watch":True},
+ {"id":"SOX-2002","kind":"legislation",
+  "title":{"en":"Sarbanes-Oxley Act of 2002 (Pub. L. 107-204), Sections 302, 404, 409, 802 and 906",
+           "es":"Ley Sarbanes-Oxley de 2002 (Pub. L. 107-204), secciones 302, 404, 409, 802 y 906"},
+  "url":"https://www.govinfo.gov/content/pkg/PLAW-107publ204/pdf/PLAW-107publ204.pdf","watch":True},
+ {"id":"ITGC-COSO-AS2201","kind":"guidance",
+  "title":{"en":"IT General Controls under SOX 404 - COSO Internal Control Integrated Framework (2013) and PCAOB AS 2201",
+           "es":"Controles generales de TI bajo SOX 404 - Marco integrado de control interno COSO (2013) y PCAOB AS 2201"},
+  "url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+  "note":{"en":"SOX has no catalogue of IT controls. The SOX side of this dataset is the classic four-domain ITGC catalogue (access, changes, development, operations) as it is tested in practice under AS 2201 - a synthesis of common audit practice, not an official taxonomy.",
+          "es":"SOX no tiene un catalogo de controles de TI. El lado SOX de este conjunto de datos es el catalogo ITGC clasico de cuatro dominios (acceso, cambios, desarrollo, operaciones) tal como se prueba en la practica bajo AS 2201: una sintesis de la practica de auditoria, no una taxonomia oficial."},
+  "watch":True},
 ]
 pathlib.Path("crossmap/data/sources.json").write_text(json.dumps({"sources":S}, ensure_ascii=False, indent=1))
 F = [
@@ -68,6 +86,12 @@ F = [
  {"id":"DORA","name":{"en":"Regulation (EU) 2022/2554 (DORA)","es":"Reglamento (UE) 2022/2554 (DORA)"},
   "kind":{"en":"EU regulation, directly applicable","es":"Reglamento europeo, de aplicacion directa"},
   "scope":{"en":"Financial entities and their critical ICT providers","es":"Entidades financieras y sus proveedores TIC esenciales"},"source":"DORA-2022-2554"},
+ {"id":"PCI","name":{"en":"PCI DSS v4.0.1","es":"PCI DSS v4.0.1"},
+  "kind":{"en":"Industry standard, contractually mandated by the card brands","es":"Norma sectorial, exigida contractualmente por las marcas de tarjetas"},
+  "scope":{"en":"Any entity that stores, processes or transmits cardholder data","es":"Cualquier entidad que almacene, procese o transmita datos de tarjetas"},"source":"PCI-DSS-4.0.1"},
+ {"id":"SOX","name":{"en":"Sarbanes-Oxley Act (SOX) - IT General Controls","es":"Ley Sarbanes-Oxley (SOX) - Controles generales de TI"},
+  "kind":{"en":"US federal law; IT controls tested via ITGC under Section 404","es":"Ley federal de EE. UU.; controles de TI evaluados como ITGC bajo la seccion 404"},
+  "scope":{"en":"SEC-registered companies and their subsidiaries, including those outside the US","es":"Empresas registradas en la SEC y sus filiales, incluidas las de fuera de EE. UU."},"source":"SOX-2002"},
 ]
 pathlib.Path("crossmap/data/frameworks.json").write_text(json.dumps({"frameworks":F}, ensure_ascii=False, indent=1))
 print("fuentes:", len(S), "| marcos:", len(F))
