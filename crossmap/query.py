@@ -5,7 +5,11 @@ import re
 import unicodedata
 from typing import Any, Dict, List, Optional
 
-from .model import Control, Dataset
+from .model import ANCHOR, Control, Dataset
+
+#: Prefix each framework puts in front of a bare number, so that "DORA 12" is
+#: art.12 and "PCI 8.3" is req.8.3. ISO ids carry no prefix.
+BARE_PREFIX = {"DORA": ("art.",), "NIS2": ("cir.", "art."), "PCI": ("req.",), "SOX": ("sec.",)}
 
 
 def normalise(text: str) -> str:
@@ -15,35 +19,40 @@ def normalise(text: str) -> str:
 
 
 def resolve(dataset: Dataset, reference: str) -> Optional[Control]:
-    """Find a control from a reference such as 'ISO 8.15', 'op.exp.8' or 'cir.3.2'.
+    """Find a control from a reference such as 'ISO 8.15', 'op.exp.8', 'req.8.3' or 'acc.1'.
 
     The framework prefix is optional when the identifier is unambiguous, which
-    it almost always is: only ISO and DORA share a numeric shape, and DORA ids
-    are prefixed with 'art.'.
+    is the case for every catalogue: ENS, NIS2, DORA, PCI DSS and the SOX
+    catalogue all carry a textual prefix ('op.', 'cir.', 'art.', 'req.',
+    'acc.'...), so a bare number such as '8.3' is always the ISO control. To
+    reach PCI DSS requirement 8.3 write 'req.8.3' or 'PCI 8.3'.
     """
     reference = (reference or "").strip()
     if not reference:
         return None
-    match = re.match(r"^(iso|ens|nis2|dora)[\s:.\-]+(.+)$", reference, re.IGNORECASE)
+    names = "|".join(re.escape(f) for f in dataset.framework_ids)
+    match = re.match(rf"^({names})[\s:.\-]+(.+)$", reference, re.IGNORECASE)
     if match:
         framework, control_id = match.group(1).upper(), match.group(2).strip()
         found = dataset.control(framework, control_id)
         if found:
             return found
-        # tolerate 'DORA 9' for 'art.9' and 'ISO A.8.15' for '8.15'
-        for candidate in (f"art.{control_id}", control_id.lstrip("Aa."), f"cir.{control_id}"):
+        candidates = [control_id.lstrip("Aa.")]
+        candidates += [prefix + control_id for prefix in BARE_PREFIX.get(framework, ())]
+        for candidate in candidates:
             found = dataset.control(framework, candidate)
             if found:
                 return found
         return None
-    for framework in ("ISO", "ENS", "NIS2", "DORA"):
+    for framework in dataset.framework_ids:
         found = dataset.control(framework, reference)
         if found:
             return found
-    for framework, prefix in (("DORA", "art."), ("NIS2", "cir."), ("NIS2", "art.")):
-        found = dataset.control(framework, prefix + reference)
-        if found:
-            return found
+    for framework, prefixes in BARE_PREFIX.items():
+        for prefix in prefixes:
+            found = dataset.control(framework, prefix + reference)
+            if found:
+                return found
     return None
 
 
@@ -54,43 +63,43 @@ def equivalents(dataset: Dataset, control: Control) -> Dict[str, List[Dict[str, 
     set of ISO controls that point at it, and then, through those, the items of
     the remaining frameworks — which is how a question like "what does DORA
     article 12 mean for my ENS system?" gets answered.
+
+    Each entry carries the coverage, the source and, when the coverage is
+    partial, the rationale that says why.
     """
-    if control.framework == "ISO":
+    if control.framework == ANCHOR:
         iso_ids = [control.id]
     else:
         iso_ids = sorted({l.iso for l in dataset.reverse.get(f"{control.framework}:{control.id}", [])},
                          key=_iso_sort_key)
 
-    out: Dict[str, List[Dict[str, Any]]] = {"ISO": [], "ENS": [], "NIS2": [], "DORA": []}
+    out: Dict[str, List[Dict[str, Any]]] = {fw: [] for fw in dataset.framework_ids}
     for iso_id in iso_ids:
-        iso_control = dataset.control("ISO", iso_id)
-        if iso_control and control.framework != "ISO":
-            out["ISO"].append({"control": iso_control,
-                               "coverage": _coverage_of(dataset, iso_id, control),
-                               "source": _source_of(dataset, iso_id, control)})
+        iso_control = dataset.control(ANCHOR, iso_id)
+        if iso_control and control.framework != ANCHOR:
+            link = _link_of(dataset, iso_id, control)
+            out[ANCHOR].append({"control": iso_control,
+                                "coverage": link.coverage if link else "none",
+                                "source": link.source if link else "",
+                                "rationale": link.rationale if link else {},
+                                "detail": link.detail if link else {}})
         for framework, links in dataset.forward.get(iso_id, {}).items():
-            if framework == control.framework and control.framework != "ISO":
+            if framework == control.framework and control.framework != ANCHOR:
                 continue
             for link in links:
                 target = dataset.control(framework, link.target)
                 if target and not any(e["control"].id == target.id for e in out[framework]):
                     out[framework].append({"control": target, "coverage": link.coverage,
-                                           "source": link.source})
+                                           "source": link.source, "rationale": link.rationale,
+                                           "detail": link.detail, "via": iso_id})
     return out
 
 
-def _coverage_of(dataset: Dataset, iso_id: str, control: Control) -> str:
+def _link_of(dataset: Dataset, iso_id: str, control: Control):
     for link in dataset.reverse.get(f"{control.framework}:{control.id}", []):
         if link.iso == iso_id:
-            return link.coverage
-    return "none"
-
-
-def _source_of(dataset: Dataset, iso_id: str, control: Control) -> str:
-    for link in dataset.reverse.get(f"{control.framework}:{control.id}", []):
-        if link.iso == iso_id:
-            return link.source
-    return ""
+            return link
+    return None
 
 
 def _iso_sort_key(iso_id: str):
@@ -99,16 +108,21 @@ def _iso_sort_key(iso_id: str):
 
 
 def search(dataset: Dataset, text: str, lang: str = "es") -> List[Control]:
-    """Free text search across the four catalogues, accent and case insensitive."""
+    """Free text search across every catalogue, accent and case insensitive.
+
+    Titles, family titles and — for ISO — the one-sentence summaries are
+    searched, so 'backup' also finds 5.30 and 'MFA' finds PCI 8.4.
+    """
     needle = normalise(text)
     if not needle:
         return []
     found: List[Control] = []
-    for framework in ("ISO", "ENS", "NIS2", "DORA"):
+    for framework in dataset.framework_ids:
         for control in dataset.all_controls(framework):
-            haystack = normalise(
-                control.id + " " + control.title.get("en", "") + " " + control.title.get("es", "")
-            )
+            haystack = normalise(" ".join([
+                control.id, control.title.get("en", ""), control.title.get("es", ""),
+                control.summary.get("en", ""), control.summary.get("es", ""),
+            ]))
             if needle in haystack:
                 found.append(control)
     return found

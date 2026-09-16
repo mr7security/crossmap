@@ -5,13 +5,25 @@ import argparse
 import json
 import pathlib
 import sys
+import textwrap
 from typing import List, Optional
 
 from . import __version__
-from .model import COVERAGE_TEXT, load
+from .model import ANCHOR, COVERAGE_TEXT, load
 from .query import equivalents, orphans, resolve, search
 
 BAR = "-" * 74
+#: Frameworks the anchor is mapped to; kept here for argparse choices, the
+#: authoritative list is frameworks.json (Dataset.target_ids).
+TARGET_CHOICES = ["ENS", "NIS2", "DORA", "PCI", "SOX"]
+PART_LABELS = {
+    "en": {"covers": "ISO gives you", "adds": "the regime asks for", "close": "to close the gap"},
+    "es": {"covers": "ISO te da", "adds": "el regimen pide", "close": "para cerrar el hueco"},
+}
+
+
+def _wrap(text: str, indent: str, width: int = 96) -> str:
+    return textwrap.fill(text, width=width, initial_indent=indent, subsequent_indent=indent)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -25,19 +37,20 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="crossmap", parents=[common],
         description=("Cross-reference between ISO/IEC 27001:2022, the Spanish ENS (RD 311/2022), "
-                     "NIS2 and DORA, anchored on the 93 controls of ISO/IEC 27002:2022."),
+                     "NIS2, DORA, PCI DSS v4.0.1 and SOX (ITGC), anchored on the 93 controls "
+                     "of ISO/IEC 27002:2022."),
     )
     sub = parser.add_subparsers(dest="command", parser_class=lambda **kw: argparse.ArgumentParser(
         parents=[common], **kw))
 
     show = sub.add_parser("show", help="show a control and its equivalents in the other frameworks")
-    show.add_argument("reference", help="e.g. 8.15, ISO 8.15, op.exp.8, cir.3.2, art.12")
+    show.add_argument("reference", help="e.g. 8.15, ISO 8.15, op.exp.8, cir.3.2, art.12, req.8.3, acc.1")
 
-    find = sub.add_parser("search", help="free text search across the four catalogues")
+    find = sub.add_parser("search", help="free text search across every catalogue")
     find.add_argument("text", nargs="+")
 
     gaps = sub.add_parser("gaps", help="requirements with no ISO 27002 equivalent")
-    gaps.add_argument("framework", nargs="?", choices=["ENS", "NIS2", "DORA"],
+    gaps.add_argument("framework", nargs="?", choices=TARGET_CHOICES,
                       help="restrict to one framework")
 
     html = sub.add_parser("html", help="write the interactive HTML cross-reference")
@@ -67,6 +80,8 @@ def build_parser() -> argparse.ArgumentParser:
 def _print_control(control, lang: str, indent: str = "") -> None:
     print(f"{indent}{control.ref:<16} {control.name(lang)}")
     print(f"{indent}{'':<16} {control.family_title.get(lang, '')}")
+    if control.about(lang):
+        print(_wrap(control.about(lang), indent + " " * 16))
 
 
 def cmd_show(dataset, reference: str, lang: str) -> int:
@@ -83,7 +98,7 @@ def cmd_show(dataset, reference: str, lang: str) -> int:
     print(BAR)
     found = equivalents(dataset, control)
     labels = {"en": "no correspondence recorded", "es": "sin correspondencia registrada"}
-    for framework in ("ISO", "ENS", "NIS2", "DORA"):
+    for framework in dataset.framework_ids:
         if framework == control.framework:
             continue
         items = found.get(framework, [])
@@ -91,10 +106,23 @@ def cmd_show(dataset, reference: str, lang: str) -> int:
         if not items:
             print(f"  ({labels[lang]})")
             continue
+        seen = set()   # the rationale is per ISO row, not per target: print it once
         for entry in items:
             target = entry["control"]
             coverage = COVERAGE_TEXT.get(entry["coverage"], {}).get(lang, entry["coverage"])
             print(f"  {target.id:<14} [{coverage:<7}] {target.name(lang)}")
+            if framework == ANCHOR and target.about(lang):
+                print(_wrap(target.about(lang), " " * 17))
+            why = entry.get("rationale", {})
+            if why and why.get("en") not in seen:
+                seen.add(why.get("en"))
+                print(_wrap(("why partial: " if lang == "en" else "por que parcial: ")
+                            + why.get(lang, why.get("en", "")), " " * 17))
+                detail = entry.get("detail", {})
+                for part, label in PART_LABELS[lang].items():
+                    text = detail.get(part, {}).get(lang, detail.get(part, {}).get("en", ""))
+                    if text:
+                        print(_wrap(f"{label}: {text}", " " * 19))
             if entry.get("source"):
                 print(f"  {'':<14}  ← {entry['source']}")
     return 0
@@ -117,7 +145,7 @@ def cmd_gaps(dataset, framework: Optional[str], lang: str) -> int:
     print(header[lang])
     print(BAR)
     total = 0
-    for name in ([framework] if framework else ["ENS", "NIS2", "DORA"]):
+    for name in ([framework] if framework else dataset.target_ids):
         missing = orphans(dataset, name)
         total += len(missing)
         print(f"\n{name} ({len(missing)})")
@@ -162,7 +190,8 @@ def cmd_verify(dataset, lang: str) -> int:
     problems: List[str] = []
     problems += [f"broken reference: {r}" for r in dataset.unknown_references()]
     problems += [f"unknown source: {s}" for s in dataset.unknown_sources()]
-    for framework in ("ENS", "NIS2", "DORA"):
+    problems += [f"partial without rationale: {p}" for p in dataset.partial_without_rationale()]
+    for framework in dataset.target_ids:
         missing = orphans(dataset, framework)
         if len(missing) > len(dataset.all_controls(framework)) / 2:
             problems.append(f"{framework}: more than half of the catalogue is unmapped")
@@ -184,14 +213,14 @@ def cmd_stats(dataset, lang: str) -> int:
     print(f"{stats['links']} " + ("correspondences" if lang == "en" else "correspondencias")
           + f" | {stats['verified']} " + ("verified" if lang == "en" else "verificadas"))
     print(BAR)
-    for framework in ("ENS", "NIS2", "DORA"):
+    for framework in dataset.target_ids:
         counts = stats[framework]
         total = sum(counts.values())
         print(f"{framework:<6} " + " ".join(
             f"{COVERAGE_TEXT[k][lang]}: {counts[k]:>3} ({counts[k]*100//total:>2}%)"
             for k in ("full", "partial", "none")))
     print(BAR)
-    for framework in ("ENS", "NIS2", "DORA"):
+    for framework in dataset.target_ids:
         print(f"{framework:<6} " + ("without ISO equivalent: " if lang == "en"
                                     else "sin equivalente ISO: ") + str(len(orphans(dataset, framework))))
     print(BAR)
@@ -250,7 +279,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             "version": __version__,
             "frameworks": dataset.frameworks,
             "controls": {fw: [c.as_dict() for c in dataset.all_controls(fw)]
-                         for fw in ("ISO", "ENS", "NIS2", "DORA")},
+                         for fw in dataset.framework_ids},
             "links": [vars(l) for l in dataset.links],
             "sources": [vars(s) for s in dataset.sources.values()],
             "stats": dataset.stats(),

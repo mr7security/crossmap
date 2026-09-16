@@ -9,13 +9,13 @@ from __future__ import annotations
 import json
 from typing import Any, Dict
 
-from .model import Dataset
+from .model import ANCHOR, Dataset
 from .query import orphans
 
 CSS = """
 :root{--bg:#0f1218;--panel:#161b24;--panel2:#1c2230;--line:#273042;--fg:#e6ebf2;
 --muted:#93a0b4;--accent:#4da3ff;--full:#2eb872;--partial:#d9a21e;--none:#6b7280;
---iso:#4da3ff;--ens:#e0654a;--nis2:#9b6dd6;--dora:#22a3a3}
+--iso:#4da3ff;--ens:#e0654a;--nis2:#9b6dd6;--dora:#22a3a3;--pci:#e2b53b;--sox:#7fb069}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
 font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
@@ -47,6 +47,7 @@ flex-wrap:wrap;list-style:none}
 padding:3px 8px;border-radius:6px;color:#06090f;white-space:nowrap}
 .id.ISO{background:var(--iso)}.id.ENS{background:var(--ens)}
 .id.NIS2{background:var(--nis2)}.id.DORA{background:var(--dora)}
+.id.PCI{background:var(--pci)}.id.SOX{background:var(--sox)}
 .rt{flex:1;min-width:200px}
 .cov{font-size:11px;font-weight:700;letter-spacing:.05em;padding:2px 7px;border-radius:5px;
 text-transform:uppercase}
@@ -54,6 +55,17 @@ text-transform:uppercase}
 .cov.partial{background:rgba(217,162,30,.18);color:var(--partial)}
 .cov.none{background:rgba(107,114,128,.18);color:var(--none)}
 .body{padding:4px 16px 16px;border-top:1px solid var(--line)}
+.about{margin:12px 0 2px;padding:10px 14px;border-left:3px solid var(--iso);background:var(--panel2);
+border-radius:0 8px 8px 0;color:#cfd8e5;font-size:14px}
+.about b{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.07em;display:block;margin-bottom:3px}
+.why{margin:6px 0 2px;padding:8px 12px;border-left:3px solid var(--partial);background:rgba(217,162,30,.07);
+border-radius:0 8px 8px 0;color:#d9c9a0;font-size:13px;line-height:1.5}
+.why b{color:var(--partial);font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-right:6px}
+.why dl{margin:8px 0 0;display:grid;grid-template-columns:max-content 1fr;gap:5px 12px;color:#cfd8e5}
+.why dt{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.07em;padding-top:2px;white-space:nowrap}
+.why dd{margin:0}
+.why dd.close{color:#e6ebf2}
+@media(max-width:640px){.why dl{grid-template-columns:1fr}.why dt{padding-top:6px}}
 .fw{margin-top:14px}
 .fw h4{margin:0 0 7px;font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .item{display:flex;gap:10px;align-items:baseline;padding:6px 0;border-bottom:1px solid rgba(39,48,66,.6)}
@@ -85,7 +97,8 @@ body.lang-es .en{display:none}body.lang-es .es{display:inline}
 body.lang-es p.es,body.lang-es div.es,body.lang-es span.es{display:inline}
 body.lang-es p.es{display:block}
 @media print{body{background:#fff;color:#111}.toggle,.search,.chips{display:none}
-.row,.card{border-color:#ccc;background:#fff}.row>summary{background:#fff}}
+.row,.card{border-color:#ccc;background:#fff}.row>summary{background:#fff}
+.about,.why{background:#f6f6f6;color:#222}}
 """
 
 JS = """
@@ -101,17 +114,30 @@ function itemHtml(fw, it){
     ${it.source?`<span class="src">${it.source}</span>`:''}</div>`;
 }
 
+const PARTS = [
+  ['covers', 'ISO gives you', 'ISO te da'],
+  ['adds', 'The regime asks for', 'El regimen pide'],
+  ['close', 'To close the gap', 'Para cerrar el hueco']];
+function partsHtml(d){
+  if (!d) return '';
+  return '<dl>' + PARTS.map(([k, en, es]) => d[k]
+    ? `<dt><span class="en">${en}</span><span class="es">${es}</span></dt><dd class="${k}">${L.get(d[k])}</dd>` : '').join('') + '</dl>';
+}
+
 function rowHtml(r){
   const c = DATA.controls.ISO[r.iso];
-  let body = '';
-  for (const fw of ['ENS','NIS2','DORA']){
+  let body = c.summary ? `<div class="about"><b><span class="en">What the control is about</span>
+    <span class="es">De que trata el control</span></b>${L.get(c.summary)}</div>` : '';
+  for (const fw of DATA.targets){
     const items = r[fw] || [];
+    const why = r.why && r.why[fw] ? `<div class="why"><b><span class="en">Why partial</span>
+      <span class="es">Por que parcial</span></b>${L.get(r.why[fw])}${partsHtml(r.detail && r.detail[fw])}</div>` : '';
     body += `<div class="fw"><h4>${fw}</h4>` + (items.length
-      ? items.map(i=>itemHtml(fw,i)).join('')
+      ? items.map(i=>itemHtml(fw,i)).join('') + why
       : `<div class="empty"><span class="en">Nothing equivalent in this framework.</span>
          <span class="es">Sin equivalente en este marco.</span></div>`) + `</div>`;
   }
-  const pills = ['ENS','NIS2','DORA'].map(fw =>
+  const pills = DATA.targets.map(fw =>
     `<span class="cov ${r.cov[fw]}">${fw} ${r.cov[fw]}</span>`).join(' ');
   return `<details class="row"><summary><span class="id ISO">${r.iso}</span>
     <span class="rt">${L.get(c.title)}</span>${pills}</summary>
@@ -146,14 +172,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 def _payload(dataset: Dataset) -> Dict[str, Any]:
-    controls = {fw: {c.id: {"title": c.title, "family_title": c.family_title}
-                     for c in dataset.all_controls(fw)}
-                for fw in ("ISO", "ENS", "NIS2", "DORA")}
+    controls = {}
+    for fw in dataset.framework_ids:
+        controls[fw] = {}
+        for c in dataset.all_controls(fw):
+            entry: Dict[str, Any] = {"title": c.title, "family_title": c.family_title}
+            if c.summary:
+                entry["summary"] = c.summary
+            controls[fw][c.id] = entry
     rows = []
-    for control in dataset.all_controls("ISO"):
-        row: Dict[str, Any] = {"iso": control.id, "cov": dataset.coverage.get(control.id, {})}
-        blob = [control.id, control.title.get("en", ""), control.title.get("es", "")]
-        for framework in ("ENS", "NIS2", "DORA"):
+    for control in dataset.all_controls(ANCHOR):
+        row: Dict[str, Any] = {"iso": control.id, "cov": dataset.coverage.get(control.id, {}),
+                               "why": {}, "detail": {}}
+        blob = [control.id, control.title.get("en", ""), control.title.get("es", ""),
+                control.summary.get("en", ""), control.summary.get("es", "")]
+        for framework in dataset.target_ids:
             items = []
             for link in dataset.forward.get(control.id, {}).get(framework, []):
                 target = dataset.control(framework, link.target)
@@ -163,10 +196,14 @@ def _payload(dataset: Dataset) -> Dict[str, Any]:
                               "family_title": target.family_title,
                               "coverage": link.coverage, "source": link.source})
                 blob += [target.id, target.title.get("en", ""), target.title.get("es", "")]
+                if link.rationale and framework not in row["why"]:
+                    row["why"][framework] = link.rationale
+                    row["detail"][framework] = link.detail
+                    blob += [link.rationale.get("en", ""), link.rationale.get("es", "")]
             row[framework] = items
         row["blob"] = " ".join(blob)
         rows.append(row)
-    return {"controls": controls, "rows": rows}
+    return {"targets": dataset.target_ids, "controls": controls, "rows": rows}
 
 
 def render(dataset: Dataset) -> str:
@@ -193,7 +230,7 @@ def render(dataset: Dataset) -> str:
   <p style="margin-top:8px">{extra}</p><div class="bar">{bar}</div></div>"""
 
     gaps = ""
-    for framework in ("ENS", "NIS2", "DORA"):
+    for framework in dataset.target_ids:
         missing = orphans(dataset, framework)
         if not missing:
             continue
@@ -221,16 +258,21 @@ Son los que una organizacion certificada todavia tiene que construir desde cero.
         + "</span></div>"
         for s in dataset.sources.values())
 
+    chips = "".join(
+        f'<span class="chip" data-fw="{fw}"><span class="en">With {fw} correspondence</span>'
+        f'<span class="es">Con equivalencia {fw}</span></span>'
+        for fw in dataset.target_ids)
+
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>crossmap — ISO 27001 · ENS · NIS2 · DORA</title>
+<title>crossmap — ISO 27001 · ENS · NIS2 · DORA · PCI DSS · SOX</title>
 <style>{CSS}</style></head><body class="lang-es"><div class="wrap">
 <header><div><h1>crossmap</h1>
-<p class="sub en">Cross-reference between ISO/IEC 27001:2022, the Spanish ENS, NIS2 and DORA,
-anchored on the 93 controls of ISO/IEC 27002:2022.</p>
-<p class="sub es">Equivalencias entre ISO/IEC 27001:2022, el ENS, NIS2 y DORA, tomando como eje
-los 93 controles de ISO/IEC 27002:2022.</p>
+<p class="sub en">Cross-reference between ISO/IEC 27001:2022, the Spanish ENS, NIS2, DORA,
+PCI DSS v4.0.1 and SOX (IT general controls), anchored on the 93 controls of ISO/IEC 27002:2022.</p>
+<p class="sub es">Equivalencias entre ISO/IEC 27001:2022, el ENS, NIS2, DORA, PCI DSS v4.0.1 y SOX
+(controles generales de TI), tomando como eje los 93 controles de ISO/IEC 27002:2022.</p>
 <a class="brand" href="https://github.com/mr7security" target="_blank" rel="noopener">
 <b>mr7security</b><span class="en">· security tooling</span><span class="es">· herramientas de seguridad</span></a></div>
 <div class="toggle"><button data-lang="en">EN</button><button data-lang="es" class="on">ES</button></div>
@@ -241,23 +283,32 @@ los 93 controles de ISO/IEC 27002:2022.</p>
 obligations in Article 21(2) and details them, for some sectors, in Implementing Regulation (EU)
 2024/2690; DORA is a regulation with articles and technical standards. So each row says how far an
 ISO control takes you towards the obligation — <b>full</b>, <b>partial</b> or <b>none</b> — rather
-than pretending there is a one-to-one equivalent.</p>
+than pretending there is a one-to-one equivalent. PCI DSS is a catalogue, but a prescriptive one:
+it fixes frequencies, parameters and mechanisms that ISO leaves to the organisation, which is why
+most of its rows are partial. SOX has no IT controls at all; its side is the classic ITGC set that
+auditors test under Section 404. Every partial row says <b>why</b> it is partial, in three parts — what the ISO control already
+gives you, what the regime asks for beyond it, and what to build or evidence to close the gap — and
+every ISO control opens with a one-sentence description of what it is about.</p>
 <p class="es" style="margin:0"><b>NIS2 y DORA no son catalogos de controles.</b> NIS2 enuncia diez
 obligaciones en el articulo 21.2 y las detalla, para algunos sectores, en el Reglamento de Ejecucion
 (UE) 2024/2690; DORA es un reglamento con articulos y normas tecnicas. Por eso cada fila dice hasta
 donde le lleva un control ISO respecto de la obligacion — <b>total</b>, <b>parcial</b> o
-<b>ninguna</b> — en lugar de fingir que existe un equivalente uno a uno.</p>
+<b>ninguna</b> — en lugar de fingir que existe un equivalente uno a uno. PCI DSS si es un catalogo,
+pero prescriptivo: fija frecuencias, parametros y mecanismos que ISO deja a la organizacion, y por
+eso la mayoria de sus filas son parciales. SOX no tiene controles de TI; su lado es el conjunto
+ITGC clasico que los auditores prueban bajo la seccion 404. Cada fila parcial dice <b>por que</b>
+es parcial, en tres partes — que te da ya el control ISO, que pide el regimen mas alla, y que hay
+que construir o evidenciar para cerrar el hueco — y cada control ISO abre con una frase sobre de
+que trata.</p>
 </div>
 
 <div class="grid4">{cards}</div>
 
 <div class="search"><input id="q" type="search"
-  placeholder="Buscar: 8.15, registro, cifrado, backup, op.exp.8, art.12, cir.3.2..."></div>
+  placeholder="Buscar: 8.15, registro, cifrado, MFA, op.exp.8, art.12, cir.3.2, req.8.4, acc.1..."></div>
 <div class="chips">
   <span class="chip on" data-fw="ALL"><span class="en">All</span><span class="es">Todos</span></span>
-  <span class="chip" data-fw="ENS"><span class="en">With ENS correspondence</span><span class="es">Con equivalencia ENS</span></span>
-  <span class="chip" data-fw="NIS2"><span class="en">With NIS2 correspondence</span><span class="es">Con equivalencia NIS2</span></span>
-  <span class="chip" data-fw="DORA"><span class="en">With DORA correspondence</span><span class="es">Con equivalencia DORA</span></span>
+  {chips}
 </div>
 <p class="count"><span id="count"></span> <span class="en">controls shown</span><span class="es">controles mostrados</span></p>
 <div id="rows"></div>
